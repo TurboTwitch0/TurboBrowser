@@ -1,0 +1,164 @@
+:root {
+  color-scheme: light;
+  font-family: 'Avenir Next', Avenir, 'Segoe UI', sans-serif;
+  color: #202a38;
+  background: #fff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --blue: #176be5;
+  --orange: #f68735;
+  --muted: #7b8492;
+  --line: #e6eaf0;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background:
+    radial-gradient(ellipse at 50% 29%, rgba(232, 242, 255, .57), transparent 42%),
+    #fff;
+}
+
+button, input { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+
+.topbar {
+  height: 76px;
+  padding: 0 5.2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #202a38;
+  font-family: 'Avenir Next', Avenir, 'Segoe UI', sans-serif;
+  font-weight: 800;
+  letter-spacing: -1.2px;
+  text-decoration: none;
+}
+
+.brand-small { font-size: 18px; }
+.brand-large { font-size: clamp(31px, 4vw, 43px); letter-spacing: -2px; }
+.brand-light { font-weight: 500; color: #758092; }
+
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 11px;
+  background: linear-gradient(145deg, #ffad56, #f4772c);
+  box-shadow: 0 5px 12px rgba(244, 119, 44, .2);
+  color: white;
+  font-family: 'Avenir Next', Avenir, 'Segoe UI', sans-serif;
+  font-size: 21px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.brand-large .brand-mark { width: 48px; height: 48px; border-radius: 15px; font-size: 30px; }
+.about-link { color: #727e8f; font-size: 14px; text-decoration: none; }
+.about-link:hover { color: var(--blue); }
+
+.main-content {
+  flex: 1;
+  width: min(100% - 40px, 780px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 0 70px;
+}
+
+.search-panel { width: 100%; text-align: center; margin-top: -20px; }
+.brand-large { justify-content: center; }
+h1 {
+  margin: 35px 0 8px;
+  font-family: 'Avenir Next', Avenir, 'Segoe UI', sans-serif;
+  font-size: clamp(25px, 3vw, 32px);
+  font-weight: 700;
+  letter-spacing: -1.2px;
+}
+.tagline { margin: 0 0 29px; color: var(--muted); font-size: 15px; }
+
+.search-form {
+  width: min(100%, 660px);
+  height: 62px;
+  margin: 0 auto;
+  padding: 0 9px 0 21px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #fff;
+  border: 1px solid #dce2ea;
+  border-radius: 17px;
+  box-shadow: 0 8px 26px rgba(43, 63, 90, .08), 0 1px 3px rgba(43, 63, 90, .04);
+  transition: border-color .18s, box-shadow .18s;
+}
+.search-form:focus-within { border-color: #8ab7fb; box-shadow: 0 8px 28px rgba(23, 107, 229, .12), 0 0 0 3px rgba(23, 107, 229, .08); }
+.search-icon { flex: 0 0 21px; width: 21px; fill: none; stroke: #8993a2; stroke-width: 1.8; stroke-linecap: round; }
+.search-form input { flex: 1; min-width: 0; height: 100%; border: 0; outline: 0; color: #253144; background: transparent; font-size: 16px; }
+.search-form input::placeholder { color: #9aa3af; }
+.search-form input::-webkit-search-cancel-button { display: none; }
+.submit-button, .clear-button { display: grid; place-items: center; flex: 0 0 42px; width: 42px; height: 42px; border: 0; border-radius: 12px; cursor: pointer; }
+.submit-button { background: var(--blue); color: white; transition: background .18s, transform .18s; }
+.submit-button:hover { background: #0d5dcc; transform: translateX(1px); }
+.submit-button svg { width: 20px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.clear-button { flex-basis: 28px; width: 28px; height: 28px; background: transparent; color: #8b95a3; font-size: 24px; }
+.clear-button:hover { background: #f2f5f8; color: #3d4858; }
+.clear-button[hidden] { display: none; }
+
+.search-actions { display: flex; justify-content: center; gap: 10px; margin: 18px 0 25px; }
+.action-button { padding: 10px 16px; border: 1px solid #e4e9ef; border-radius: 10px; color: #4b5666; background: #fff; font-size: 13px; font-weight: 600; cursor: pointer; transition: border-color .18s, background .18s; }
+.action-button:hover { border-color: #b9c7da; background: #f9fbfd; }
+.action-button.secondary { color: #7b8492; font-weight: 500; }
+
+.quick-links { display: flex; justify-content: center; gap: 7px; }
+.category { padding: 7px 13px; border: 0; border-radius: 999px; color: #7b8492; background: transparent; font-size: 13px; cursor: pointer; }
+.category:hover { color: #45566f; background: #f2f6fb; }
+.category.active { color: #176be5; background: #edf4ff; font-weight: 600; }
+
+.feature-card {
+  width: min(100%, 570px);
+  min-height: 83px;
+  margin-top: 63px;
+  padding: 17px 19px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border: 1px solid #e8edf3;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, .78);
+  text-align: left;
+}
+.feature-icon { flex: 0 0 40px; width: 40px; height: 40px; display: grid; place-items: center; border-radius: 12px; color: #2a8a64; background: #eaf7f0; }
+.feature-icon svg { width: 22px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.feature-card h2 { margin: 0 0 4px; font-size: 13px; font-weight: 700; }
+.feature-card p { margin: 0; color: #838d9b; font-size: 12px; line-height: 1.5; }
+.feature-arrow { margin-left: auto; color: #a0a9b5; font-size: 18px; }
+
+.footer { min-height: 54px; display: flex; justify-content: center; align-items: center; gap: 8px; color: #9aa3af; font-size: 11px; }
+.footer-dot { color: #c2c8d1; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
+@media (max-width: 540px) {
+  .topbar { height: 64px; padding: 0 20px; }
+  .main-content { width: min(100% - 32px, 780px); padding: 25px 0 48px; }
+  .search-panel { margin-top: -8px; }
+  h1 { margin-top: 28px; }
+  .search-form { height: 58px; border-radius: 15px; padding-left: 16px; }
+  .feature-card { margin-top: 46px; padding: 14px; }
+  .feature-card p { max-width: 270px; }
+  .footer { padding: 0 12px; font-size: 10px; }
+}

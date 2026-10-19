@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="description" content="TurboBrowser is a fast, simple way to search the web." />
+    <title>TurboBrowser — Search the web</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand brand-small" href="./" aria-label="TurboBrowser home">
+        <span class="brand-mark" aria-hidden="true">T</span>
+        <span>Turbo<span class="brand-light">Browser</span></span>
+      </a>
+      <a class="about-link" href="#about">About</a>
+    </header>
+
+    <main class="main-content">
+      <section class="search-panel" aria-labelledby="page-title">
+        <a class="brand brand-large" href="./" aria-label="TurboBrowser home">
+          <span class="brand-mark" aria-hidden="true">T</span>
+          <span>Turbo<span class="brand-light">Browser</span></span>
+        </a>
+        <h1 id="page-title">Search without the slowdown.</h1>
+        <p class="tagline">A little more web, a little less noise.</p>
+
+        <form id="search-form" class="search-form" action="https://duckduckgo.com/" method="get">
+          <label class="visually-hidden" for="search-input">Search the web</label>
+          <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="10.8" cy="10.8" r="6.8"></circle>
+            <path d="m16 16 5 5"></path>
+          </svg>
+          <input id="search-input" name="q" type="search" placeholder="Search the web" autocomplete="off" autofocus />
+          <button class="clear-button" id="clear-button" type="button" aria-label="Clear search" hidden>×</button>
+          <button class="submit-button" type="submit" aria-label="Search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </button>
+        </form>
+
+        <div class="search-actions">
+          <button class="action-button" type="submit" form="search-form">Search Turbo</button>
+          <button class="action-button secondary" id="lucky-button" type="button">Surprise me</button>
+        </div>
+
+        <nav class="quick-links" aria-label="Search categories">
+          <button type="button" data-category="web" class="category active">Web</button>
+          <button type="button" data-category="images" class="category">Images</button>
+          <button type="button" data-category="videos" class="category">Videos</button>
+          <button type="button" data-category="news" class="category">News</button>
+        </nav>
+      </section>
+
+      <section class="feature-card" id="about" aria-label="About TurboBrowser">
+        <div class="feature-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 4.7 2.9 8.3 7 10 4.1-1.7 7-5.3 7-10V6l-7-3Z"></path><path d="m9 12 2 2 4-4"></path></svg>
+        </div>
+        <div>
+          <h2>Find what you’re looking for.</h2>
+          <p>Type a search and TurboBrowser will take you straight to DuckDuckGo results.</p>
+        </div>
+        <span class="feature-arrow" aria-hidden="true">↗</span>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>TurboBrowser</span>
+      <span class="footer-dot" aria-hidden="true">·</span>
+      <span>Search powered by DuckDuckGo</span>
+    </footer>
+  </body>
+</html>
