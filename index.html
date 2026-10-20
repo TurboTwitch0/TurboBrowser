@@ -7,6 +7,8 @@
     <meta name="description" content="TurboBrowser is a fast, simple way to search the web." />
     <title>TurboBrowser — Search the web</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="ads-config.js" defer></script>
+    <script src="ads.js" defer></script>
     <script src="app.js" defer></script>
   </head>
   <body>
@@ -51,6 +53,12 @@
           <button type="button" data-category="videos" class="category">Videos</button>
           <button type="button" data-category="news" class="category">News</button>
         </nav>
+
+        <div class="ad-slot ad-slot-search" data-ad-placement="search" aria-label="Advertisement">
+          <span class="ad-label">Sponsored</span>
+          <p class="ad-placeholder">Ad space · connect an approved ad account to show ads here</p>
+          <ins class="adsbygoogle" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        </div>
       </section>
 
       <section class="feature-card" id="about" aria-label="About TurboBrowser">
@@ -63,6 +71,12 @@
         </div>
         <span class="feature-arrow" aria-hidden="true">↗</span>
       </section>
+
+      <div class="ad-slot ad-slot-footer" data-ad-placement="footer" aria-label="Advertisement">
+        <span class="ad-label">Sponsored</span>
+        <p class="ad-placeholder">Ad space · connect an approved ad account to show ads here</p>
+        <ins class="adsbygoogle" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      </div>
     </main>
 
     <footer class="footer">

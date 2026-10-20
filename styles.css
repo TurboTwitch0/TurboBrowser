@@ -148,6 +148,15 @@ h1 {
 .feature-card p { margin: 0; color: #838d9b; font-size: 12px; line-height: 1.5; }
 .feature-arrow { margin-left: auto; color: #a0a9b5; font-size: 18px; }
 
+.ad-slot { position: relative; width: min(100%, 728px); min-height: 94px; margin: 24px auto 0; padding: 19px 12px 10px; display: grid; place-items: center; overflow: hidden; border: 1px dashed #e2e7ee; border-radius: 12px; background: rgba(255, 255, 255, .58); }
+.ad-label { position: absolute; top: 6px; left: 9px; color: #9aa3af; font-size: 9px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+.ad-placeholder { margin: 0; color: #a0a8b3; font-size: 11px; text-align: center; }
+.adsbygoogle { display: none; width: 100%; min-height: 70px; }
+.ad-enabled { border: 0; background: transparent; }
+.ad-enabled .ad-placeholder { display: none; }
+.ad-enabled .adsbygoogle { display: block; }
+.ad-slot-footer { margin-top: 18px; }
+
 .footer { min-height: 54px; display: flex; justify-content: center; align-items: center; gap: 8px; color: #9aa3af; font-size: 11px; }
 .footer-dot { color: #c2c8d1; }
 .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
@@ -182,6 +191,7 @@ h1 {
   .search-form { height: 58px; border-radius: 15px; padding-left: 16px; }
   .feature-card { margin-top: 46px; padding: 14px; }
   .feature-card p { max-width: 270px; }
+  .ad-slot { min-height: 84px; margin-top: 18px; }
   .footer { padding: 0 12px; font-size: 10px; }
   .provider-picker { right: 14px; bottom: 12px; }
   .provider-toggle { min-width: 176px; min-height: 54px; }
