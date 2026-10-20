@@ -59,7 +59,7 @@
         </div>
         <div>
           <h2>Find what you’re looking for.</h2>
-          <p>Type a search and TurboBrowser will take you straight to DuckDuckGo results.</p>
+          <p>Choose where to search, then head straight to that provider’s results.</p>
         </div>
         <span class="feature-arrow" aria-hidden="true">↗</span>
       </section>
@@ -68,7 +68,38 @@
     <footer class="footer">
       <span>TurboBrowser</span>
       <span class="footer-dot" aria-hidden="true">·</span>
-      <span>Search powered by DuckDuckGo</span>
+      <span>Pick the search provider that works for you</span>
     </footer>
+
+    <aside class="provider-picker" aria-label="Search provider">
+      <div class="provider-menu" id="provider-menu" role="menu" aria-label="Choose a search provider" hidden>
+        <p class="provider-menu-heading">Search with</p>
+        <button class="provider-option" type="button" role="menuitemradio" aria-checked="true" data-provider="duckduckgo">
+          <span class="provider-dot duckduckgo-dot" aria-hidden="true">D</span>
+          <span>DuckDuckGo</span>
+          <span class="provider-check" aria-hidden="true">✓</span>
+        </button>
+        <button class="provider-option" type="button" role="menuitemradio" aria-checked="false" data-provider="google">
+          <span class="provider-dot google-dot" aria-hidden="true">G</span>
+          <span>Google</span>
+          <span class="provider-check" aria-hidden="true">✓</span>
+        </button>
+        <button class="provider-option" type="button" role="menuitemradio" aria-checked="false" data-provider="yahoo">
+          <span class="provider-dot yahoo-dot" aria-hidden="true">Y</span>
+          <span>Yahoo</span>
+          <span class="provider-check" aria-hidden="true">✓</span>
+        </button>
+        <button class="provider-option" type="button" role="menuitemradio" aria-checked="false" data-provider="bing">
+          <span class="provider-dot bing-dot" aria-hidden="true">b</span>
+          <span>Bing</span>
+          <span class="provider-check" aria-hidden="true">✓</span>
+        </button>
+      </div>
+      <button class="provider-toggle" id="provider-toggle" type="button" aria-expanded="false" aria-controls="provider-menu">
+        <span class="provider-toggle-icon" aria-hidden="true">⌕</span>
+        <span class="provider-toggle-copy"><span class="provider-toggle-caption">Search with</span><strong id="provider-name">DuckDuckGo</strong></span>
+        <svg class="provider-chevron" viewBox="0 0 16 16" aria-hidden="true"><path d="m4 6 4 4 4-4"></path></svg>
+      </button>
+    </aside>
   </body>
 </html>
