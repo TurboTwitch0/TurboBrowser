@@ -157,6 +157,20 @@ h1 {
 .ad-enabled .adsbygoogle { display: block; }
 .ad-slot-footer { margin-top: 18px; }
 
+.daily-section { width: 100%; margin: 55px auto 24px; }
+.daily-heading { margin-bottom: 16px; display: flex; align-items: end; justify-content: space-between; gap: 14px; }
+.daily-eyebrow { margin: 0 0 7px; color: #718096; font-size: 9px; font-weight: 700; letter-spacing: .12em; }
+.daily-heading h2 { margin: 0; font-family: 'Avenir Next', Avenir, 'Segoe UI', sans-serif; font-size: 21px; letter-spacing: -.55px; }
+.daily-description { margin: 5px 0 0; color: #8993a1; font-size: 12px; }
+.daily-date { flex: 0 0 auto; padding-bottom: 2px; color: #9aa3af; font-size: 10px; }
+.daily-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.daily-card { min-height: 92px; padding: 14px 16px; position: relative; display: flex; flex-direction: column; align-items: flex-start; justify-content: space-between; gap: 11px; border: 1px solid #e8edf3; border-radius: 13px; color: #354153; background: rgba(255, 255, 255, .84); text-decoration: none; transition: border-color .16s, transform .16s, box-shadow .16s; }
+.daily-card:hover { transform: translateY(-2px); border-color: #cbd9eb; box-shadow: 0 7px 18px rgba(38, 57, 83, .08); }
+.daily-card-kind { color: #176be5; font-size: 9px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.daily-card-title { padding-right: 17px; font-size: 12px; font-weight: 600; line-height: 1.45; }
+.daily-card-arrow { position: absolute; top: 12px; right: 13px; color: #a0a9b5; font-size: 14px; }
+.daily-state { grid-column: 1 / -1; margin: 0; padding: 16px; border: 1px dashed #e2e7ee; border-radius: 13px; color: #939dac; font-size: 12px; text-align: center; }
+
 .footer { min-height: 54px; display: flex; justify-content: center; align-items: center; gap: 8px; color: #9aa3af; font-size: 11px; }
 .footer-dot { color: #c2c8d1; }
 .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
@@ -192,6 +206,8 @@ h1 {
   .feature-card { margin-top: 46px; padding: 14px; }
   .feature-card p { max-width: 270px; }
   .ad-slot { min-height: 84px; margin-top: 18px; }
+  .daily-section { margin-top: 43px; }
+  .daily-cards { grid-template-columns: 1fr; }
   .footer { padding: 0 12px; font-size: 10px; }
   .provider-picker { right: 14px; bottom: 12px; }
   .provider-toggle { min-width: 176px; min-height: 54px; }

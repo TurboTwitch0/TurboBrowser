@@ -153,3 +153,62 @@ document.addEventListener('keydown', (event) => {
 document.addEventListener('click', (event) => {
   if (!event.target.closest('.provider-picker')) closeProviderMenu();
 });
+
+async function loadDailyPicks() {
+  const list = document.querySelector('#daily-cards');
+  const description = document.querySelector('#daily-description');
+  const dateLabel = document.querySelector('#daily-date');
+
+  try {
+    const response = await fetch('./daily-content.json', { cache: 'no-store' });
+    if (!response.ok) throw new Error(`Daily content request failed: ${response.status}`);
+    const data = await response.json();
+    if (!Array.isArray(data.items) || data.items.length === 0) return;
+
+    description.textContent = data.description || `Featured and popular articles from ${data.source || 'Wikipedia'}.`;
+    if (data.updatedAt) {
+      const updatedAt = new Date(data.updatedAt);
+      if (!Number.isNaN(updatedAt.valueOf())) {
+        dateLabel.textContent = `Updated ${new Intl.DateTimeFormat(undefined, { month: 'short', day: 'numeric' }).format(updatedAt)}`;
+      }
+    }
+
+    const cards = data.items.flatMap((item) => {
+      let destination;
+      try {
+        destination = new URL(item.url);
+      } catch {
+        return [];
+      }
+      if (!['http:', 'https:'].includes(destination.protocol)) return [];
+
+      const link = document.createElement('a');
+      link.className = 'daily-card';
+      link.href = destination.href;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+
+      const kind = document.createElement('span');
+      kind.className = 'daily-card-kind';
+      kind.textContent = item.kind || 'Wikipedia';
+
+      const title = document.createElement('span');
+      title.className = 'daily-card-title';
+      title.textContent = item.title || 'Untitled article';
+
+      const arrow = document.createElement('span');
+      arrow.className = 'daily-card-arrow';
+      arrow.setAttribute('aria-hidden', 'true');
+      arrow.textContent = '↗';
+
+      link.append(kind, title, arrow);
+      return [link];
+    });
+
+    if (cards.length) list.replaceChildren(...cards);
+  } catch (error) {
+    console.warn('Daily picks are not available yet.', error);
+  }
+}
+
+loadDailyPicks();
