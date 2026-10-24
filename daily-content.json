@@ -1,6 +1,12 @@
 {
   "source": "Wikipedia",
   "description": "Wikipedia’s featured article and most-read pages, refreshed daily.",
-  "updatedAt": null,
-  "items": []
+  "updatedAt": "2026-10-24T20:56:00.856Z",
+  "items": [
+    {
+      "kind": "Featured article",
+      "title": "Battle_of_Schliengen",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Schliengen"
+    }
+  ]
 }
