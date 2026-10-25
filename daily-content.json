@@ -1,12 +1,42 @@
 {
   "source": "Wikipedia",
   "description": "Wikipedia’s featured article and most-read pages, refreshed daily.",
-  "updatedAt": "2026-10-24T20:56:00.856Z",
+  "updatedAt": "2026-10-25T16:28:57.873Z",
   "items": [
     {
       "kind": "Featured article",
-      "title": "Battle_of_Schliengen",
-      "url": "https://en.wikipedia.org/wiki/Battle_of_Schliengen"
+      "title": "The_Kinks",
+      "url": "https://en.wikipedia.org/wiki/The_Kinks"
+    },
+    {
+      "kind": "Most read",
+      "title": "Clayface_(film)",
+      "url": "https://en.wikipedia.org/wiki/Clayface_(film)"
+    },
+    {
+      "kind": "Most read",
+      "title": "UFC_333",
+      "url": "https://en.wikipedia.org/wiki/UFC_333"
+    },
+    {
+      "kind": "Most read",
+      "title": "Jailer_2",
+      "url": "https://en.wikipedia.org/wiki/Jailer_2"
+    },
+    {
+      "kind": "Most read",
+      "title": "Elizabeth_Holmes",
+      "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes"
+    },
+    {
+      "kind": "Most read",
+      "title": "You_Can_See_Everything",
+      "url": "https://en.wikipedia.org/wiki/You_Can_See_Everything"
+    },
+    {
+      "kind": "Most read",
+      "title": "Jacob_Misiorowski",
+      "url": "https://en.wikipedia.org/wiki/Jacob_Misiorowski"
     }
   ]
 }
