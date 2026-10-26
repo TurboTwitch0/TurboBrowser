@@ -1,12 +1,22 @@
 {
   "source": "Wikipedia",
   "description": "Wikipedia’s featured article and most-read pages, refreshed daily.",
-  "updatedAt": "2026-10-25T16:28:57.873Z",
+  "updatedAt": "2026-10-26T18:42:55.715Z",
   "items": [
     {
       "kind": "Featured article",
-      "title": "The_Kinks",
-      "url": "https://en.wikipedia.org/wiki/The_Kinks"
+      "title": "Eyebrow_Talk",
+      "url": "https://en.wikipedia.org/wiki/Eyebrow_Talk"
+    },
+    {
+      "kind": "Most read",
+      "title": "2026_Brazilian_general_election",
+      "url": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+    },
+    {
+      "kind": "Most read",
+      "title": "2026_Serbian_parliamentary_election",
+      "url": "https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election"
     },
     {
       "kind": "Most read",
@@ -15,8 +25,8 @@
     },
     {
       "kind": "Most read",
-      "title": "UFC_333",
-      "url": "https://en.wikipedia.org/wiki/UFC_333"
+      "title": "Elizabeth_Holmes",
+      "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes"
     },
     {
       "kind": "Most read",
@@ -25,18 +35,8 @@
     },
     {
       "kind": "Most read",
-      "title": "Elizabeth_Holmes",
-      "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes"
-    },
-    {
-      "kind": "Most read",
       "title": "You_Can_See_Everything",
       "url": "https://en.wikipedia.org/wiki/You_Can_See_Everything"
-    },
-    {
-      "kind": "Most read",
-      "title": "Jacob_Misiorowski",
-      "url": "https://en.wikipedia.org/wiki/Jacob_Misiorowski"
     }
   ]
 }
