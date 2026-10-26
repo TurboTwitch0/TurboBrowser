@@ -84,7 +84,7 @@ function search(query = input.value) {
   destination.searchParams.set(provider.parameter, cleanedQuery);
   const vertical = provider.categories?.[activeCategory];
   if (vertical) destination.searchParams.set(provider.categoryParameter, vertical);
-  window.location.assign(destination.toString());
+  window.open(destination.toString(), '_blank', 'noopener,noreferrer');
 }
 
 form.addEventListener('submit', (event) => {
