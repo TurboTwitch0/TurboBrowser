@@ -1,42 +1,12 @@
 {
   "source": "Wikipedia",
   "description": "Wikipedia’s featured article and most-read pages, refreshed daily.",
-  "updatedAt": "2026-10-26T18:42:55.715Z",
+  "updatedAt": "2026-10-27T18:03:32.322Z",
   "items": [
     {
       "kind": "Featured article",
-      "title": "Eyebrow_Talk",
-      "url": "https://en.wikipedia.org/wiki/Eyebrow_Talk"
-    },
-    {
-      "kind": "Most read",
-      "title": "2026_Brazilian_general_election",
-      "url": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
-    },
-    {
-      "kind": "Most read",
-      "title": "2026_Serbian_parliamentary_election",
-      "url": "https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election"
-    },
-    {
-      "kind": "Most read",
-      "title": "Clayface_(film)",
-      "url": "https://en.wikipedia.org/wiki/Clayface_(film)"
-    },
-    {
-      "kind": "Most read",
-      "title": "Elizabeth_Holmes",
-      "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes"
-    },
-    {
-      "kind": "Most read",
-      "title": "Jailer_2",
-      "url": "https://en.wikipedia.org/wiki/Jailer_2"
-    },
-    {
-      "kind": "Most read",
-      "title": "You_Can_See_Everything",
-      "url": "https://en.wikipedia.org/wiki/You_Can_See_Everything"
+      "title": "1986_New_York_Mets_season",
+      "url": "https://en.wikipedia.org/wiki/1986_New_York_Mets_season"
     }
   ]
 }
