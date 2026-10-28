@@ -22,7 +22,9 @@ export function buildSearchUrl(providerKey, category, query) {
 export function normalizeUrl(value, allowBareHost = false) {
   if (typeof value !== 'string' || !value.trim()) return null;
   let address = value.trim();
-  if (allowBareHost && !/^[a-z][a-z\d+.-]*:/i.test(address)) address = `https://${address}`;
+  const hostWithPort = /^(?:localhost|[a-z\d-]+(?:\.[a-z\d-]+)+|\[[a-f\d:]+\]):\d+(?:[/?#]|$)/i.test(address);
+  if (allowBareHost && (hostWithPort || !/^[a-z][a-z\d+.-]*:/i.test(address))) address = `https://${address}`;
+  if (!/^https?:\/\//i.test(address)) return null;
   try {
     const url = new URL(address);
     if (!['https:', 'http:'].includes(url.protocol) || !url.hostname || url.username || url.password) return null;

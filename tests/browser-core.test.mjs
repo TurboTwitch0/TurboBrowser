@@ -72,6 +72,17 @@ test('unsafe schemes, malformed URLs and embedded credentials are rejected', () 
   }
 });
 
+test('bare hosts with explicit ports work without reinterpreting URL schemes', () => {
+  assert.equal(normalizeUrl('example.com:8443/path?q=1', true), 'https://example.com:8443/path?q=1');
+  assert.equal(normalizeUrl('localhost:3000', true), 'https://localhost:3000/');
+  assert.equal(normalizeUrl('[::1]:8080/path', true), 'https://[::1]:8080/path');
+  assert.equal(normalizeUrl('http://localhost:3000/path', true), 'http://localhost:3000/path');
+  assert.equal(normalizeUrl('example.com:8443/path'), null);
+  for (const value of ['javascript:123', 'data:123', 'file:443', 'mailto:123', 'http:80', 'example.com:70000', 'user:123@example.com']) {
+    assert.equal(normalizeUrl(value, true), null, value);
+  }
+});
+
 test('article normalization makes feed and saved entries readable and bounds optional fields', () => {
   const result = normalizeArticle({
     title: '  A_readable_title  ', url: 'https://en.wikipedia.org/wiki/A_readable_title',
