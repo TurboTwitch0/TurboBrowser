@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/refresh-daily-content.yml'
+      - 'scripts/update-daily-content.mjs'
+      - 'tests/feed.test.mjs'
   schedule:
     - cron: '23 12 * * *'
   workflow_dispatch:
@@ -19,6 +21,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Check out main
         uses: actions/checkout@v4
@@ -29,6 +32,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
+
+      - name: Check feed normalization and failure recovery
+        run: node --test tests/feed.test.mjs
 
       - name: Fetch Wikipedia featured content
         run: node scripts/update-daily-content.mjs

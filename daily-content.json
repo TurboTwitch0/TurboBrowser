@@ -1,12 +1,56 @@
 {
   "source": "Wikipedia",
-  "description": "Wikipedia’s featured article and most-read pages, refreshed daily.",
-  "updatedAt": "2026-10-27T18:03:32.322Z",
+  "description": "Featured articles, most-read pages, current events and moments from history, refreshed daily from Wikipedia.",
+  "updatedAt": "2026-10-28T00:37:51.589Z",
   "items": [
     {
       "kind": "Featured article",
-      "title": "1986_New_York_Mets_season",
-      "url": "https://en.wikipedia.org/wiki/1986_New_York_Mets_season"
+      "title": "Second Battle of Newtonia",
+      "url": "https://en.wikipedia.org/wiki/Second_Battle_of_Newtonia",
+      "description": "The Second Battle of Newtonia was fought on October 28, 1864, near Newtonia, Missouri, between cavalry commanded by Major General James G. Blunt of the Union Army and Brigadier General Joseph O. Shelby's rear guard of the Confederate Army of Missouri. In September 1864, Confederate Major General Sterling Price had entered the state of Missouri with hopes of ",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Beanfield_south_of_Newtonia_MO.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "kind": "In the news",
+      "title": "2026 Brazilian general election",
+      "url": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election",
+      "description": "General elections were held in Brazil on 4 October 2026 to elect the president, vice president, members of the National Congress, the governors, vice governors and legislative assemblies of all federative units, and the district council of Fernando de Noronha. As no candidate for president received more than half of the valid votes in the first round, a runo",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/2026_Brazil_Presidential_Elections%2C_Round_1.svg/330px-2026_Brazil_Presidential_Elections%2C_Round_1.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "In the news",
+      "title": "2026 Serbian parliamentary election",
+      "url": "https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election",
+      "description": "Early parliamentary elections were held in Serbia on 25 October 2026 to elect members of the National Assembly. The elections were originally due by December 2027; Aleksandar Vučić, then the president of Serbia, dissolved the National Assembly and called the elections on 9 September 2026, on the proposal of the government. The Student List won the election w",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/2026_Serbian_Election_Map.svg/330px-2026_Serbian_Election_Map.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "In the news",
+      "title": "2026 Karak church shooting",
+      "url": "https://en.wikipedia.org/wiki/2026_Karak_church_shooting",
+      "description": "On 23 October 2026, three gunmen opened fire on the Greek Orthodox St George's Church during a funeral procession in the Jordanian village of Hmoud near Karak, killing nine people and wounding between 34 and 40 others, according to differing official and media counts. The attack is the deadliest on Jordan's Christian community in the country's modern history",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/CCTV_2026_Karak_church_shooting.png/330px-CCTV_2026_Karak_church_shooting.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "In the news",
+      "title": "PHP2Shell",
+      "url": "https://en.wikipedia.org/wiki/PHP2Shell",
+      "description": "PHP2Shell is a pair of high-impact computer vulnerabilities concerning memory safety flaws in PHP versions 5.4–8.5 that allow remote code execution (RCE) by a potential malicious user to gain remote control of the website host. The vulnerabilities were discovered with the help of AI in August 2026 and their existence was publicly announced on 20 October 2026",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Wikimedia_Phabricator_PHP2Shell.png/330px-Wikimedia_Phabricator_PHP2Shell.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "On this day",
+      "title": "Turkistan Islamic Party",
+      "url": "https://en.wikipedia.org/wiki/Turkistan_Islamic_Party",
+      "description": "The Turkistan Islamic Party (TIP) is an Islamic militant organisation founded in Pakistan by Hasan Mahsum, who relocated the organization to Afghanistan following anti-terror crackdowns by the Pakistani government. Its stated goal is to establish an Islamic state in Xinjiang, China, and throughout the rest of Central Asia.",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Turkistan_Islamic_Party.svg/330px-Flag_of_Turkistan_Islamic_Party.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "On this day",
+      "title": "2007 Argentine general election",
+      "url": "https://en.wikipedia.org/wiki/2007_Argentine_general_election",
+      "description": "General elections were held in Argentina on Sunday, 28 October 2007 to elect the president and members of the National Congress, while elections for provincial governors took place on staggered dates throughout the year. For the national elections, each of the 23 provinces and the Autonomous City of Buenos Aires are considered electoral districts. Voter turn",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Elecciones_Argentina_2007.png/330px-Elecciones_Argentina_2007.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     }
   ]
 }
