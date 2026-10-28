@@ -1,4 +1,5 @@
 import { providers, categoryNames, buildSearchUrl, normalizeUrl, normalizeArticle, normalizeShortcuts } from './browser-core.mjs';
+import { createShowcase } from './showcase.mjs';
 
 const $ = (selector) => document.querySelector(selector);
 const form = $('#search-form');
@@ -60,6 +61,8 @@ let dailyItems = [];
 let feedState = 'loading';
 let showSaved = false;
 let dailyDescription = 'Featured and popular articles from Wikipedia.';
+const showcaseRoot = $('#reading-showcase');
+const showcase = createShowcase({ root: showcaseRoot, onToggleSave: (item, button) => toggleSaved(item, button), isSaved });
 
 function updateSearchForm() {
   const provider = providers[activeProvider];
@@ -243,7 +246,13 @@ function toggleSaved(item, button) {
   const stored = persist(storageKeys.saved, JSON.stringify(saved));
   updateSavedCounts();
   if (showSaved) { renderPicks(); $('#saved-filter').focus(); }
-  else updateSaveButton(button, item);
+  else {
+    updateSaveButton(button, item);
+    cards.querySelectorAll('.save-article').forEach((otherButton) => {
+      if (otherButton.dataset.articleUrl === item.url) updateSaveButton(otherButton, item);
+    });
+  }
+  showcase.syncSaved();
   if (stored) notify(wasSaved ? 'Removed from your reading list.' : 'Saved to your reading list in this browser.');
 }
 function makeArticle(item, index) {
@@ -278,6 +287,7 @@ function makeArticle(item, index) {
   const save = document.createElement('button');
   save.type = 'button';
   save.className = 'save-article';
+  save.dataset.articleUrl = item.url;
   const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
   svg.setAttribute('viewBox', '0 0 24 24');
   svg.setAttribute('aria-hidden', 'true');
@@ -345,8 +355,14 @@ function renderPicks() {
   $('#daily-description').textContent = showSaved ? 'A reading list for your curious side. Saved in this browser, ready when you are.' : dailyDescription;
   $('#daily-date').hidden = showSaved;
   cards.dataset.view = showSaved ? 'saved' : feedState;
+  showcaseRoot.hidden = showSaved || feedState !== 'ready' || dailyItems.length === 0;
+  $('#more-picks-label').hidden = showSaved || feedState !== 'ready' || dailyItems.length < 2;
+  showcase.syncSaved();
   const items = showSaved ? saved : dailyItems;
-  if (items.length) cards.replaceChildren(...items.map(makeArticle));
+  if (items.length) {
+    const gridItems = showSaved ? items : items.slice(1);
+    cards.replaceChildren(...gridItems.map((item, index) => makeArticle(item, index + 1)));
+  }
   else if (showSaved) renderState('Your next good read starts here.', 'Bookmark a fresh pick and it will be waiting here. No account needed. Just this browser.', 'saved');
   else if (feedState === 'loading') renderLoading();
   else renderState('A small pause in discovery.', 'Fresh picks couldn’t load. Try again, visit Wikipedia, or open your saved reads. Search still works.', 'error');
@@ -375,6 +391,7 @@ async function loadDailyPicks() {
     if (!Array.isArray(data.items)) throw new Error('No daily articles received');
     dailyItems = [...new Map(data.items.map(normalizeArticle).filter(Boolean).map((item) => [item.url, item])).values()].slice(0, 12);
     if (!dailyItems.length) throw new Error('No valid daily articles received');
+    showcase.setItems(dailyItems);
     dailyDescription = typeof data.description === 'string' ? data.description : 'Featured and popular articles from Wikipedia.';
     const updated = new Date(data.updatedAt);
     if (!Number.isNaN(updated.valueOf())) {
@@ -383,7 +400,7 @@ async function loadDailyPicks() {
       label.title = `Last refreshed ${updated.toLocaleString()}`;
     }
     feedState = 'ready';
-  } catch { dailyItems = []; feedState = 'error'; }
+  } catch { dailyItems = []; showcase.setItems([]); feedState = 'error'; }
   renderPicks();
 }
 

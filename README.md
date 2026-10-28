@@ -20,6 +20,7 @@ Then open `http://localhost:8000`. There is no build step or package dependency.
 - Add up to eight shortcuts. Use **Edit** to remove a shortcut; the removal message offers **Undo**.
 - Bookmark an article, then open **Reading list** or **Saved** to return to it. Up to 100 articles are stored in the current browser.
 - **Surprise me** searches the entered query or a suggested topic with the selected provider and category.
+- **In focus** lets you browse real daily reading picks with Previous/Next buttons or Left/Right/Home/End when the stage or its navigation buttons are focused. Open the selected article or save it to the same reading list. Nothing advances automatically. Other daily picks stay in the grid below.
 
 ## Checks
 
@@ -51,6 +52,8 @@ The established public link is https://turbobrowserv2.vercel.app/. This reposito
 ## Visual identity
 
 TurboBrowser uses a warm launchpad identity: cream `#F6F3EB`, ink `#1B2940`, Turbo orange `#F47732`, mint `#CFE9DA` and sand `#F7E8B2`. Cobalt `#275CD4` identifies keyboard focus. The original T and launch-arrow icon is retained. `brand.css` applies these shared tokens to the working product, dialogs, reading-list empty state, loading cards and recovery actions. Motion is limited to a short arrival, hover feedback and loading placeholders; reduced-motion preference disables it.
+
+`showcase.css` adds an editorial Georgia italic accent, a dimensional shortcut composition and a reading stage with original CSS lighting/rings. `showcase.mjs` only controls the view of real feed entries; it owns no storage, network requests or autoplay. The stage has explicit touch-sized controls, visible focus and optional-image fallbacks. Touch and reduced-motion layouts flatten decorative depth; reduced motion also disables the brief user-triggered selection transition.
 
 The product promise, “Make room for curiosity,” describes direct provider search, editable shortcuts and browser-local reading lists. No account or cross-device capability is implied. Reusable brand and launch assets are in the task's `outputs/turbobrowser-launch-kit` directory; the public social preview is `brand/social-preview.png`.
 

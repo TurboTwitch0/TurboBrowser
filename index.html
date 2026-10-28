@@ -16,6 +16,7 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="brand.css" />
+    <link rel="stylesheet" href="showcase.css" />
     <script src="app.js" type="module"></script>
   </head>
   <body>
@@ -29,7 +30,7 @@
       <section class="hero" aria-labelledby="page-title">
         <div class="search-panel">
           <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> YOUR EVERYDAY LAUNCHPAD</p>
-          <h1 id="page-title">Make room<br />for <span>curiosity.</span></h1>
+          <h1 id="page-title">Make room<br />for <span class="editorial-word">curiosity.</span></h1>
           <p class="tagline">Search your way. Keep your places close.<br class="desktop-break" /> Save a good read.</p>
           <nav class="quick-links" aria-label="Search categories">
             <button type="button" data-category="web" class="category active" aria-pressed="true">Web</button>
@@ -79,6 +80,21 @@
       </section>
       <section class="daily-section" id="discover" aria-labelledby="daily-title">
         <div class="daily-heading"><div><p class="eyebrow" id="daily-eyebrow">A FRESH PERSPECTIVE</p><h2 id="daily-title" tabindex="-1">A little discovery. Every day.</h2><p class="daily-description" id="daily-description">Featured and popular articles from Wikipedia.</p></div><div class="discovery-controls"><span class="daily-date" id="daily-date"></span><div class="feed-filters" role="group" aria-label="Show articles"><button class="feed-filter active" id="all-filter" type="button" aria-pressed="true">Fresh picks</button><button class="feed-filter" id="saved-filter" type="button" aria-pressed="false">Saved <span id="filter-count">0</span></button></div></div></div>
+        <section class="reading-showcase" id="reading-showcase" role="region" aria-roledescription="carousel" aria-label="In focus: daily reading picks" hidden>
+          <div class="showcase-caption"><div><p class="eyebrow">A DIFFERENT PERSPECTIVE</p><h3>Something worth<br /><em>getting lost in.</em></h3></div><p>One good find at a time.<br />Open a pick, or save it for later.</p></div>
+          <div class="showcase-stage" tabindex="0" aria-label="Reading picks. Use Left and Right arrow keys to browse.">
+            <span class="showcase-orbit orbit-one" aria-hidden="true"></span><span class="showcase-orbit orbit-two" aria-hidden="true"></span>
+            <div class="showcase-backcard backcard-left" aria-hidden="true"><span>JUST A LITTLE CURIOUS</span><span id="showcase-preview-left"></span><span class="backcard-arrow">↗</span></div>
+            <div class="showcase-backcard backcard-right" aria-hidden="true"><span>ANOTHER GOOD FIND</span><span id="showcase-preview-right"></span><span class="backcard-arrow">↗</span></div>
+            <article class="showcase-slide" id="showcase-slide" role="group" aria-roledescription="slide">
+              <div class="showcase-copy"><span id="showcase-kind" class="showcase-kind"></span><h4 id="showcase-title"></h4><p id="showcase-description"></p><div class="showcase-actions"><a id="showcase-open" class="action-button primary" target="_blank" rel="noopener noreferrer">Open article ↗</a><button id="showcase-save" class="action-button" type="button" aria-pressed="false"><span class="showcase-save-label">Save for later</span></button></div><span class="showcase-source">From Wikipedia · Opens in a new tab</span></div>
+              <img id="showcase-image" class="showcase-image" alt="" loading="lazy" referrerpolicy="no-referrer" hidden />
+            </article>
+          </div>
+          <div class="showcase-controls"><span class="showcase-keyboard-hint">Take a different path <span aria-hidden="true">↗</span></span><div class="showcase-navigation"><button id="showcase-prev" class="showcase-nav" type="button" aria-label="Previous reading pick">←</button><output id="showcase-count" aria-label="Reading pick position" aria-live="off">01 / 07</output><button id="showcase-next" class="showcase-nav" type="button" aria-label="Next reading pick">→</button></div></div>
+          <p id="showcase-announcement" class="visually-hidden" aria-live="polite" aria-atomic="true"></p>
+        </section>
+        <p class="more-picks-heading" id="more-picks-label" hidden>MORE TO EXPLORE <span aria-hidden="true">↙</span></p>
         <div class="daily-cards" id="daily-cards" aria-live="polite" aria-busy="true"><p class="daily-state">Loading fresh picks…</p></div>
         <noscript><p class="daily-state">Enable JavaScript to see daily picks, or <a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank" rel="noopener noreferrer">explore Wikipedia</a>.</p></noscript>
       </section>
