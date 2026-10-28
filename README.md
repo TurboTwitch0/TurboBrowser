@@ -46,6 +46,12 @@ node scripts/update-daily-content.mjs
 
 ## Publishing
 
-This repository uses its existing GitHub-to-Vercel connection. Push reviewed changes to `main`, then verify Vercel's status for that exact commit. Multiple Vercel projects are connected; a canonical domain has not been documented here. Confirm domains in the existing Vercel project settings before adding canonical metadata.
+The established public link is https://turbobrowserv2.vercel.app/. This repository uses its existing GitHub-to-Vercel connection. Push reviewed changes to `main`, then verify Vercel's status for that exact commit. Three existing Vercel projects are connected; preserve these connections and the public link.
+
+## Visual identity
+
+TurboBrowser uses a warm launchpad identity: cream `#F6F3EB`, ink `#1B2940`, Turbo orange `#F47732`, mint `#CFE9DA` and sand `#F7E8B2`. Cobalt `#275CD4` identifies keyboard focus. The original T and launch-arrow icon is retained. `brand.css` applies these shared tokens to the working product, dialogs, reading-list empty state, loading cards and recovery actions. Motion is limited to a short arrival, hover feedback and loading placeholders; reduced-motion preference disables it.
+
+The product promise, “Make room for curiosity,” describes direct provider search, editable shortcuts and browser-local reading lists. No account or cross-device capability is implied. Reusable brand and launch assets are in the task's `outputs/turbobrowser-launch-kit` directory; the public social preview is `brand/social-preview.png`.
 
 Legacy `ads.js` and `ads-config.js` are retained in the repository but are not loaded by the homepage. The homepage has no ad placements or advertising requests.

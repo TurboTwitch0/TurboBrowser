@@ -1,0 +1,28 @@
+TURBOBROWSER — BRAND NOTES
+
+Identity: warm editorial launchpad; clear, calm and curious.
+Primary promise: Make room for curiosity.
+Mark: preserve the existing rounded-square T and northeast launch arrow.
+Typeface: Segoe UI (system), with Arial/sans-serif fallback. No font files are bundled.
+Weights: regular400 for body; semibold600–650 for labels; bold700–750 for headlines.
+Headlines: tight letter spacing, short lines, sentence case.
+Body: comfortable line height; muted ink, never faint decorative gray for essential copy.
+
+Palette
+Cream #F6F3EB — canvas
+Ink #1B2940 — typography and strong panels
+Turbo orange #F47732 — identity and primary emphasis
+Mint #CFE9DA — calm supportive cards
+Sand #F7E8B2 — discovery accents
+Cobalt #275CD4 — focus/action support
+Accessible orange text #C9511D — large display headlines only; use ink for small body copy. Bright orange #F47732 remains the logo and background accent. Ink on orange is the action-button pairing.
+
+Components: rounded inputs, purposeful northeast arrows, simple provider labels, clear bookmark states. Preserve visible keyboard focus. Hover motion should be subtle and brief; respect reduced-motion preference.
+
+Logos are provided on transparent canvases. logo-reverse is intended for an ink/dark surface. Use logo-variants.png as a usage preview. Clear space: at least one quarter of the mark width. Do not distort, rotate or remove the launch arrow.
+
+Exports: editable SVG plus matching PNG. social-landscape is1200×630; promo-portrait is1080×1350; brand-sheet is1600×1200; icons are512×512.
+
+A product illustration is included and explicitly labeled. If a current real screenshot is supplied in screenshots/product-desktop.png, the launch art and brand sheet embed that screen automatically.
+
+Source provenance: original SVG artwork based on TurboBrowser's existing logo and working website features. No third-party mascot, artwork, fabricated testimonial or performance claim.

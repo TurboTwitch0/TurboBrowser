@@ -22,11 +22,18 @@ function notify(message, undo) {
     button.type = 'button';
     button.className = 'toast-undo';
     button.textContent = 'Undo';
-    button.addEventListener('click', () => { undo(); status.hidden = true; });
+    button.addEventListener('click', () => { undo(); status.hidden = true; $('#edit-shortcuts').focus(); });
     status.append(' ', button);
+    const dismiss = document.createElement('button');
+    dismiss.type = 'button';
+    dismiss.className = 'toast-dismiss';
+    dismiss.setAttribute('aria-label', 'Dismiss message');
+    dismiss.textContent = '×';
+    dismiss.addEventListener('click', () => { status.hidden = true; $('#edit-shortcuts').focus(); });
+    status.append(dismiss);
   }
   status.hidden = false;
-  toastTimer = setTimeout(() => { status.hidden = true; }, undo ? 10000 : 6000);
+  if (!undo) toastTimer = setTimeout(() => { status.hidden = true; }, 6000);
 }
 
 function readRaw(key) {
@@ -52,13 +59,14 @@ let editingShortcuts = false;
 let dailyItems = [];
 let feedState = 'loading';
 let showSaved = false;
+let dailyDescription = 'Featured and popular articles from Wikipedia.';
 
 function updateSearchForm() {
   const provider = providers[activeProvider];
   const destination = buildSearchUrl(activeProvider, activeCategory, '');
   form.action = destination.origin + destination.pathname;
   input.name = provider.parameter;
-  input.placeholder = activeCategory === 'web' ? 'Where will your curiosity take you?' : `Search ${activeCategory} with ${provider.name}`;
+  input.placeholder = activeCategory === 'web' ? 'What are you curious about?' : `Search ${activeCategory} with ${provider.name}`;
   const parameter = $('#category-parameter');
   parameter.disabled = !provider.categories?.[activeCategory];
   parameter.name = provider.categoryParameter || '';
@@ -178,6 +186,14 @@ function renderShortcuts() {
     }
     return wrap;
   }));
+  if (!shortcuts.length) {
+    const empty = document.createElement('div');
+    empty.className = 'shortcuts-empty';
+    const symbol = makeSpan('', '↗');
+    symbol.setAttribute('aria-hidden', 'true');
+    empty.append(symbol, 'A little space for your favorite places. Add your first shortcut below.');
+    $('#shortcuts').append(empty);
+  }
   $('#edit-shortcuts').textContent = editingShortcuts ? 'Done' : 'Edit';
   $('#edit-shortcuts').setAttribute('aria-pressed', String(editingShortcuts));
   $('#edit-shortcuts').hidden = false;
@@ -275,31 +291,65 @@ function makeArticle(item, index) {
   card.append(link, bottom);
   return card;
 }
-function renderState(title, text, retry = false) {
+function renderState(title, text, kind) {
   const state = document.createElement('div');
   state.className = 'daily-state';
+  const symbol = makeSpan('state-icon', kind === 'error' ? '↻' : '↗');
+  symbol.setAttribute('aria-hidden', 'true');
   const heading = document.createElement('strong');
   heading.textContent = title;
-  state.append(heading, text);
-  if (retry) {
+  const copy = makeSpan('state-copy', text);
+  state.append(symbol, heading, copy);
+  const actions = document.createElement('div');
+  actions.className = 'state-actions';
+  if (kind === 'saved') {
+    const explore = document.createElement('button');
+    explore.type = 'button';
+    explore.className = 'action-button primary';
+    explore.textContent = 'Explore fresh picks ↗';
+    explore.addEventListener('click', () => { setFeedFilter(false); $('#all-filter').focus(); });
+    actions.append(explore);
+  }
+  if (kind === 'error') {
     const button = document.createElement('button');
     button.type = 'button';
-    button.className = 'action-button';
+    button.className = 'action-button primary';
     button.textContent = 'Try again';
-    button.addEventListener('click', loadDailyPicks);
-    state.append(document.createElement('br'), button);
+    button.addEventListener('click', () => { $('#daily-title').focus({ preventScroll: true }); loadDailyPicks(); });
+    actions.append(button);
     const fallback = makeLink('https://en.wikipedia.org/wiki/Main_Page', 'action-button');
     fallback.textContent = 'Explore Wikipedia ↗';
-    state.append(fallback);
+    actions.append(fallback);
   }
+  state.append(actions);
   cards.replaceChildren(state);
 }
+function renderLoading() {
+  const message = document.createElement('p');
+  message.className = 'loading-message';
+  message.textContent = 'Finding your next good read…';
+  const grid = document.createElement('div');
+  grid.className = 'loading-grid';
+  grid.setAttribute('aria-hidden', 'true');
+  for (let index = 0; index < 3; index++) {
+    const card = document.createElement('div');
+    card.className = 'loading-card';
+    for (let line = 0; line < 4; line++) card.append(makeSpan('skeleton-line', ''));
+    grid.append(card);
+  }
+  cards.replaceChildren(message, grid);
+}
 function renderPicks() {
+  $('#daily-eyebrow').textContent = showSaved ? 'YOUR PERSONAL SHELF' : 'A FRESH PERSPECTIVE';
+  $('#daily-title').textContent = showSaved ? 'Good reads. Kept close.' : 'A little discovery. Every day.';
+  $('#daily-description').textContent = showSaved ? 'A reading list for your curious side. Saved in this browser, ready when you are.' : dailyDescription;
+  $('#daily-date').hidden = showSaved;
+  cards.dataset.view = showSaved ? 'saved' : feedState;
   const items = showSaved ? saved : dailyItems;
   if (items.length) cards.replaceChildren(...items.map(makeArticle));
-  else if (showSaved) renderState('Make room for a good read.', 'Use the bookmark on any fresh pick to keep it here. Your reading list stays in this browser.');
-  else if (feedState === 'loading') renderState('Finding something interesting…', 'Your fresh picks are on their way.');
-  else renderState('Fresh picks couldn’t load.', 'You can still search the web or open your saved articles.', true);
+  else if (showSaved) renderState('Your next good read starts here.', 'Bookmark a fresh pick and it will be waiting here. No account needed. Just this browser.', 'saved');
+  else if (feedState === 'loading') renderLoading();
+  else renderState('A small pause in discovery.', 'Fresh picks couldn’t load. Try again, visit Wikipedia, or open your saved reads. Search still works.', 'error');
   cards.setAttribute('aria-busy', String(!showSaved && feedState === 'loading'));
 }
 function setFeedFilter(value) {
@@ -325,7 +375,7 @@ async function loadDailyPicks() {
     if (!Array.isArray(data.items)) throw new Error('No daily articles received');
     dailyItems = [...new Map(data.items.map(normalizeArticle).filter(Boolean).map((item) => [item.url, item])).values()].slice(0, 12);
     if (!dailyItems.length) throw new Error('No valid daily articles received');
-    $('#daily-description').textContent = typeof data.description === 'string' ? data.description : 'Featured and popular articles from Wikipedia.';
+    dailyDescription = typeof data.description === 'string' ? data.description : 'Featured and popular articles from Wikipedia.';
     const updated = new Date(data.updatedAt);
     if (!Number.isNaN(updated.valueOf())) {
       const label = $('#daily-date');
