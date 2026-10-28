@@ -45,7 +45,10 @@ export function buildContent(feed, now = new Date()) {
   // The daily feed sometimes has no readership data. Use other articles from
   // that same day's feed, with honest labels, to keep discovery useful.
   for (const story of feed?.news || []) {
-    const article = story?.links?.find((link) => normalizeArticle(link, 'In the news'));
+    const article = story?.links?.find((link) => {
+      const item = normalizeArticle(link, 'In the news');
+      return item && !seen.has(item.url);
+    });
     if (article) add(article, 'In the news');
   }
   for (const event of feed?.onthisday || []) {

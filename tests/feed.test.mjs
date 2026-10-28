@@ -37,6 +37,19 @@ test('fills a partial feed with accurately labeled news and history', () => {
   assert.throws(() => buildContent({}), /no usable discovery articles/);
 });
 
+test('news fallback skips seen links to include a later unique article', () => {
+  const result = buildContent({
+    tfa: article('Moon'),
+    news: [
+      { links: [article('Moon'), article('News')] },
+      { links: [article('Moon'), article('News'), article('Another_story')] },
+    ],
+  }, now);
+  assert.deepEqual(result.items.map((item) => item.title), ['Moon', 'News', 'Another story']);
+  assert.deepEqual(result.items.map((item) => item.kind), ['Featured article', 'In the news', 'In the news']);
+  assert.equal(new Set(result.items.map((item) => item.url)).size, 3);
+});
+
 test('retries a temporary API failure and requests the expected UTC date', async () => {
   let requests = 0;
   const delays = [];
