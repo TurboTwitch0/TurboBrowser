@@ -1,56 +1,55 @@
 {
   "source": "Wikipedia",
   "description": "Featured articles, most-read pages, current events and moments from history, refreshed daily from Wikipedia.",
-  "updatedAt": "2026-10-28T00:53:01.141Z",
+  "updatedAt": "2026-10-28T18:22:27.630Z",
   "items": [
     {
       "kind": "Featured article",
       "title": "Second Battle of Newtonia",
       "url": "https://en.wikipedia.org/wiki/Second_Battle_of_Newtonia",
-      "description": "The Second Battle of Newtonia was fought on October 28, 1864, near Newtonia, Missouri, between cavalry commanded by Major General James G. Blunt of the Union Army and Brigadier General Joseph O. Shelby's rear guard of the Confederate Army of Missouri. In September 1864, Confederate Major General Sterling Price had entered the state of Missouri with hopes of ",
+      "description": "The Second Battle of Newtonia was a battle of the American Civil War fought on October 28, 1864, near Newtonia, Missouri, between cavalry commanded by Major General James G. Blunt of the Union Army and Brigadier General Joseph O. Shelby's rear guard of the Confederate Army of Missouri. In September 1864, Confederate Major General Sterling Price had entered t",
       "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Beanfield_south_of_Newtonia_MO.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
-      "kind": "In the news",
-      "title": "2026 Brazilian general election",
-      "url": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election",
-      "description": "General elections were held in Brazil on 4 October 2026 to elect the president, vice president, members of the National Congress, the governors, vice governors and legislative assemblies of all federative units, and the district council of Fernando de Noronha. As no candidate for president received more than half of the valid votes in the first round, a runo",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/2026_Brazil_Presidential_Elections%2C_Round_1.svg/330px-2026_Brazil_Presidential_Elections%2C_Round_1.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "kind": "Most read",
+      "title": "2026 Israeli legislative election",
+      "url": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
+      "description": "Legislative elections were held in Israel on 27 October 2026 to elect all 120 members of the 26th Knesset and determine the governing coalition that succeeds the 37th government led by Prime Minister Benjamin Netanyahu."
     },
     {
-      "kind": "In the news",
-      "title": "2026 Serbian parliamentary election",
-      "url": "https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election",
-      "description": "Early parliamentary elections were held in Serbia on 25 October 2026 to elect members of the National Assembly. The elections were originally due by December 2027; Aleksandar Vučić, then the president of Serbia, dissolved the National Assembly and called the elections on 9 September 2026, on the proposal of the government. The Student List won the election w",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/2026_Serbian_Election_Map.svg/330px-2026_Serbian_Election_Map.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "kind": "Most read",
+      "title": "Harry Kane",
+      "url": "https://en.wikipedia.org/wiki/Harry_Kane",
+      "description": "Harry Edward Kane is an English professional footballer who plays as a striker for Bundesliga club Bayern Munich and captains the England national team. Known for his clinical finishing, passing, vision and tactical versatility, he is widely regarded as one of the best players in the world. Kane has scored over 500 career goals for club and country, being To",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Harry_Kane_England_v_Ghana_23_June_2026-024_%28cropped%29.jpg/330px-Harry_Kane_England_v_Ghana_23_June_2026-024_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
-      "kind": "In the news",
-      "title": "2026 Karak church shooting",
-      "url": "https://en.wikipedia.org/wiki/2026_Karak_church_shooting",
-      "description": "On 23 October 2026, three gunmen opened fire on the Greek Orthodox St George's Church during a funeral procession in the Jordanian village of Hmoud near Karak, killing nine people and wounding between 34 and 40 others, according to differing official and media counts. The attack is the deadliest on Jordan's Christian community in the country's modern history",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/CCTV_2026_Karak_church_shooting.png/330px-CCTV_2026_Karak_church_shooting.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "kind": "Most read",
+      "title": "Susan Saint James",
+      "url": "https://en.wikipedia.org/wiki/Susan_Saint_James",
+      "description": "Susan Saint James was an American actress. In 1968, she landed a role as Peggy Maxwell on the TV series The Name of the Game. Saint James received three Emmy Award nominations for the series, winning once, in 1969. She is also known for her appearances as Sally McMillan in the television detective series McMillan & Wife (1971–1976), for which she received tw",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Susan_Saint_James_1970.JPG/330px-Susan_Saint_James_1970.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
-      "kind": "In the news",
-      "title": "PHP2Shell",
-      "url": "https://en.wikipedia.org/wiki/PHP2Shell",
-      "description": "PHP2Shell is a pair of high-impact computer vulnerabilities concerning memory safety flaws in PHP versions 5.4–8.5 that allow remote code execution (RCE) by a potential malicious user to gain remote control of the website host. The vulnerabilities were discovered with the help of AI in August 2026 and their existence was publicly announced on 20 October 2026",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Wikimedia_Phabricator_PHP2Shell.png/330px-Wikimedia_Phabricator_PHP2Shell.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "kind": "Most read",
+      "title": "Ballon d'Or",
+      "url": "https://en.wikipedia.org/wiki/Ballon_d'Or",
+      "description": "The Ballon d'Or is an annual association football award presented by French magazine France Football since 1956 to honour the player judged to have performed the best over the previous season.",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/2016_Ballon_dOr_CR7Museum.jpg/330px-2016_Ballon_dOr_CR7Museum.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
-      "kind": "On this day",
-      "title": "Turkistan Islamic Party",
-      "url": "https://en.wikipedia.org/wiki/Turkistan_Islamic_Party",
-      "description": "The Turkistan Islamic Party (TIP) is an Islamic militant organisation founded in Pakistan by Hasan Mahsum, who relocated the organization to Afghanistan following anti-terror crackdowns by the Pakistani government. Its stated goal is to establish an Islamic state in Xinjiang, China, and throughout the rest of Central Asia.",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Turkistan_Islamic_Party.svg/330px-Flag_of_Turkistan_Islamic_Party.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "kind": "Most read",
+      "title": "2026 Ballon d'Or",
+      "url": "https://en.wikipedia.org/wiki/2026_Ballon_d'Or",
+      "description": "The 2026 Ballon d'Or was the 70th annual ceremony of the Ballon d'Or, presented by France Football, recognising the best footballers in the world in the 2025–26 season. For the fifth time in the history of the award, it was given based on the results of the season instead of the calendar year. This is the period from 3 August 2025 to 19 July 2026. The ceremo",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Harry_Kane_England_v_Ghana_23_June_2026-024_%28cropped%29.jpg/330px-Harry_Kane_England_v_Ghana_23_June_2026-024_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
-      "kind": "On this day",
-      "title": "2007 Argentine general election",
-      "url": "https://en.wikipedia.org/wiki/2007_Argentine_general_election",
-      "description": "General elections were held in Argentina on Sunday, 28 October 2007 to elect the president and members of the National Congress, while elections for provincial governors took place on staggered dates throughout the year. For the national elections, each of the 23 provinces and the Autonomous City of Buenos Aires are considered electoral districts. Voter turn",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Elecciones_Argentina_2007.png/330px-Elecciones_Argentina_2007.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "kind": "Most read",
+      "title": "Walter Koenig",
+      "url": "https://en.wikipedia.org/wiki/Walter_Koenig",
+      "description": "Walter Marvin Koenig was an American actor and screenwriter. He began acting professionally in the mid-1960s and quickly rose to prominence for his supporting role as Ensign Pavel Chekov in Star Trek (1967–1969). He went on to reprise this role in all six original-cast Star Trek films and in Star Trek: Generations (1994). He also acted in several other serie",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Walter_Koenig_Star_Trek.JPG/330px-Walter_Koenig_Star_Trek.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     }
   ]
 }
