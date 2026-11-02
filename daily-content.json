@@ -1,21 +1,35 @@
 {
   "source": "Wikipedia",
   "description": "Featured articles, most-read pages, current events and moments from history, refreshed daily from Wikipedia.",
-  "updatedAt": "2026-11-01T17:56:48.734Z",
+  "updatedAt": "2026-11-02T21:44:31.817Z",
   "items": [
     {
       "kind": "Featured article",
-      "title": "Europejara",
-      "url": "https://en.wikipedia.org/wiki/Europejara",
-      "description": "Europejara is a genus of tapejarid pterosaur, a flying reptile that lived during the Barremian age of the Early Cretaceous epoch in what is now Spain. The only known specimen was found at the Las Hoyas site of Cuenca, a location noted for its exceptional Konservat-Lagerstätte preservation. In 2012, the new genus and species Europejara olcadesorum was named b",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Europejara_holotype_horizontal.png/960px-Europejara_holotype_horizontal.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Sovetsky Soyuz-class battleship",
+      "url": "https://en.wikipedia.org/wiki/Sovetsky_Soyuz-class_battleship",
+      "description": "The Sovetsky Soyuz-class battleships were a class of battleships begun by the Soviet Union in the late 1930s but never brought into service.",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/9/97/Sovietsky_Soyuz_1_June_1942.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "kind": "Most read",
+      "title": "Haley Stevens",
+      "url": "https://en.wikipedia.org/wiki/Haley_Stevens",
+      "description": "Haley Maria Stevens is an American politician serving as the U.S. representative from Michigan's 11th congressional district since 2019. Elected as a member of the Democratic Party, Stevens represents most of urbanized Oakland County, including many of Detroit's northern suburbs. She ran for Michigan's Democratic nomination in the 2026 U.S. Senate election, ",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Haley_Stevens%2C_official_portrait%2C_116th_Congress.jpg/330px-Haley_Stevens%2C_official_portrait%2C_116th_Congress.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
       "title": "Patrick Stewart",
       "url": "https://en.wikipedia.org/wiki/Patrick_Stewart",
-      "description": "Sir Patrick Stewart was an English actor. With a career spanning over 60 years on stage and screen, he received numerous accolades, including two Laurence Olivier Awards and a Grammy Award, as well as nominations for a Tony Award, three Golden Globe Awards, four Emmy Awards, and three Screen Actors Guild Awards. He was knighted by Queen Elizabeth II for his ",
+      "description": "Sir Patrick Stewart was an English actor. With a career spanning over 60 years on stage and screen, he received numerous accolades, including three Laurence Olivier Awards and a Grammy Award, as well as nominations for a Tony Award, three Golden Globe Awards, four Emmy Awards, and three Screen Actors Guild Awards. He was knighted by Queen Elizabeth II for hi",
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Patrick_Stewart_1999_%28retouch%29.jpg/330px-Patrick_Stewart_1999_%28retouch%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "Most read",
+      "title": "Tung Tung Tung Sahur",
+      "url": "https://en.wikipedia.org/wiki/Tung_Tung_Tung_Sahur",
+      "description": "Tung Tung Tung Sahur is an AI-generated fictional character created in 2025 using DALL-E by the Indonesian TikTok user Fernanda Bagas Indrastata, also known as \"Noxa\" online. Although culturally Indonesian, the character gained initial popularity as a part of a genre broadly termed \"Italian brainrot\", a colloquial designation for a style of absurdist AI-gene",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Full_image_of_Tung_Tung_Tung_Sahur.png/330px-Full_image_of_Tung_Tung_Tung_Sahur.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
@@ -26,31 +40,17 @@
     },
     {
       "kind": "Most read",
-      "title": "Halloween",
-      "url": "https://en.wikipedia.org/wiki/Halloween",
-      "description": "Halloween, also known as All Hallows' Eve or All Saints' Eve, is a celebration observed in many countries on 31 October, the eve of Western Christianity's feast of All Hallows' Day. It is at the beginning of the observance of Allhallowtide, the time in the Christian liturgical year dedicated to remembering the dead, including saints (hallows), Christian mart",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Jack-o%27-Lantern_2003-10-31.jpg/330px-Jack-o%27-Lantern_2003-10-31.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Gabby Williams",
+      "url": "https://en.wikipedia.org/wiki/Gabby_Williams",
+      "description": "Gabrielle Lisa Williams is an American-French professional basketball player for the Golden State Valkyries of the Women's National Basketball Association (WNBA). She was selected fourth overall by the Chicago Sky in the 2018 WNBA draft. She was a EuroLeague champion in 2022, when she was named the Final Four MVP, and again in 2026. Williams played forward i",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Gabby_Williams_15_France_20260904_%281%29_%28cropped%29.JPG/330px-Gabby_Williams_15_France_20260904_%281%29_%28cropped%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
-      "title": "Sanjay Gupta (director)",
-      "url": "https://en.wikipedia.org/wiki/Sanjay_Gupta_(director)",
-      "description": "Sanjay Gupta was an Indian filmmaker, producer and screenwriter who worked in Hindi films. Gupta was mostly known for his remakes of American action-thriller and crime films, including films such as Aatish, Kaante, Kaabil, Shootout at Lokhandwala, Shootout at Wadala, Jazbaa, Karam, Zinda and Mumbai Saga. He used to frequently cast Sanjay Dutt and John Abraha",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/SanjayGupta.jpg/330px-SanjayGupta.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "kind": "Most read",
-      "title": "Omar Abdullah",
-      "url": "https://en.wikipedia.org/wiki/Omar_Abdullah",
-      "description": "Omar Farooq Abdullah is an Indian politician serving as the chief minister of the union territory of Jammu and Kashmir since 2024. He is also currently serving as the Leader of the House in the Jammu and Kashmir Legislative Assembly. He had previously served as the 8th chief minister of the state of Jammu and Kashmir between 2009 and 2014, and is the current",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Omar_Abdullah%2C_Chief_Minister_of_Jammu_%26_Kashmir.jpg/330px-Omar_Abdullah%2C_Chief_Minister_of_Jammu_%26_Kashmir.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "kind": "Most read",
-      "title": "Elizabeth Holmes",
-      "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes",
-      "description": "Elizabeth Anne Holmes is an American businesswoman convicted of fraud in connection with her health technology company Theranos. Holmes founded Theranos in 2003, and its valuation soared in the early 2010s after it claimed to have revolutionized blood testing by developing methods that needed only very small volumes of blood, such as from a fingerprick. In 2",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Elizabeth_Holmes_2014_%28cropped_2%29.jpg/330px-Elizabeth_Holmes_2014_%28cropped_2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Inde Navarrette",
+      "url": "https://en.wikipedia.org/wiki/Inde_Navarrette",
+      "description": "Danielle Fabiola \"Inde\" Navarrette is an American actress. She began acting in short films as a teenager before landing roles in the drama series 13 Reasons Why (2020) and the superhero series Superman & Lois (2021–2024). Navarrette achieved global stardom for headlining the supernatural horror film Obsession (2025), winning several accolades, including a Cr",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Inde_Navarrette_at_the_2025_Toronto_International_Film_Festival_03_%28cropped%29.jpg/330px-Inde_Navarrette_at_the_2025_Toronto_International_Film_Festival_03_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     }
   ]
 }
