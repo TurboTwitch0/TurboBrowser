@@ -1,14 +1,49 @@
 {
   "source": "Wikipedia",
   "description": "Featured articles, most-read pages, current events and moments from history, refreshed daily from Wikipedia.",
-  "updatedAt": "2026-11-03T19:31:10.993Z",
+  "updatedAt": "2026-11-04T19:49:34.601Z",
   "items": [
     {
       "kind": "Featured article",
-      "title": "Ich geh und suche mit Verlangen, BWV 49",
-      "url": "https://en.wikipedia.org/wiki/Ich_geh_und_suche_mit_Verlangen%2C_BWV_49",
-      "description": "Johann Sebastian Bach composed the church cantata Ich geh und suche mit Verlangen, BWV 49, in Leipzig for the twentieth Sunday after Trinity Sunday and first performed it on 3 November 1726. It is a solo cantata, a dialogue for soprano and bass.",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Johann_Sebastian_Bach_Ich_geh_und_suche_mit_Verlangen%2C_BWV_49_-_cover.jpg/960px-Johann_Sebastian_Bach_Ich_geh_und_suche_mit_Verlangen%2C_BWV_49_-_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Eunos MRT station",
+      "url": "https://en.wikipedia.org/wiki/Eunos_MRT_station",
+      "description": "Eunos MRT station is an elevated Mass Rapid Transit (MRT) station on the East–West Line in Geylang, Singapore. Operated by SMRT Trains, the station is connected to the Eunos Bus Interchange. It also provides access to other surrounding landmarks such as the Masjid Darul Aman, Eunos Crescent Market and Food Centre, and Mangala Vihara Buddhist Temple.",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/EW7_Eunos_MRT_Station_exterior_202412.jpg/960px-EW7_Eunos_MRT_Station_exterior_202412.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "Most read",
+      "title": "Jesús de Miguel",
+      "url": "https://en.wikipedia.org/wiki/Jes%C3%BAs_de_Miguel",
+      "description": "Jesús de Miguel Alameda was a Spanish professional footballer who played as a striker.",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Deportivo_da_Coru%C3%B1a_-_CD_Castell%C3%B3n%2C_ida_da_final_da_Primeira_RFEF_2023-24_-_13_%28Jes%C3%BAs_de_Miguel%29.jpg/330px-Deportivo_da_Coru%C3%B1a_-_CD_Castell%C3%B3n%2C_ida_da_final_da_Primeira_RFEF_2023-24_-_13_%28Jes%C3%BAs_de_Miguel%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "Most read",
+      "title": "2026 United States elections",
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_elections",
+      "description": "Elections were held in the United States on November 3, 2026. In these midterm elections, which occurred during the second term of Republican president Donald Trump, all 435 seats in the U.S. House of Representatives and 35 of the 100 seats in the U.S. Senate were contested to determine the 120th United States Congress. Thirty-nine state and territorial U.S.",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/2026_United_States_Senate_elections_results_map.svg/330px-2026_United_States_Senate_elections_results_map.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "Most read",
+      "title": "Jesús Owono",
+      "url": "https://en.wikipedia.org/wiki/Jes%C3%BAs_Owono",
+      "description": "Jesús Lázaro Owono Ngua is an Equatoguinean professional footballer who plays as a goalkeeper for Segunda División club FC Andorra and the Equatorial Guinea national team.",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Jesus_owono_2022.jpg/330px-Jesus_owono_2022.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "Most read",
+      "title": "Abdul El-Sayed",
+      "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed",
+      "description": "Abdulrahman Mohamed El-Sayed is an American epidemiologist, public health administrator, academic, and politician who is the United States senator-elect from the state of Michigan.",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Abdul_El-Sayed.jpg/330px-Abdul_El-Sayed.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "Most read",
+      "title": "United States midterm election",
+      "url": "https://en.wikipedia.org/wiki/United_States_midterm_election",
+      "description": "Midterm elections in the United States are the general elections that are held near the midpoint of a president's four-year term of office, on Election Day on the Tuesday after the first Monday in November. Federal offices that are up for election during the midterms include all 435 seats in the United States House of Representatives, and 33 or 34 of the 100",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Oklahoma_general_election_ballot_for_2018.png/330px-Oklahoma_general_election_ballot_for_2018.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
@@ -16,41 +51,6 @@
       "url": "https://en.wikipedia.org/wiki/Haley_Stevens",
       "description": "Haley Maria Stevens is an American politician serving as the U.S. representative from Michigan's 11th congressional district since 2019. Elected as a member of the Democratic Party, Stevens represents most of urbanized Oakland County, including many of Detroit's northern suburbs.",
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Haley_Stevens%2C_official_portrait%2C_116th_Congress.jpg/330px-Haley_Stevens%2C_official_portrait%2C_116th_Congress.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "kind": "Most read",
-      "title": "Learjet 60",
-      "url": "https://en.wikipedia.org/wiki/Learjet_60",
-      "description": "The Learjet 60 is a mid-size cabin, medium-range business jet aircraft that was manufactured by Bombardier Aerospace in Wichita, Kansas. Powered by two Pratt & Whitney Canada PW305A engines, it has a range of 2,405 nautical miles (4,454 km) with NBAA 100 nmi (190 km) reserves, ISA. In July 2012, Bombardier Aerospace announced a temporary \"production pause\" o",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Bombardier.learjet60.oe-gtf.arp.jpg/330px-Bombardier.learjet60.oe-gtf.arp.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "kind": "Most read",
-      "title": "Susan Saint James",
-      "url": "https://en.wikipedia.org/wiki/Susan_Saint_James",
-      "description": "Susan Saint James was an American actress. In 1968, she landed a role as Peggy Maxwell on the TV series The Name of the Game. Saint James received three Emmy Award nominations for the series, winning once in 1969. She is also known for her appearances as Sally McMillan in the television detective series McMillan & Wife (1971–1976), for which she received thr",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Susan_Saint_James_1970.JPG/330px-Susan_Saint_James_1970.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "kind": "Most read",
-      "title": "Abdul El-Sayed",
-      "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed",
-      "description": "Abdulrahman Mohamed El-Sayed is an American epidemiologist, public health administrator, academic and politician who is the Democratic nominee in the 2026 United States Senate election in Michigan.",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Abdul_El-Sayed_meet-and-greet_by_Conlan_Houston_5_%28cropped%29.jpg/330px-Abdul_El-Sayed_meet-and-greet_by_Conlan_Houston_5_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "kind": "Most read",
-      "title": "2026 Palm Beach County Learjet 60 crash",
-      "url": "https://en.wikipedia.org/wiki/2026_Palm_Beach_County_Learjet_60_crash",
-      "description": "On November 1, 2026, a privately owned Learjet 60 business jet crashed in Palm Beach County, Florida, United States. The flight was traveling from Austin–Bergstrom International Airport in Texas to North Eleuthera Airport in The Bahamas. The plane crashed after a high speed descent, killing all nine people on board and injuring a person on the ground.",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Police_at_Learjet_60_crash_site.jpg/330px-Police_at_Learjet_60_crash_site.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "kind": "Most read",
-      "title": "Kimi Antonelli",
-      "url": "https://en.wikipedia.org/wiki/Kimi_Antonelli",
-      "description": "Andrea Kimi Antonelli is an Italian racing driver who competes in Formula One for Mercedes. Antonelli won the Formula One World Drivers' Championship in 2026 with Mercedes, becoming the youngest-ever World Drivers' Champion; he has won nine Grands Prix since his debut in 2025.",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/2026-08-23_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2026_STP_3010_%28cropped2%29.jpg/330px-2026-08-23_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2026_STP_3010_%28cropped2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     }
   ]
 }
