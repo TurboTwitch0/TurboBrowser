@@ -1,42 +1,49 @@
 {
   "source": "Wikipedia",
   "description": "Featured articles, most-read pages, current events and moments from history, refreshed daily from Wikipedia.",
-  "updatedAt": "2026-11-04T19:49:34.601Z",
+  "updatedAt": "2026-11-05T20:00:50.757Z",
   "items": [
     {
       "kind": "Featured article",
-      "title": "Eunos MRT station",
-      "url": "https://en.wikipedia.org/wiki/Eunos_MRT_station",
-      "description": "Eunos MRT station is an elevated Mass Rapid Transit (MRT) station on the East–West Line in Geylang, Singapore. Operated by SMRT Trains, the station is connected to the Eunos Bus Interchange. It also provides access to other surrounding landmarks such as the Masjid Darul Aman, Eunos Crescent Market and Food Centre, and Mangala Vihara Buddhist Temple.",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/EW7_Eunos_MRT_Station_exterior_202412.jpg/960px-EW7_Eunos_MRT_Station_exterior_202412.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "kind": "Most read",
-      "title": "Jesús de Miguel",
-      "url": "https://en.wikipedia.org/wiki/Jes%C3%BAs_de_Miguel",
-      "description": "Jesús de Miguel Alameda was a Spanish professional footballer who played as a striker.",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Deportivo_da_Coru%C3%B1a_-_CD_Castell%C3%B3n%2C_ida_da_final_da_Primeira_RFEF_2023-24_-_13_%28Jes%C3%BAs_de_Miguel%29.jpg/330px-Deportivo_da_Coru%C3%B1a_-_CD_Castell%C3%B3n%2C_ida_da_final_da_Primeira_RFEF_2023-24_-_13_%28Jes%C3%BAs_de_Miguel%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "kind": "Most read",
-      "title": "2026 United States elections",
-      "url": "https://en.wikipedia.org/wiki/2026_United_States_elections",
-      "description": "Elections were held in the United States on November 3, 2026. In these midterm elections, which occurred during the second term of Republican president Donald Trump, all 435 seats in the U.S. House of Representatives and 35 of the 100 seats in the U.S. Senate were contested to determine the 120th United States Congress. Thirty-nine state and territorial U.S.",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/2026_United_States_Senate_elections_results_map.svg/330px-2026_United_States_Senate_elections_results_map.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "kind": "Most read",
-      "title": "Jesús Owono",
-      "url": "https://en.wikipedia.org/wiki/Jes%C3%BAs_Owono",
-      "description": "Jesús Lázaro Owono Ngua is an Equatoguinean professional footballer who plays as a goalkeeper for Segunda División club FC Andorra and the Equatorial Guinea national team.",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Jesus_owono_2022.jpg/330px-Jesus_owono_2022.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Nikolai Kulikovsky",
+      "url": "https://en.wikipedia.org/wiki/Nikolai_Kulikovsky",
+      "description": "Nikolai Alexandrovich Kulikovsky was the second husband of Grand Duchess Olga Alexandrovna of Russia, the sister of Tsar Nicholas II and daughter of Tsar Alexander III. He was born into a military landowning family from the south of the Russian Empire, and followed the family tradition by entering the army. In 1903, he was noticed by Grand Duchess Olga durin",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Olga_alexandrovna_com_marida.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "kind": "Most read",
       "title": "Abdul El-Sayed",
       "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed",
       "description": "Abdulrahman Mohamed El-Sayed is an American epidemiologist, public health administrator, academic, and politician who is the United States senator-elect from the state of Michigan.",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Abdul_El-Sayed.jpg/330px-Abdul_El-Sayed.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Abdul_El-Sayed_meet-and-greet_by_Conlan_Houston_5_%28cropped%29.jpg/330px-Abdul_El-Sayed_meet-and-greet_by_Conlan_Houston_5_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "Most read",
+      "title": "James Talarico",
+      "url": "https://en.wikipedia.org/wiki/James_Talarico",
+      "description": "James Dell Talarico is an American politician and educator who is the United States senator-elect from Texas. A member of the Democratic Party, he has served as a member of the Texas House of Representatives since 2018.",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/James_Talarico_Press_Conference_%28cropped%29.jpg/330px-James_Talarico_Press_Conference_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "Most read",
+      "title": "Gina Hinojosa",
+      "url": "https://en.wikipedia.org/wiki/Gina_Hinojosa",
+      "description": "Regina Inez Hinojosa is an American politician and lawyer who is the governor-elect of Texas. A member of the Democratic Party, she has represented the 49th district in the Texas House of Representatives since 2017.",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Gina_Hinojosa_16_February_2017_%28cropped%29.jpg/330px-Gina_Hinojosa_16_February_2017_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "Most read",
+      "title": "2026 United States elections",
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_elections",
+      "description": "Elections in the United States were held on November 3, 2026. In these midterm elections, which occurred during the non-consecutive second term of incumbent Republican president Donald Trump, all 435 seats in the U.S. House of Representatives and 35 of the 100 seats in the U.S. Senate were contested to determine the 120th United States Congress. Thirty-nine ",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/2026_United_States_Senate_elections_results_map.svg/330px-2026_United_States_Senate_elections_results_map.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "Most read",
+      "title": "Jon Ossoff",
+      "url": "https://en.wikipedia.org/wiki/Jon_Ossoff",
+      "description": "Thomas Jonathan Ossoff is an American politician who has served as the senior United States senator from Georgia since 2021. He is the youngest incumbent U.S. senator, and a member of the Democratic Party.",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Jon_Ossoff_Senate_Portrait_2021.jpg/330px-Jon_Ossoff_Senate_Portrait_2021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
@@ -44,13 +51,6 @@
       "url": "https://en.wikipedia.org/wiki/United_States_midterm_election",
       "description": "Midterm elections in the United States are the general elections that are held near the midpoint of a president's four-year term of office, on Election Day on the Tuesday after the first Monday in November. Federal offices that are up for election during the midterms include all 435 seats in the United States House of Representatives, and 33 or 34 of the 100",
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Oklahoma_general_election_ballot_for_2018.png/330px-Oklahoma_general_election_ballot_for_2018.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "kind": "Most read",
-      "title": "Haley Stevens",
-      "url": "https://en.wikipedia.org/wiki/Haley_Stevens",
-      "description": "Haley Maria Stevens is an American politician serving as the U.S. representative from Michigan's 11th congressional district since 2019. Elected as a member of the Democratic Party, Stevens represents most of urbanized Oakland County, including many of Detroit's northern suburbs.",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Haley_Stevens%2C_official_portrait%2C_116th_Congress.jpg/330px-Haley_Stevens%2C_official_portrait%2C_116th_Congress.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     }
   ]
 }
