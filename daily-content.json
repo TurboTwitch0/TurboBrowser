@@ -1,42 +1,41 @@
 {
   "source": "Wikipedia",
   "description": "Featured articles, most-read pages, current events and moments from history, refreshed daily from Wikipedia.",
-  "updatedAt": "2026-11-06T19:28:07.361Z",
+  "updatedAt": "2026-11-07T17:45:40.557Z",
   "items": [
     {
       "kind": "Featured article",
-      "title": "Bill Madden (soldier)",
-      "url": "https://en.wikipedia.org/wiki/Bill_Madden_(soldier)",
-      "description": "Horace William Madden was an Australian Army soldier who was posthumously awarded the George Cross, the highest award for extraordinary acts of gallantry away from the field of battle that could be awarded to a member of the Australian armed forces at the time. The citation for his award highlighted his \"undaunted\" resistance and \"outstanding heroism\" while ",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/ce/Bill_Madden_in_1947.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-    },
-    {
-      "kind": "Most read",
-      "title": "Abdul El-Sayed",
-      "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed",
-      "description": "Abdulrahman Mohamed El-Sayed is an American epidemiologist and politician who is the United States senator-elect from the state of Michigan. Upon taking office, El-Sayed will be the first Muslim senator in U.S. history.",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Abdul_El-Sayed_meet-and-greet_by_Conlan_Houston_5_%28cropped%29.jpg/330px-Abdul_El-Sayed_meet-and-greet_by_Conlan_Houston_5_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Premise",
+      "url": "https://en.wikipedia.org/wiki/Premise",
+      "description": "A premise is a proposition offered to support a conclusion. Premises are true or false statements that act as the starting points of arguments by presenting reasons to substantiate or refute assertions. Each argument is made up of a set of premises together with a conclusion. For example, the premises \"all men are mortal\" and \"Socrates is a man\" lead to the "
     },
     {
       "kind": "Most read",
       "title": "Ramayana: Part 1",
       "url": "https://en.wikipedia.org/wiki/Ramayana%3A_Part_1",
-      "description": "Ramayana: Part 1 is a 2026 Indian Hindi-language epic mythological film directed by Nitesh Tiwari, who co-wrote the screenplay with Shridhar Raghavan. Produced by Namit Malhotra and Yash, the film is based on the epic poem Ramayana by Valmiki, which chronicles the life and trials of Prince Rama. It is the first of a two-part film. The film stars Ranbir Kapoo",
+      "description": "Ramayana: Part 1 is a 2026 Indian Hindi-language epic mythological film directed by Nitesh Tiwari, who co-wrote the screenplay with Shridhar Raghavan. Produced by Namit Malhotra and Yash, the film is based on the epic poem Ramayana by Valmiki. It is the first of a two-part film, with Part 1 being based on the first three kāṇḍa (chapters) of Ramayana which ch",
       "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/48/Ramayana_Part_1_%28poster%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "kind": "Most read",
       "title": "Russell Brand",
       "url": "https://en.wikipedia.org/wiki/Russell_Brand",
-      "description": "Russell Edward Brand is an English comedian, actor, and media personality. He rose to prominence as the host of Big Brother's Big Mouth, a spin-off of the reality television series Big Brother broadcast on E4. He had his first major film role in the British comedy St Trinian's (2007), after which he starred in the Hollywood comedies Forgetting Sarah Marshall",
+      "description": "Russell Edward Brand is an English comedian, actor and media personality. He rose to prominence as the host of Big Brother's Big Mouth, a spin-off of the reality television series Big Brother broadcast on E4. He had his first major film role in the British comedy St Trinian's (2007), after which he starred in the Hollywood comedies Forgetting Sarah Marshall ",
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Russell_Brand_%2854670634113%29_%28cropped%29.jpg/330px-Russell_Brand_%2854670634113%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
-      "title": "James Talarico",
-      "url": "https://en.wikipedia.org/wiki/James_Talarico",
-      "description": "James Dell Talarico is an American politician and educator who is the United States senator-elect from Texas. A member of the Democratic Party, he has served since 2018 as a member of the Texas House of Representatives.",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/James_Talarico_Press_Conference_%28cropped%29.jpg/330px-James_Talarico_Press_Conference_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Abdul El-Sayed",
+      "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed",
+      "description": "Abdulrahman Mohamed El-Sayed is an American politician and epidemiologist who is the United States senator-elect from Michigan.",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Abdul_El-Sayed_meet-and-greet_by_Conlan_Houston_5_%28cropped%29.jpg/330px-Abdul_El-Sayed_meet-and-greet_by_Conlan_Houston_5_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "Most read",
+      "title": "Stephen Miller",
+      "url": "https://en.wikipedia.org/wiki/Stephen_Miller",
+      "description": "Stephen N. Miller is an American political advisor who has served as the White House deputy chief of staff for policy and the homeland security advisor since 2025. He previously served as senior advisor to the president and director of speechwriting from 2017 to 2021 during the first Trump administration. Considered one of the most influential figures of the",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Stephen_Miller_July_2025.jpg/330px-Stephen_Miller_July_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
