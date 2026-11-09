@@ -1,56 +1,56 @@
 {
   "source": "Wikipedia",
   "description": "Featured articles, most-read pages, current events and moments from history, refreshed daily from Wikipedia.",
-  "updatedAt": "2026-11-08T17:57:13.851Z",
+  "updatedAt": "2026-11-09T22:26:02.241Z",
   "items": [
     {
       "kind": "Featured article",
-      "title": "Formula, Vol. 1",
-      "url": "https://en.wikipedia.org/wiki/Formula%2C_Vol._1",
-      "description": "Fórmula, Vol. 1 is the debut studio album by American singer Romeo Santos, released on November 8, 2011, by Sony Music Latin. It is Santos's first album as a solo artist following the break-up of American bachata group Aventura, of which he was the lead singer. The record contains fifteen tracks, most of which were composed by Santos and co-produced with Iva",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/68/Romeosantosforumalvol1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      "title": "SoHo Weekly News",
+      "url": "https://en.wikipedia.org/wiki/SoHo_Weekly_News",
+      "description": "The SoHo Weekly News (SWN) was a weekly alternative newspaper founded by American music publicist Michael Goldstein and published in New York City from 1973 to 1982. Goldstein positioned the paper as a competitor to The Village Voice, an established alternative newspaper, but it struggled financially. SWN was acquired by Associated Newspaper Group in 1979 an",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/60/Soho_News%2C_Vol._8_No._6%2C_November_1980.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
-      "kind": "In the news",
-      "title": "2026 Kraków shooting",
-      "url": "https://en.wikipedia.org/wiki/2026_Krak%C3%B3w_shooting",
-      "description": "On 7 November 2026, a mass shooting occurred at the Main Square in Kraków, Poland. A gunman armed with an AR-15–style rifle opened fire from his car as he drove through the Main Square, killing at least six people and injuring more than sixteen others, before being shot and wounded by police during a shootout. Following the shooting, police discovered the de",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/2026_Krak%C3%B3w_shooting_CCTV1.png/330px-2026_Krak%C3%B3w_shooting_CCTV1.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "kind": "Most read",
+      "title": "Ramayana: Part 1",
+      "url": "https://en.wikipedia.org/wiki/Ramayana%3A_Part_1",
+      "description": "Ramayana: Part 1 is a 2026 Indian Hindi-language epic mythological film directed by Nitesh Tiwari, who co-wrote the screenplay with Shridhar Raghavan. Produced by Namit Malhotra and Yash, the film is based on the Hindu epic Ramayana by Valmiki. It is the first of a two-part film, with Part 1 being based on the first three kāṇḍa (chapters) of Ramayana which c",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/48/Ramayana_Part_1_%28poster%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
-      "kind": "In the news",
-      "title": "2026 Paraguay banking crisis",
-      "url": "https://en.wikipedia.org/wiki/2026_Paraguay_banking_crisis",
-      "description": "An ongoing economic, financial, and political crisis in Paraguay was triggered by the regulatory intervention and shutdown of Ueno Bank, the country's largest digital financial institution. The lender's collapse froze the liquid balances of approximately three million retail depositors and endangered more than US$800 million in public and pension funds.",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Reuni%C3%A3o_com_Senhor_Santiago_Pe%C3%B1a%2C_Presidente_Eleito_do_Paraguai.jpg/330px-Reuni%C3%A3o_com_Senhor_Santiago_Pe%C3%B1a%2C_Presidente_Eleito_do_Paraguai.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "kind": "Most read",
+      "title": ".xyz",
+      "url": "https://en.wikipedia.org/wiki/.xyz",
+      "description": ".xyz is a top-level domain name introduced through ICANN's new generic top-level domain (gTLD) Program. Its name consists of the last three letters of the Latin-script alphabet. XYZ.com and CentralNic are the registries for the domain, which was created by entrepreneur Daniel Negari. It became available to the general public on June 2, 2014, thereafter becom",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/.xyz_logo.svg/330px-.xyz_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
-      "kind": "In the news",
-      "title": "2026 United States elections",
-      "url": "https://en.wikipedia.org/wiki/2026_United_States_elections",
-      "description": "Elections in the United States were held on November 3, 2026. In these midterm elections, which occurred during the non-consecutive second term of incumbent Republican president Donald Trump, all 435 seats in the U.S. House of Representatives and 35 of the 100 seats in the U.S. Senate were contested to determine the 120th United States Congress. Thirty-nine ",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/2026_United_States_Senate_elections_results_map.svg/330px-2026_United_States_Senate_elections_results_map.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "kind": "Most read",
+      "title": "Abdul El-Sayed",
+      "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed",
+      "description": "Abdulrahman Mohamed El-Sayed is an American politician, epidemiologist, and academic who is the United States senator-elect from Michigan.",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Abdul_El-Sayed_meet-and-greet_by_Conlan_Houston_5_%28cropped%29.jpg/330px-Abdul_El-Sayed_meet-and-greet_by_Conlan_Houston_5_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
-      "kind": "In the news",
-      "title": "2026 Formula One World Championship",
-      "url": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship",
-      "description": "The 2026 FIA Formula One World Championship is a motor racing championship for Formula One cars and the 77th running of the Formula One World Championship. It is recognised by the Fédération Internationale de l'Automobile (FIA), the governing body of international motorsport, as the highest class of competition for open-wheel racing cars. The championship is",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/FIA_F1_Austria_2026_Nr._12_Antonelli_%281%29.jpg/330px-FIA_F1_Austria_2026_Nr._12_Antonelli_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "kind": "Most read",
+      "title": "Scene (2026 film)",
+      "url": "https://en.wikipedia.org/wiki/Scene_(2026_film)",
+      "description": "Scene is a 2026 Indian Tamil-language action comedy film written and directed by Jithu Madhavan. Produced by Suriya and Jyothika's 2D Entertainment and the newly established Zhagaram Studios, the film stars Suriya, Naslen and Nazriya Nazim. It revolves around a DSP being forced to reopen an unfinished case and solve it with a troublesome team.",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3b/Scene_%282026_film%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
-      "kind": "On this day",
-      "title": "Second Nagorno-Karabakh War",
-      "url": "https://en.wikipedia.org/wiki/Second_Nagorno-Karabakh_War",
-      "description": "The Second Nagorno-Karabakh War was an armed conflict in 2020 that took place in the disputed region of Nagorno-Karabakh and the surrounding occupied territories. It was a major escalation of an unresolved conflict over the region, involving Azerbaijan, Armenia and the self-declared Armenian breakaway state of Artsakh. The war lasted for 44 days and resulted",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/2020_Nagorno-Karabakh_war.svg/330px-2020_Nagorno-Karabakh_war.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "kind": "Most read",
+      "title": "Stephen Miller",
+      "url": "https://en.wikipedia.org/wiki/Stephen_Miller",
+      "description": "Stephen N. Miller is an American political advisor who has served as the White House chief of staff since 2026. Miller has additionally served as the homeland security advisor since 2025. He previously served as the White House deputy chief of staff for policy from 2025 to 2026, and as the senior advisor to the president and the White House director of speec",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Stephen_Miller_July_2025.jpg/330px-Stephen_Miller_July_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
-      "kind": "On this day",
-      "title": "Louvre Abu Dhabi",
-      "url": "https://en.wikipedia.org/wiki/Louvre_Abu_Dhabi",
-      "description": "The Louvre Abu Dhabi is an art museum located on Saadiyat Island in Abu Dhabi, United Arab Emirates. It runs under an agreement between the UAE and France, signed in March 2007, that allows it to use the Louvre's name until 2047, and has been described by the Louvre as \"France's largest cultural project abroad.\" It is approximately 24,000 square metres (260,",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/55/LouvreAD_exterior.jpg/330px-LouvreAD_exterior.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "kind": "Most read",
+      "title": "Russell Brand",
+      "url": "https://en.wikipedia.org/wiki/Russell_Brand",
+      "description": "Russell Edward Brand is an English former comedian, actor and media personality. He rose to prominence as the host of Big Brother's Big Mouth, a spin-off of the reality television series Big Brother broadcast on E4. He had his first major film role in the British comedy St Trinian's (2007), after which he starred in the Hollywood comedies Forgetting Sarah Ma",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Russell_Brand_%2854670634113%29_%28cropped%29.jpg/330px-Russell_Brand_%2854670634113%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     }
   ]
 }
