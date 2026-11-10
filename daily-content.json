@@ -1,14 +1,21 @@
 {
   "source": "Wikipedia",
   "description": "Featured articles, most-read pages, current events and moments from history, refreshed daily from Wikipedia.",
-  "updatedAt": "2026-11-09T22:26:02.241Z",
+  "updatedAt": "2026-11-10T19:47:49.855Z",
   "items": [
     {
       "kind": "Featured article",
-      "title": "SoHo Weekly News",
-      "url": "https://en.wikipedia.org/wiki/SoHo_Weekly_News",
-      "description": "The SoHo Weekly News (SWN) was a weekly alternative newspaper founded by American music publicist Michael Goldstein and published in New York City from 1973 to 1982. Goldstein positioned the paper as a competitor to The Village Voice, an established alternative newspaper, but it struggled financially. SWN was acquired by Associated Newspaper Group in 1979 an",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/60/Soho_News%2C_Vol._8_No._6%2C_November_1980.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      "title": "Regulus (Turner)",
+      "url": "https://en.wikipedia.org/wiki/Regulus_(Turner)",
+      "description": "Regulus is an oil painting by the English artist J. M. W. Turner, currently housed in Tate Britain, London. It was initially painted in 1828 and overpainted twice, first between 1829 and 1837, and again in 1837. The painting is based on a legend about the Roman consul and general Marcus Atilius Regulus, in which he was captured by Carthaginian forces and exe",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Regulus_Turner_1828.jpg/960px-Regulus_Turner_1828.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "Most read",
+      "title": "Russell Brand",
+      "url": "https://en.wikipedia.org/wiki/Russell_Brand",
+      "description": "Russell Edward Brand is an English comedian, actor and media personality. He rose to prominence as a reality television presenter in the early 2000s before starring in major comedy films, releasing several stand-up specials and hosting radio shows. In 2026, he was convicted of rape and sexual assault, and his imprisonment is expected to last until 2033.",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Russell_Brand_%2854670634113%29_%28cropped%29.jpg/330px-Russell_Brand_%2854670634113%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
@@ -19,10 +26,17 @@
     },
     {
       "kind": "Most read",
-      "title": ".xyz",
-      "url": "https://en.wikipedia.org/wiki/.xyz",
-      "description": ".xyz is a top-level domain name introduced through ICANN's new generic top-level domain (gTLD) Program. Its name consists of the last three letters of the Latin-script alphabet. XYZ.com and CentralNic are the registries for the domain, which was created by entrepreneur Daniel Negari. It became available to the general public on June 2, 2014, thereafter becom",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/.xyz_logo.svg/330px-.xyz_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Jensen Huang",
+      "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
+      "description": "Jen-Hsun \"Jensen\" Huang is a Taiwanese and American electrical engineer and business executive who is the co-founder, president, and CEO of Nvidia, one of the world's most valuable companies. As of October 2026, Forbes estimates his net worth at over US$200 billion, making him the seventh-wealthiest individual in the world.",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg/330px-Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "Most read",
+      "title": "Scene (2026 film)",
+      "url": "https://en.wikipedia.org/wiki/Scene_(2026_film)",
+      "description": "Scene is a 2026 Indian Tamil-language action comedy film written and directed by Jithu Madhavan. Produced by Suriya and Jyothika's 2D Entertainment and the newly established Zhagaram Studios, the film stars Suriya, Naslen and Nazriya Nazim, with Anandaraj, Lal, Rajpriyan, Suresh Mathiyalagan and Gajaraj in supporting roles. It revolves around a DSP being for",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3b/Scene_%282026_film%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "kind": "Most read",
@@ -33,24 +47,10 @@
     },
     {
       "kind": "Most read",
-      "title": "Scene (2026 film)",
-      "url": "https://en.wikipedia.org/wiki/Scene_(2026_film)",
-      "description": "Scene is a 2026 Indian Tamil-language action comedy film written and directed by Jithu Madhavan. Produced by Suriya and Jyothika's 2D Entertainment and the newly established Zhagaram Studios, the film stars Suriya, Naslen and Nazriya Nazim. It revolves around a DSP being forced to reopen an unfinished case and solve it with a troublesome team.",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3b/Scene_%282026_film%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-    },
-    {
-      "kind": "Most read",
-      "title": "Stephen Miller",
-      "url": "https://en.wikipedia.org/wiki/Stephen_Miller",
-      "description": "Stephen N. Miller is an American political advisor who has served as the White House chief of staff since 2026. Miller has additionally served as the homeland security advisor since 2025. He previously served as the White House deputy chief of staff for policy from 2025 to 2026, and as the senior advisor to the president and the White House director of speec",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Stephen_Miller_July_2025.jpg/330px-Stephen_Miller_July_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "kind": "Most read",
-      "title": "Russell Brand",
-      "url": "https://en.wikipedia.org/wiki/Russell_Brand",
-      "description": "Russell Edward Brand is an English former comedian, actor and media personality. He rose to prominence as the host of Big Brother's Big Mouth, a spin-off of the reality television series Big Brother broadcast on E4. He had his first major film role in the British comedy St Trinian's (2007), after which he starred in the Hollywood comedies Forgetting Sarah Ma",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Russell_Brand_%2854670634113%29_%28cropped%29.jpg/330px-Russell_Brand_%2854670634113%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Godzilla Minus Zero",
+      "url": "https://en.wikipedia.org/wiki/Godzilla_Minus_Zero",
+      "description": "Godzilla Minus Zero  is a 2026 Japanese epic kaiju film written, directed, and with visual effects by Takashi Yamazaki. A sequel to Godzilla Minus One (2023), it is the 39th film in the Godzilla franchise, the 34th film thereof produced by Toho, and the sixth installment in the Reiwa era. The film stars Ryunosuke Kamiki, Minami Hamabe, Hidetaka Yoshioka, Yuk",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/09/Godzilla_Minus_Zero_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     }
   ]
 }
