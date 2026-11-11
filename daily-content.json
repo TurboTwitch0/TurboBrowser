@@ -1,21 +1,14 @@
 {
   "source": "Wikipedia",
   "description": "Featured articles, most-read pages, current events and moments from history, refreshed daily from Wikipedia.",
-  "updatedAt": "2026-11-10T19:47:49.855Z",
+  "updatedAt": "2026-11-11T19:39:46.457Z",
   "items": [
     {
       "kind": "Featured article",
-      "title": "Regulus (Turner)",
-      "url": "https://en.wikipedia.org/wiki/Regulus_(Turner)",
-      "description": "Regulus is an oil painting by the English artist J. M. W. Turner, currently housed in Tate Britain, London. It was initially painted in 1828 and overpainted twice, first between 1829 and 1837, and again in 1837. The painting is based on a legend about the Roman consul and general Marcus Atilius Regulus, in which he was captured by Carthaginian forces and exe",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Regulus_Turner_1828.jpg/960px-Regulus_Turner_1828.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "kind": "Most read",
-      "title": "Russell Brand",
-      "url": "https://en.wikipedia.org/wiki/Russell_Brand",
-      "description": "Russell Edward Brand is an English comedian, actor and media personality. He rose to prominence as a reality television presenter in the early 2000s before starring in major comedy films, releasing several stand-up specials and hosting radio shows. In 2026, he was convicted of rape and sexual assault, and his imprisonment is expected to last until 2033.",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Russell_Brand_%2854670634113%29_%28cropped%29.jpg/330px-Russell_Brand_%2854670634113%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "U.S. Route 101",
+      "url": "https://en.wikipedia.org/wiki/U.S._Route_101",
+      "description": "U.S. Route 101, or U.S. Highway 101 (US 101), is a major north–south highway that traverses the states of California, Oregon, and Washington on the West Coast of the United States. It is part of the United States Numbered Highway System and runs for over 1,500 miles (2,400 km) along the Pacific Ocean. The highway is also known by various names, including El ",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/US_101.svg/960px-US_101.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
@@ -26,6 +19,13 @@
     },
     {
       "kind": "Most read",
+      "title": "Russell Brand",
+      "url": "https://en.wikipedia.org/wiki/Russell_Brand",
+      "description": "Russell Edward Brand is an English comedian, actor and media personality. He rose to prominence as a reality television presenter in the early 2000s before starring in major comedy films, releasing several stand-up specials and hosting radio shows. In 2026, he was convicted of rape and sexual assault, and sentenced to ten years and six months in prison.",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Russell_Brand_%2854670634113%29_%28cropped%29.jpg/330px-Russell_Brand_%2854670634113%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "Most read",
       "title": "Jensen Huang",
       "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
       "description": "Jen-Hsun \"Jensen\" Huang is a Taiwanese and American electrical engineer and business executive who is the co-founder, president, and CEO of Nvidia, one of the world's most valuable companies. As of October 2026, Forbes estimates his net worth at over US$200 billion, making him the seventh-wealthiest individual in the world.",
@@ -33,24 +33,24 @@
     },
     {
       "kind": "Most read",
-      "title": "Scene (2026 film)",
-      "url": "https://en.wikipedia.org/wiki/Scene_(2026_film)",
-      "description": "Scene is a 2026 Indian Tamil-language action comedy film written and directed by Jithu Madhavan. Produced by Suriya and Jyothika's 2D Entertainment and the newly established Zhagaram Studios, the film stars Suriya, Naslen and Nazriya Nazim, with Anandaraj, Lal, Rajpriyan, Suresh Mathiyalagan and Gajaraj in supporting roles. It revolves around a DSP being for",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3b/Scene_%282026_film%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      "title": "David Walliams",
+      "url": "https://en.wikipedia.org/wiki/David_Walliams",
+      "description": "David Edward Williams, known professionally as David Walliams, is an English actor, comedian, writer and television personality. He rose to prominence for his work with Matt Lucas on the BBC sketch comedy series Little Britain (2003–2006) and Come Fly with Me (2010–2011). From 2012 to 2022, Walliams was a judge on the television talent competition Britain's ",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/David_Walliams_at_the_2025_Jaipur_Literature_Festival_%28cropped%29.jpg/330px-David_Walliams_at_the_2025_Jaipur_Literature_Festival_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
-      "title": "Abdul El-Sayed",
-      "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed",
-      "description": "Abdulrahman Mohamed El-Sayed is an American politician, epidemiologist, and academic who is the United States senator-elect from Michigan.",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Abdul_El-Sayed_meet-and-greet_by_Conlan_Houston_5_%28cropped%29.jpg/330px-Abdul_El-Sayed_meet-and-greet_by_Conlan_Houston_5_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Thomas Massie",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Massie",
+      "description": "Thomas Harold Massie is an American politician. A member of the Republican Party, Massie has been the United States representative for Kentucky's 4th congressional district since 2012.",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Massie_Thomas_119th_Congress_%28cropped_2%29.jpg/330px-Massie_Thomas_119th_Congress_%28cropped_2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
-      "title": "Godzilla Minus Zero",
-      "url": "https://en.wikipedia.org/wiki/Godzilla_Minus_Zero",
-      "description": "Godzilla Minus Zero  is a 2026 Japanese epic kaiju film written, directed, and with visual effects by Takashi Yamazaki. A sequel to Godzilla Minus One (2023), it is the 39th film in the Godzilla franchise, the 34th film thereof produced by Toho, and the sixth installment in the Reiwa era. The film stars Ryunosuke Kamiki, Minami Hamabe, Hidetaka Yoshioka, Yuk",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/09/Godzilla_Minus_Zero_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      "title": "SS Edmund Fitzgerald",
+      "url": "https://en.wikipedia.org/wiki/SS_Edmund_Fitzgerald",
+      "description": "SS Edmund Fitzgerald was an American Great Lakes freighter that sank in Lake Superior during a storm on November 10, 1975, with the loss of the entire crew of 29 men. When launched on June 7, 1958, she was the largest ship on North America's Great Lakes and remains the largest to have sunk there. Her wreck was located in deep water on November 14, 1975, by a",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Edmund_Fitzgerald%2C_1971%2C_3_of_4_%28restored%3B_cropped%29.jpg/330px-Edmund_Fitzgerald%2C_1971%2C_3_of_4_%28restored%3B_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     }
   ]
 }
