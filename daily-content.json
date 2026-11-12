@@ -1,56 +1,55 @@
 {
   "source": "Wikipedia",
   "description": "Featured articles, most-read pages, current events and moments from history, refreshed daily from Wikipedia.",
-  "updatedAt": "2026-11-11T19:39:46.457Z",
+  "updatedAt": "2026-11-12T19:59:37.047Z",
   "items": [
     {
       "kind": "Featured article",
-      "title": "U.S. Route 101",
-      "url": "https://en.wikipedia.org/wiki/U.S._Route_101",
-      "description": "U.S. Route 101, or U.S. Highway 101 (US 101), is a major north–south highway that traverses the states of California, Oregon, and Washington on the West Coast of the United States. It is part of the United States Numbered Highway System and runs for over 1,500 miles (2,400 km) along the Pacific Ocean. The highway is also known by various names, including El ",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/US_101.svg/960px-US_101.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Royal Gloucestershire Hussars",
+      "url": "https://en.wikipedia.org/wiki/Royal_Gloucestershire_Hussars",
+      "description": "The Royal Gloucestershire Hussars was a volunteer yeomanry regiment which, in the 20th century, became part of the British Army Reserve. It traced its origins to the First or Cheltenham Troop of Gloucestershire Gentleman and Yeomanry raised in 1795, although a break in the lineage means that its formation is dated to the Marshfield and Dodington Troop raised",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/4/49/Rgh-badge.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
-      "kind": "Most read",
-      "title": "Ramayana: Part 1",
-      "url": "https://en.wikipedia.org/wiki/Ramayana%3A_Part_1",
-      "description": "Ramayana: Part 1 is a 2026 Indian Hindi-language epic mythological film directed by Nitesh Tiwari, who co-wrote the screenplay with Shridhar Raghavan. Produced by Namit Malhotra and Yash, the film is based on the Hindu epic Ramayana by Valmiki. It is the first of a two-part film, with Part 1 being based on the first three kāṇḍa (chapters) of Ramayana which c",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/48/Ramayana_Part_1_%28poster%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      "kind": "In the news",
+      "title": "The End of Everything (Harrison novel)",
+      "url": "https://en.wikipedia.org/wiki/The_End_of_Everything_(Harrison_novel)",
+      "description": "The End of Everything is a post-apocalyptic novel by English author M. John Harrison, first published in the UK in 2026 by Serpent's Tail. Harrison's 13th novel, it won the 2026 Booker Prize.",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/78/The_End_of_Everything_%28Harrison_novel%29_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
-      "kind": "Most read",
-      "title": "Russell Brand",
-      "url": "https://en.wikipedia.org/wiki/Russell_Brand",
-      "description": "Russell Edward Brand is an English comedian, actor and media personality. He rose to prominence as a reality television presenter in the early 2000s before starring in major comedy films, releasing several stand-up specials and hosting radio shows. In 2026, he was convicted of rape and sexual assault, and sentenced to ten years and six months in prison.",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Russell_Brand_%2854670634113%29_%28cropped%29.jpg/330px-Russell_Brand_%2854670634113%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "kind": "In the news",
+      "title": "Novaya Gazeta",
+      "url": "https://en.wikipedia.org/wiki/Novaya_Gazeta",
+      "description": "Novaya Gazeta was an independent Russian newspaper. It became known for its critical and investigative coverage of Russian political and social affairs, the Chechen wars, corruption among the ruling elite, and increasing authoritarianism in Russia. It was published in Moscow with print editions on Mondays, Wednesdays, and Fridays until shortly after the begi",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Novaya_gazeta_logo.svg/330px-Novaya_gazeta_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
-      "kind": "Most read",
-      "title": "Jensen Huang",
-      "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
-      "description": "Jen-Hsun \"Jensen\" Huang is a Taiwanese and American electrical engineer and business executive who is the co-founder, president, and CEO of Nvidia, one of the world's most valuable companies. As of October 2026, Forbes estimates his net worth at over US$200 billion, making him the seventh-wealthiest individual in the world.",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg/330px-Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "kind": "In the news",
+      "title": "2026 NASCAR Cup Series",
+      "url": "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
+      "description": "The 2026 NASCAR Cup Series was the 78th season for NASCAR professional stock car racing in the United States and the 55th season for the modern-era Cup Series. The preseason featured the Cook Out Clash exhibition race on February 4 at Bowman Gray Stadium, followed by the season-opening 68th running of the Daytona 500 on February 15 at Daytona International S",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Kyle_Larson_Driver_Introductions_Las_Vegas_Fall_2026.jpg/330px-Kyle_Larson_Driver_Introductions_Las_Vegas_Fall_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
-      "kind": "Most read",
-      "title": "David Walliams",
-      "url": "https://en.wikipedia.org/wiki/David_Walliams",
-      "description": "David Edward Williams, known professionally as David Walliams, is an English actor, comedian, writer and television personality. He rose to prominence for his work with Matt Lucas on the BBC sketch comedy series Little Britain (2003–2006) and Come Fly with Me (2010–2011). From 2012 to 2022, Walliams was a judge on the television talent competition Britain's ",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/David_Walliams_at_the_2025_Jaipur_Literature_Festival_%28cropped%29.jpg/330px-David_Walliams_at_the_2025_Jaipur_Literature_Festival_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "kind": "In the news",
+      "title": "2026 Kraków shooting",
+      "url": "https://en.wikipedia.org/wiki/2026_Krak%C3%B3w_shooting",
+      "description": "On 7 November 2026, a mass shooting took place in Kraków, Poland, when 24-year-old Michał Oksiński opened fire from his car as he drove through the Main Square, killing six people and injuring 16 others before being shot by police. Following the shooting, police discovered the dead bodies of three members of his family in their apartment in Ostrowiec Świętok",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/2026_Krakow_shooting_CCTV1.png/330px-2026_Krakow_shooting_CCTV1.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
-      "kind": "Most read",
-      "title": "Thomas Massie",
-      "url": "https://en.wikipedia.org/wiki/Thomas_Massie",
-      "description": "Thomas Harold Massie is an American politician. A member of the Republican Party, Massie has been the United States representative for Kentucky's 4th congressional district since 2012.",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Massie_Thomas_119th_Congress_%28cropped_2%29.jpg/330px-Massie_Thomas_119th_Congress_%28cropped_2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "kind": "On this day",
+      "title": "European Space Agency",
+      "url": "https://en.wikipedia.org/wiki/European_Space_Agency",
+      "description": "The European Space Agency is a 23-member international organisation devoted to space exploration. It has its headquarters in Paris and a staff of around 3,000 people globally as of 2025. ESA was founded in 1975 in the context of European integration. Its 2026 annual budget was around €8.3 billion.",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c8/ESA_Patch_2026.svg/330px-ESA_Patch_2026.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
-      "kind": "Most read",
-      "title": "SS Edmund Fitzgerald",
-      "url": "https://en.wikipedia.org/wiki/SS_Edmund_Fitzgerald",
-      "description": "SS Edmund Fitzgerald was an American Great Lakes freighter that sank in Lake Superior during a storm on November 10, 1975, with the loss of the entire crew of 29 men. When launched on June 7, 1958, she was the largest ship on North America's Great Lakes and remains the largest to have sunk there. Her wreck was located in deep water on November 14, 1975, by a",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Edmund_Fitzgerald%2C_1971%2C_3_of_4_%28restored%3B_cropped%29.jpg/330px-Edmund_Fitzgerald%2C_1971%2C_3_of_4_%28restored%3B_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "kind": "On this day",
+      "title": "Bid Kaneh explosion",
+      "url": "https://en.wikipedia.org/wiki/Bid_Kaneh_explosion",
+      "description": "On 12 November 2011 at about 13:30 local time, a large explosion occurred at the Modarres garrison missile base in Tehran Province, Iran. The facility is also referred to as Shahid Modarres missile base, and the Alghadir missile base. Seventeen members of the Revolutionary Guards were killed in this incident, including Major General Hassan Moqaddam, describe"
     }
   ]
 }
