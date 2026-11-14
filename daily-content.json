@@ -1,19 +1,20 @@
 {
   "source": "Wikipedia",
   "description": "Featured articles, most-read pages, current events and moments from history, refreshed daily from Wikipedia.",
-  "updatedAt": "2026-11-13T19:47:12.965Z",
+  "updatedAt": "2026-11-14T18:11:26.228Z",
   "items": [
     {
       "kind": "Featured article",
-      "title": "2022–23 Notts County F.C. season",
-      "url": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Notts_County_F.C._season",
-      "description": "During the 2022–23 English football season, Notts County competed in the National League, the fifth tier of the English football league system; this was their fourth season at this level following their relegation from EFL League Two in 2019. The team was involved in an intense race with Wrexham for the league title and the solitary automatic promotion place"
+      "title": "Aucanquilcha",
+      "url": "https://en.wikipedia.org/wiki/Aucanquilcha",
+      "description": "Aucanquilcha is a large compound volcano in the Antofagasta Region of northern Chile, within the Central Volcanic Zone of the Andes. The volcano has the form of a ridge reaching an altitude of 6,176 metres (20,262 ft) above sea level, formed between 1.04 and 0.23 million years ago; there is ongoing fumarolic activity. The volcano is part of a larger cluster ",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Volc%C3%A1n_Aucanquilcha%2C_Chile%2C_2016-02-10%2C_DD_11.JPG/960px-Volc%C3%A1n_Aucanquilcha%2C_Chile%2C_2016-02-10%2C_DD_11.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
       "title": "Jensen Huang",
       "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
-      "description": "Jen-Hsun \"Jensen\" Huang is a Taiwanese and American electrical engineer and businessman. He co-founded the technology company Nvidia, one of the world's most valuable corporations, and served as its president and CEO from its founding in 1993 until his resignation in November 2026. As of November 2026, Forbes estimates his net worth at over $150 billion, mak",
+      "description": "Jen-Hsun \"Jensen\" Huang is a Taiwanese and American electrical engineer and businessman. He co-founded the technology company Nvidia, one of the world's most valuable corporations, and served as its president and CEO from its founding in 1993 until his resignation in November 2026. As of November 2026, Forbes estimates his net worth at over US$150 billion, m",
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg/330px-Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -27,15 +28,8 @@
       "kind": "Most read",
       "title": "Colette Kress",
       "url": "https://en.wikipedia.org/wiki/Colette_Kress",
-      "description": "Colette Marie Kress is an American business executive. She has been the interim chief executive officer (CEO) of Nvidia since November 12, 2026, following the resignation of former CEO and Nvidia co-founder Jensen Huang.",
+      "description": "Colette Marie Kress is an American business executive. She has been the interim chief executive officer (CEO) of Nvidia since November 12, 2026, following the resignation of former Nvidia CEO and co-founder Jensen Huang amid a scandal.",
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Colette_Kress_%281%29.png/330px-Colette_Kress_%281%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "kind": "Most read",
-      "title": "Anthony Clark (actor)",
-      "url": "https://en.wikipedia.org/wiki/Anthony_Clark_(actor)",
-      "description": "Anthony Clark was an American actor, producer, and comedian best known for starring in the CBS sitcom Yes, Dear, in which he played the character Greg Warner.",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/03/Cropped_Photo_of_Anthony_Clark.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "kind": "Most read",
@@ -46,10 +40,17 @@
     },
     {
       "kind": "Most read",
-      "title": "SS United States",
-      "url": "https://en.wikipedia.org/wiki/SS_United_States",
-      "description": "SS United States was an American ocean liner that was built during 1950 and 1951 for United States Lines. She was the largest ocean liner to be entirely constructed in the United States and the fastest ocean liner to cross the Atlantic Ocean in either direction, earning the Blue Riband for the highest average speed since her maiden voyage in 1952, a title th",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/StateLibQld_1_169487_United_States_%28ship%29.jpg/330px-StateLibQld_1_169487_United_States_%28ship%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Chris Van Hollen",
+      "url": "https://en.wikipedia.org/wiki/Chris_Van_Hollen",
+      "description": "Christopher Van Hollen Jr., also known as CVH, is an American attorney and politician serving as the senior United States senator from Maryland, a seat he has held since 2017. A member of the Democratic Party, he served as the U.S. representative for Maryland's 8th congressional district from 2003 to 2017 and as a Maryland state senator from 1995 to 2003. He",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Chris_Van_Hollen_official_portrait_115th_Congress.jpg/330px-Chris_Van_Hollen_official_portrait_115th_Congress.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "Most read",
+      "title": "Piracy",
+      "url": "https://en.wikipedia.org/wiki/Piracy",
+      "description": "Piracy is an act of robbery or criminal violence by ship or boat-borne attackers upon another ship or a coastal area, typically intending to steal cargo and valuable goods, or take hostages. Those who conduct acts of piracy are called pirates, and vessels used for piracy are called pirate ships. The earliest documented instances of piracy date to the 14th ce",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Edward_England.svg/330px-Flag_of_Edward_England.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     }
   ]
 }
