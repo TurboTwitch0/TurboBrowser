@@ -1,21 +1,14 @@
 {
   "source": "Wikipedia",
   "description": "Featured articles, most-read pages, current events and moments from history, refreshed daily from Wikipedia.",
-  "updatedAt": "2026-11-14T18:11:26.228Z",
+  "updatedAt": "2026-11-15T18:54:44.490Z",
   "items": [
     {
       "kind": "Featured article",
-      "title": "Aucanquilcha",
-      "url": "https://en.wikipedia.org/wiki/Aucanquilcha",
-      "description": "Aucanquilcha is a large compound volcano in the Antofagasta Region of northern Chile, within the Central Volcanic Zone of the Andes. The volcano has the form of a ridge reaching an altitude of 6,176 metres (20,262 ft) above sea level, formed between 1.04 and 0.23 million years ago; there is ongoing fumarolic activity. The volcano is part of a larger cluster ",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Volc%C3%A1n_Aucanquilcha%2C_Chile%2C_2016-02-10%2C_DD_11.JPG/960px-Volc%C3%A1n_Aucanquilcha%2C_Chile%2C_2016-02-10%2C_DD_11.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "kind": "Most read",
-      "title": "Jensen Huang",
-      "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
-      "description": "Jen-Hsun \"Jensen\" Huang is a Taiwanese and American electrical engineer and businessman. He co-founded the technology company Nvidia, one of the world's most valuable corporations, and served as its president and CEO from its founding in 1993 until his resignation in November 2026. As of November 2026, Forbes estimates his net worth at over US$150 billion, m",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg/330px-Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Can't Let Go (Mariah Carey song)",
+      "url": "https://en.wikipedia.org/wiki/Can't_Let_Go_(Mariah_Carey_song)",
+      "description": "\"Can't Let Go\" is a song recorded by American singer-songwriter Mariah Carey for her second studio album, Emotions (1991). Columbia Records released it as the album's second single in November 1991. Featuring synthesizers and drum programming, \"Can't Let Go\" is a breakup song in the form of an R&B and pop slow jam. The lyrics, written by Carey, are about pos",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d2/Can%27t_Let_Go_by_Mariah_Carey_US_cassette_single.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "kind": "Most read",
@@ -26,31 +19,36 @@
     },
     {
       "kind": "Most read",
-      "title": "Colette Kress",
-      "url": "https://en.wikipedia.org/wiki/Colette_Kress",
-      "description": "Colette Marie Kress is an American business executive. She has been the interim chief executive officer (CEO) of Nvidia since November 12, 2026, following the resignation of former Nvidia CEO and co-founder Jensen Huang amid a scandal.",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Colette_Kress_%281%29.png/330px-Colette_Kress_%281%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Sean Duffy",
+      "url": "https://en.wikipedia.org/wiki/Sean_Duffy",
+      "description": "Sean Patrick Duffy is an American politician, attorney, and former television personality who is serving as the 20th United States secretary of transportation. Duffy previously served as the acting administrator of NASA from July to December 2025. A member of the Republican Party, he served as the U.S. representative for Wisconsin's seventh congressional dis",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Secretary_of_Transportation_Sean_Duffy_Official_Portrait.jpg/330px-Secretary_of_Transportation_Sean_Duffy_Official_Portrait.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
-      "title": "Nvidia",
-      "url": "https://en.wikipedia.org/wiki/Nvidia",
-      "description": "Nvidia Corporation is an American multinational technology company headquartered in Santa Clara, California. The company develops graphics processing units (GPUs), systems on chips (SoCs), and application programming interfaces (APIs) for gaming, data science, high-performance computing, artificial intelligence (AI) hardware, and mobile and automotive applic",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/2788-2888_San_Tomas_Expwy.jpg/330px-2788-2888_San_Tomas_Expwy.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Jensen Huang",
+      "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
+      "description": "Jen-Hsun \"Jensen\" Huang is a Taiwanese and American electrical engineer and businessman. He co-founded the technology company Nvidia, one of the world's most valuable corporations, and served as its president and CEO from its founding in 1993 until his resignation in 2026. As of November 2026, Forbes estimates his net worth at US$141.9 billion, making him th",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg/330px-Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
-      "title": "Chris Van Hollen",
-      "url": "https://en.wikipedia.org/wiki/Chris_Van_Hollen",
-      "description": "Christopher Van Hollen Jr., also known as CVH, is an American attorney and politician serving as the senior United States senator from Maryland, a seat he has held since 2017. A member of the Democratic Party, he served as the U.S. representative for Maryland's 8th congressional district from 2003 to 2017 and as a Maryland state senator from 1995 to 2003. He",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Chris_Van_Hollen_official_portrait_115th_Congress.jpg/330px-Chris_Van_Hollen_official_portrait_115th_Congress.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "List of highest-grossing Indian films",
+      "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_Indian_films",
+      "description": "This ranking lists the highest-grossing Indian films produced by Indian cinema, based on conservative global box office estimates as reported by organisations classified as green by Wikipedia. The figures are not adjusted for inflation. However, there is no official tracking of figures and sources publishing data are frequently pressured to increase their es"
     },
     {
       "kind": "Most read",
-      "title": "Piracy",
-      "url": "https://en.wikipedia.org/wiki/Piracy",
-      "description": "Piracy is an act of robbery or criminal violence by ship or boat-borne attackers upon another ship or a coastal area, typically intending to steal cargo and valuable goods, or take hostages. Those who conduct acts of piracy are called pirates, and vessels used for piracy are called pirate ships. The earliest documented instances of piracy date to the 14th ce",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Edward_England.svg/330px-Flag_of_Edward_England.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Ansel Adams",
+      "url": "https://en.wikipedia.org/wiki/Ansel_Adams",
+      "description": "Ansel Easton Adams was an American landscape photographer and environmentalist known for his black-and-white images of the American West. He helped found Group f/64, an association of photographers advocating \"pure\" photography which favored sharp focus and the use of the full tonal range of a photograph. He and Fred Archer developed a system of image-making",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Ansel_Adams_and_camera.jpg/330px-Ansel_Adams_and_camera.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "Most read",
+      "title": "Deaths in 2026",
+      "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
+      "description": "The following notable deaths occurred in 2026. Names are reported under the date of death, in alphabetical order. A typical entry reports information in the following sequence:Name, age, country of citizenship at birth, subsequent nationality, what subject was noted for, cause of death, and a reference."
     }
   ]
 }
