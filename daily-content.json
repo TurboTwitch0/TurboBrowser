@@ -1,14 +1,28 @@
 {
   "source": "Wikipedia",
   "description": "Featured articles, most-read pages, current events and moments from history, refreshed daily from Wikipedia.",
-  "updatedAt": "2026-11-15T18:54:44.490Z",
+  "updatedAt": "2026-11-16T22:12:19.125Z",
   "items": [
     {
       "kind": "Featured article",
-      "title": "Can't Let Go (Mariah Carey song)",
-      "url": "https://en.wikipedia.org/wiki/Can't_Let_Go_(Mariah_Carey_song)",
-      "description": "\"Can't Let Go\" is a song recorded by American singer-songwriter Mariah Carey for her second studio album, Emotions (1991). Columbia Records released it as the album's second single in November 1991. Featuring synthesizers and drum programming, \"Can't Let Go\" is a breakup song in the form of an R&B and pop slow jam. The lyrics, written by Carey, are about pos",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d2/Can%27t_Let_Go_by_Mariah_Carey_US_cassette_single.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      "title": "Mark Satin",
+      "url": "https://en.wikipedia.org/wiki/Mark_Satin",
+      "description": "Mark Ivor Satin is an American political theorist, writer, and newsletter publisher. He contributed to the development and dissemination of three political perspectives – neopacifism in the 1960s, New Age politics in the 1970s and 1980s, and radical centrism from the 1990s into the 2020s. Satin's work is sometimes seen as building toward a new political ideo",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Mark_Satin_in_2011.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "kind": "Most read",
+      "title": "Archive of Our Own",
+      "url": "https://en.wikipedia.org/wiki/Archive_of_Our_Own",
+      "description": "Archive of Our Own (AO3) is a nonprofit, open-source repository for fanfiction (fanfic) and other fanworks contributed by users. The site was created in 2008 by the Organization for Transformative Works.",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Ao3-screenshot.png/330px-Ao3-screenshot.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "Most read",
+      "title": "September 11 attacks",
+      "url": "https://en.wikipedia.org/wiki/September_11_attacks",
+      "description": "The September 11 attacks, colloquially known as 9/11, were a coordinated series of suicide attacks perpetrated by the Islamic terrorist organization al-Qaeda against the United States in 2001. A total of 19 hijackers commandeered four commercial passenger airliners. The first two planes were flown into each of the Twin Towers at the World Trade Center in New",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/WTC_smoking_on_9-11.jpeg/330px-WTC_smoking_on_9-11.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
@@ -19,36 +33,23 @@
     },
     {
       "kind": "Most read",
-      "title": "Sean Duffy",
-      "url": "https://en.wikipedia.org/wiki/Sean_Duffy",
-      "description": "Sean Patrick Duffy is an American politician, attorney, and former television personality who is serving as the 20th United States secretary of transportation. Duffy previously served as the acting administrator of NASA from July to December 2025. A member of the Republican Party, he served as the U.S. representative for Wisconsin's seventh congressional dis",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Secretary_of_Transportation_Sean_Duffy_Official_Portrait.jpg/330px-Secretary_of_Transportation_Sean_Duffy_Official_Portrait.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "List of Nazi concentration camps",
+      "url": "https://en.wikipedia.org/wiki/List_of_Nazi_concentration_camps",
+      "description": "According to the Encyclopedia of Camps and Ghettos, there were 23 main concentration camps, of which most had a system of satellite camps. Including the satellite camps, the total number of Nazi concentration camps that existed at one point in time is at least a thousand, although these did not all exist at the same time.",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Buchenwald_Hinzert_SS_34561.jpg/330px-Buchenwald_Hinzert_SS_34561.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
-      "title": "Jensen Huang",
-      "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
-      "description": "Jen-Hsun \"Jensen\" Huang is a Taiwanese and American electrical engineer and businessman. He co-founded the technology company Nvidia, one of the world's most valuable corporations, and served as its president and CEO from its founding in 1993 until his resignation in 2026. As of November 2026, Forbes estimates his net worth at US$141.9 billion, making him th",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg/330px-Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "UFC 334",
+      "url": "https://en.wikipedia.org/wiki/UFC_334",
+      "description": "UFC 334: Gane vs. Hokit was a mixed martial arts event produced by the Ultimate Fighting Championship that took place on November 14, 2026, at Madison Square Garden in New York City, New York, United States.",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/be/UFC_334_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "kind": "Most read",
       "title": "List of highest-grossing Indian films",
       "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_Indian_films",
       "description": "This ranking lists the highest-grossing Indian films produced by Indian cinema, based on conservative global box office estimates as reported by organisations classified as green by Wikipedia. The figures are not adjusted for inflation. However, there is no official tracking of figures and sources publishing data are frequently pressured to increase their es"
-    },
-    {
-      "kind": "Most read",
-      "title": "Ansel Adams",
-      "url": "https://en.wikipedia.org/wiki/Ansel_Adams",
-      "description": "Ansel Easton Adams was an American landscape photographer and environmentalist known for his black-and-white images of the American West. He helped found Group f/64, an association of photographers advocating \"pure\" photography which favored sharp focus and the use of the full tonal range of a photograph. He and Fred Archer developed a system of image-making",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Ansel_Adams_and_camera.jpg/330px-Ansel_Adams_and_camera.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "kind": "Most read",
-      "title": "Deaths in 2026",
-      "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
-      "description": "The following notable deaths occurred in 2026. Names are reported under the date of death, in alphabetical order. A typical entry reports information in the following sequence:Name, age, country of citizenship at birth, subsequent nationality, what subject was noted for, cause of death, and a reference."
     }
   ]
 }
