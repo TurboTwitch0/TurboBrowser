@@ -1,56 +1,55 @@
 {
   "source": "Wikipedia",
   "description": "Featured articles, most-read pages, current events and moments from history, refreshed daily from Wikipedia.",
-  "updatedAt": "2026-11-17T20:59:42.410Z",
+  "updatedAt": "2026-11-18T20:38:23.889Z",
   "items": [
     {
       "kind": "Featured article",
-      "title": "Islands: Non-Places",
-      "url": "https://en.wikipedia.org/wiki/Islands%3A_Non-Places",
-      "description": "Islands: Non-Places is a 2016 abstract art game developed and published independently by artist and animator Carl Burton, who is best known for the animated GIF illustrations he created for season two of the Serial podcast. The game was released on November 17, 2016, on iOS, Windows, Mac, and Linux, and consists of a series of anonymous, liminal environments",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/22/Islands_Non_Places_header.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      "title": "W. S. Gilbert",
+      "url": "https://en.wikipedia.org/wiki/W._S._Gilbert",
+      "description": "Sir William Schwenck Gilbert was an English dramatist, librettist, poet and illustrator best known for his collaboration with the composer Arthur Sullivan that produced fourteen comic operas. The most famous of these include H.M.S. Pinafore, The Pirates of Penzance and one of the most frequently performed works in the history of musical theatre, The Mikado. ",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Elliott_%26_Fry_-_photograph_W._S._Gilbert.jpg/960px-Elliott_%26_Fry_-_photograph_W._S._Gilbert.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
-      "kind": "In the news",
+      "kind": "Most read",
+      "title": "Robert Pattinson",
+      "url": "https://en.wikipedia.org/wiki/Robert_Pattinson",
+      "description": "Robert Douglas Thomas Pattinson is an English actor and producer. He is known for starring in both major studio productions and independent films, and for portraying eccentric characters across multiple genres. Included on yearly lists of the world's highest-paid actors, he was ranked by Time as one of the 100 most influential people in the world and feature",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Robert_Pattinson_Venice_Film_Festival_%283x4_cropped%29.jpg/330px-Robert_Pattinson_Venice_Film_Festival_%283x4_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "Most read",
+      "title": "Ramayana: Part 1",
+      "url": "https://en.wikipedia.org/wiki/Ramayana%3A_Part_1",
+      "description": "Ramayana: Part 1 is a 2026 Indian Hindi-language epic mythological film directed by Nitesh Tiwari, who co-wrote the screenplay with Shridhar Raghavan. Produced by Namit Malhotra and Yash, the film is based on the Hindu epic Ramayana by Valmiki. It is the first instalment of a two-part film series, with Part 1 being based on the first three kāṇḍa (chapters) o",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/48/Ramayana_Part_1_%28poster%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "kind": "Most read",
+      "title": "Suki Waterhouse",
+      "url": "https://en.wikipedia.org/wiki/Suki_Waterhouse",
+      "description": "Alice Suki Waterhouse is an English actress, singer, and model. Waterhouse began a career in modelling at the age of 16, and she went on to model for several major fashion labels such as Burberry, Tommy Hilfiger, Hugo Boss, Laura Mercier, and Ferragamo. Her first feature film as an actress was a minor role in Pusher (2012), and she has since appeared in film",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Suki_Waterhouse_at_82nd_Venice_International_Film_Festival-4.jpg/330px-Suki_Waterhouse_at_82nd_Venice_International_Film_Festival-4.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "Most read",
+      "title": "List of highest-grossing Indian films",
+      "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_Indian_films",
+      "description": "This ranking lists the highest-grossing Indian films produced by Indian cinema, based on conservative global box office estimates as reported by organisations classified as green by Wikipedia. The figures are not adjusted for inflation. However, there is no official tracking of figures and sources publishing data are frequently pressured to increase their es"
+    },
+    {
+      "kind": "Most read",
+      "title": "Grand Theft Auto VI",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+      "description": "Grand Theft Auto VI is a 2026 action-adventure game developed and published by Rockstar Games. It is the eighth main entry in the Grand Theft Auto series, following Grand Theft Auto V (2013), and the sixteenth entry overall. Set within the fictional US state of Leonida, based on Florida, and in the fictional city of Vice City, based on Miami, the story follo",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/46/Grand_Theft_Auto_VI.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "kind": "Most read",
       "title": "Jensen Huang",
       "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
       "description": "Jen-Hsun \"Jensen\" Huang is a Taiwanese and American electrical engineer and businessman. He co-founded the technology company Nvidia, one of the world's most valuable corporations, and served as its president and CEO from its founding in 1993 until his resignation in 2026. As of November 2026, Forbes estimates his net worth at US$141.9 billion, making him th",
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg/330px-Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "kind": "In the news",
-      "title": "Salvadoran military intervention in Haiti",
-      "url": "https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti",
-      "description": "Since 21 October 2026, El Salvador has been conducting a military intervention in Haiti following a gang ambush on 18 October that resulted in four Salvadoran aviation technicians of the Gang Suppression Force (GSF) being kidnapped. According to Salvadoran president Nayib Bukele, the intervention's primary objective is to rescue the four technicians, while t",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Salvadoran_soldiers_arriving_in_Haiti_%2829_October_2026%29.png/330px-Salvadoran_soldiers_arriving_in_Haiti_%2829_October_2026%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "kind": "In the news",
-      "title": "SS United States",
-      "url": "https://en.wikipedia.org/wiki/SS_United_States",
-      "description": "SS United States was an American ocean liner that was built during 1950 and 1951 for the United States Lines. She was the largest ocean liner to be entirely constructed in the United States and the fastest ocean liner to cross the Atlantic Ocean in either direction, earning the Blue Riband for the highest average speed since her maiden voyage in 1952, a titl",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/StateLibQld_1_169487_United_States_%28ship%29.jpg/330px-StateLibQld_1_169487_United_States_%28ship%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "kind": "In the news",
-      "title": "The End of Everything (Harrison novel)",
-      "url": "https://en.wikipedia.org/wiki/The_End_of_Everything_(Harrison_novel)",
-      "description": "The End of Everything is a post-apocalyptic novel by English author M. John Harrison, first published in the UK in 2026 by Serpent's Tail. Harrison's 13th novel, it won the 2026 Booker Prize.",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/78/The_End_of_Everything_%28Harrison_novel%29_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-    },
-    {
-      "kind": "On this day",
-      "title": "Tatarstan Airlines Flight 363",
-      "url": "https://en.wikipedia.org/wiki/Tatarstan_Airlines_Flight_363",
-      "description": "Tatarstan Airlines Flight 363 was a scheduled domestic passenger flight, operated by Tatarstan Airlines on behalf of Ak Bars Aero, from Moscow to Kazan, Russia. On 17 November 2013, at 19:24 local time (UTC+4), the Boeing 737-500 crashed during an aborted landing at Kazan International Airport, killing all 44 passengers and 6 crew members on board.",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Tatarstan_Airlines_363_crash_site.jpg/330px-Tatarstan_Airlines_363_crash_site.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "kind": "On this day",
-      "title": "Tornado outbreak of November 17, 2013",
-      "url": "https://en.wikipedia.org/wiki/Tornado_outbreak_of_November_17%2C_2013",
-      "description": "On November 17, 2013, the deadliest and costliest November tornado outbreak in Illinois history took shape, becoming the fourth-largest for the state overall. With more than 30 tornadoes in Indiana, it was that state's largest tornado outbreak for the month of November, and the second largest outbreak recorded in Indiana. Associated with a strong trough in t",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Tornado_outbreak_of_November_17%2C_2013_map.png/330px-Tornado_outbreak_of_November_17%2C_2013_map.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     }
   ]
 }
