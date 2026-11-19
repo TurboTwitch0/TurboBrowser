@@ -1,21 +1,21 @@
 {
   "source": "Wikipedia",
   "description": "Featured articles, most-read pages, current events and moments from history, refreshed daily from Wikipedia.",
-  "updatedAt": "2026-11-18T20:38:23.889Z",
+  "updatedAt": "2026-11-19T20:42:52.296Z",
   "items": [
     {
       "kind": "Featured article",
-      "title": "W. S. Gilbert",
-      "url": "https://en.wikipedia.org/wiki/W._S._Gilbert",
-      "description": "Sir William Schwenck Gilbert was an English dramatist, librettist, poet and illustrator best known for his collaboration with the composer Arthur Sullivan that produced fourteen comic operas. The most famous of these include H.M.S. Pinafore, The Pirates of Penzance and one of the most frequently performed works in the history of musical theatre, The Mikado. ",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Elliott_%26_Fry_-_photograph_W._S._Gilbert.jpg/960px-Elliott_%26_Fry_-_photograph_W._S._Gilbert.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Iron Gate (Antioch)",
+      "url": "https://en.wikipedia.org/wiki/Iron_Gate_(Antioch)",
+      "description": "The Iron Gate is a sixth-century dam located in the mountains to the east of Antakya in Turkey. It is one of the earliest known arch dams and is the oldest to survive. It was built in the mid–sixth century on the order of the Byzantine emperor Justinian I to impound and slow the waters of the Parmenios stream, which in the rainy season could cause torrential",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/RUINS_OF_IRON_GATE%2C_ANTIOCH_ANTAKYA%2C_TURKEY_%28cropped%29.jpg/960px-RUINS_OF_IRON_GATE%2C_ANTIOCH_ANTAKYA%2C_TURKEY_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
-      "title": "Robert Pattinson",
-      "url": "https://en.wikipedia.org/wiki/Robert_Pattinson",
-      "description": "Robert Douglas Thomas Pattinson is an English actor and producer. He is known for starring in both major studio productions and independent films, and for portraying eccentric characters across multiple genres. Included on yearly lists of the world's highest-paid actors, he was ranked by Time as one of the 100 most influential people in the world and feature",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Robert_Pattinson_Venice_Film_Festival_%283x4_cropped%29.jpg/330px-Robert_Pattinson_Venice_Film_Festival_%283x4_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Grand Theft Auto VI",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+      "description": "Grand Theft Auto VI is a 2026 action-adventure game developed and published by Rockstar Games. It is the eighth main entry in the Grand Theft Auto series, following 2013's Grand Theft Auto V, and the sixteenth entry overall. Set within the fictional US state of Leonida, based on Florida, and in the fictional city of Vice City, based on Miami, the story follo",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/46/Grand_Theft_Auto_VI.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "kind": "Most read",
@@ -26,30 +26,31 @@
     },
     {
       "kind": "Most read",
+      "title": "Robert Pattinson",
+      "url": "https://en.wikipedia.org/wiki/Robert_Pattinson",
+      "description": "Robert Douglas Thomas Pattinson is an English actor and producer. Pattinson is known for his performances in both major studio productions and independent films, often portraying eccentric characters. His accolades include nominations for an AACTA Award, a Canadian Screen Award and two Independent Spirit Awards. Included on yearly lists of the world's highes",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Robert_Pattinson_Venice_Film_Festival_%283x4_cropped%29.jpg/330px-Robert_Pattinson_Venice_Film_Festival_%283x4_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "Most read",
+      "title": "Dancing with the Stars (American TV series) season 35",
+      "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35",
+      "description": "Season thirty-five of Dancing with the Stars premiered on ABC and Disney+ on September 15, 2026, and is scheduled to conclude on November 24, 2026. This season was the fourth to air live on both networks simultaneously. Season nineteen champion Alfonso Ribeiro returned to host the installment, while former professional dancer and judge Julianne Hough returne",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/ae/DWTS_US_Season_35_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "kind": "Most read",
       "title": "Suki Waterhouse",
       "url": "https://en.wikipedia.org/wiki/Suki_Waterhouse",
-      "description": "Alice Suki Waterhouse is an English actress, singer, and model. Waterhouse began a career in modelling at the age of 16, and she went on to model for several major fashion labels such as Burberry, Tommy Hilfiger, Hugo Boss, Laura Mercier, and Ferragamo. Her first feature film as an actress was a minor role in Pusher (2012), and she has since appeared in film",
+      "description": "Alice Suki Waterhouse is an English model, actress, and singer. Waterhouse began a career in modelling at the age of 16, and she went on to model for several major fashion labels such as Burberry, Tommy Hilfiger, Hugo Boss, Laura Mercier, and Ferragamo. Her first feature film as an actress was a minor role in Pusher (2012), and she has since appeared in film",
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Suki_Waterhouse_at_82nd_Venice_International_Film_Festival-4.jpg/330px-Suki_Waterhouse_at_82nd_Venice_International_Film_Festival-4.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
-      "title": "List of highest-grossing Indian films",
-      "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_Indian_films",
-      "description": "This ranking lists the highest-grossing Indian films produced by Indian cinema, based on conservative global box office estimates as reported by organisations classified as green by Wikipedia. The figures are not adjusted for inflation. However, there is no official tracking of figures and sources publishing data are frequently pressured to increase their es"
-    },
-    {
-      "kind": "Most read",
-      "title": "Grand Theft Auto VI",
-      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
-      "description": "Grand Theft Auto VI is a 2026 action-adventure game developed and published by Rockstar Games. It is the eighth main entry in the Grand Theft Auto series, following Grand Theft Auto V (2013), and the sixteenth entry overall. Set within the fictional US state of Leonida, based on Florida, and in the fictional city of Vice City, based on Miami, the story follo",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/46/Grand_Theft_Auto_VI.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-    },
-    {
-      "kind": "Most read",
-      "title": "Jensen Huang",
-      "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
-      "description": "Jen-Hsun \"Jensen\" Huang is a Taiwanese and American electrical engineer and businessman. He co-founded the technology company Nvidia, one of the world's most valuable corporations, and served as its president and CEO from its founding in 1993 until his resignation in 2026. As of November 2026, Forbes estimates his net worth at US$141.9 billion, making him th",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg/330px-Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Mary Peltola",
+      "url": "https://en.wikipedia.org/wiki/Mary_Peltola",
+      "description": "Mary Sattler Peltola is a Native American politician and former judge who is a United States senator-elect from Alaska. A member of the Democratic Party, she previously served as the U.S. representative for Alaska's at-large congressional district from 2022 to 2025.",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Mary_Peltola_Congressional_Member_Portrait_%282%29.jpeg/330px-Mary_Peltola_Congressional_Member_Portrait_%282%29.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     }
   ]
 }
