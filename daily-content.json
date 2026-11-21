@@ -1,20 +1,19 @@
 {
   "source": "Wikipedia",
   "description": "Featured articles, most-read pages, current events and moments from history, refreshed daily from Wikipedia.",
-  "updatedAt": "2026-11-19T20:42:52.296Z",
+  "updatedAt": "2026-11-21T18:38:17.052Z",
   "items": [
     {
       "kind": "Featured article",
-      "title": "Iron Gate (Antioch)",
-      "url": "https://en.wikipedia.org/wiki/Iron_Gate_(Antioch)",
-      "description": "The Iron Gate is a sixth-century dam located in the mountains to the east of Antakya in Turkey. It is one of the earliest known arch dams and is the oldest to survive. It was built in the mid–sixth century on the order of the Byzantine emperor Justinian I to impound and slow the waters of the Parmenios stream, which in the rainy season could cause torrential",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/RUINS_OF_IRON_GATE%2C_ANTIOCH_ANTAKYA%2C_TURKEY_%28cropped%29.jpg/960px-RUINS_OF_IRON_GATE%2C_ANTIOCH_ANTAKYA%2C_TURKEY_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Talking to Yourself",
+      "url": "https://en.wikipedia.org/wiki/Talking_to_Yourself",
+      "description": "\"Talking to Yourself\" is a song by Carly Rae Jepsen from her sixth studio album, The Loneliest Time (2022). Jepsen wrote it with songwriter Simon Wilcox and its producers, Benjamin Berger and Ryan Rabin from the production team Captain Cuts. School Boy and Interscope Records released it as the album's third single on September 16, 2022. \"Talking to Yourself\""
     },
     {
       "kind": "Most read",
       "title": "Grand Theft Auto VI",
       "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
-      "description": "Grand Theft Auto VI is a 2026 action-adventure game developed and published by Rockstar Games. It is the eighth main entry in the Grand Theft Auto series, following 2013's Grand Theft Auto V, and the sixteenth entry overall. Set within the fictional US state of Leonida, based on Florida, and in the fictional city of Vice City, based on Miami, the story follo",
+      "description": "Grand Theft Auto VI is a 2026 action-adventure game developed and published by Rockstar Games. It is the eighth main entry in the Grand Theft Auto series, following 2013's Grand Theft Auto V, and the sixteenth entry overall. Set in the fictional US state of Leonida, based on Florida, the story follows the criminal duo of Jason Duval and Lucia Caminos as they",
       "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/46/Grand_Theft_Auto_VI.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
@@ -26,31 +25,30 @@
     },
     {
       "kind": "Most read",
-      "title": "Robert Pattinson",
-      "url": "https://en.wikipedia.org/wiki/Robert_Pattinson",
-      "description": "Robert Douglas Thomas Pattinson is an English actor and producer. Pattinson is known for his performances in both major studio productions and independent films, often portraying eccentric characters. His accolades include nominations for an AACTA Award, a Canadian Screen Award and two Independent Spirit Awards. Included on yearly lists of the world's highes",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Robert_Pattinson_Venice_Film_Festival_%283x4_cropped%29.jpg/330px-Robert_Pattinson_Venice_Film_Festival_%283x4_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Riemann hypothesis",
+      "url": "https://en.wikipedia.org/wiki/Riemann_hypothesis",
+      "description": "In mathematics, the Riemann hypothesis is the statement that the Riemann zeta function has its zeros only at the negative even integers and at complex numbers with real part. Historically, it has had the status of being one of the most important unsolved problems in pure mathematics. It is of great interest in number theory because it implies results about t",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Riemann_zeta_function_absolute_value.png/330px-Riemann_zeta_function_absolute_value.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
-      "title": "Dancing with the Stars (American TV series) season 35",
-      "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35",
-      "description": "Season thirty-five of Dancing with the Stars premiered on ABC and Disney+ on September 15, 2026, and is scheduled to conclude on November 24, 2026. This season was the fourth to air live on both networks simultaneously. Season nineteen champion Alfonso Ribeiro returned to host the installment, while former professional dancer and judge Julianne Hough returne",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/ae/DWTS_US_Season_35_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "url": "https://en.wikipedia.org/wiki/The_Hunger_Games%3A_Sunrise_on_the_Reaping",
+      "description": "The Hunger Games: Sunrise on the Reaping is a 2026 American dystopian film produced and directed by Francis Lawrence from a screenplay by Billy Ray and Michael Lesslie. Based on the 2025 novel Sunrise on the Reaping by Suzanne Collins, it is the sixth installment in The Hunger Games film series, serving as the second prequel to The Hunger Games (2012) after ",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/da/The_Hunger_Games_-_Sunrise_on_the_Reaping_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "kind": "Most read",
-      "title": "Suki Waterhouse",
-      "url": "https://en.wikipedia.org/wiki/Suki_Waterhouse",
-      "description": "Alice Suki Waterhouse is an English model, actress, and singer. Waterhouse began a career in modelling at the age of 16, and she went on to model for several major fashion labels such as Burberry, Tommy Hilfiger, Hugo Boss, Laura Mercier, and Ferragamo. Her first feature film as an actress was a minor role in Pusher (2012), and she has since appeared in film",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Suki_Waterhouse_at_82nd_Venice_International_Film_Festival-4.jpg/330px-Suki_Waterhouse_at_82nd_Venice_International_Film_Festival-4.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Ken McElroy",
+      "url": "https://en.wikipedia.org/wiki/Ken_McElroy",
+      "description": "Kenneth Rex McElroy was an American criminal, convicted attempted murderer, child rapist, arsonist, and animal abuser who resided in Skidmore, Missouri. He was known as \"the town bully\", and his unsolved killing became the focus of international attention. Over the course of his life, McElroy was accused of dozens of felonies, including assault, child molest",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Kenneth_McElroy_%28cropped%29.jpg/330px-Kenneth_McElroy_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
-      "title": "Mary Peltola",
-      "url": "https://en.wikipedia.org/wiki/Mary_Peltola",
-      "description": "Mary Sattler Peltola is a Native American politician and former judge who is a United States senator-elect from Alaska. A member of the Democratic Party, she previously served as the U.S. representative for Alaska's at-large congressional district from 2022 to 2025.",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Mary_Peltola_Congressional_Member_Portrait_%282%29.jpeg/330px-Mary_Peltola_Congressional_Member_Portrait_%282%29.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Deaths in 2026",
+      "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
+      "description": "The following notable deaths occurred in 2026. Names are reported under the date of death, in alphabetical order. A typical entry reports information in the following sequence:Name, age, country of citizenship at birth, subsequent nationality, what subject was noted for, cause of death, and a reference."
     }
   ]
 }
