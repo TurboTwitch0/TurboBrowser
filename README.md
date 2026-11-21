@@ -23,7 +23,7 @@ Then open `http://localhost:8000`. There is no build step or package dependency.
 - **Surprise me** searches the entered query or a suggested topic with the selected provider and category.
 - **In focus** lets you browse real daily reading picks with Previous/Next buttons or Left/Right/Home/End when the stage or its navigation buttons are focused. Open the selected article or save it to the same reading list. Nothing advances automatically. Other daily picks stay in the grid below.
 
-Collection changes use fresh stored data and an ordered queue. Browsers supporting Web Locks also serialize these changes across tabs. Other browsers use fresh reads with a per-page queue; simultaneous cross-tab writes cannot be guaranteed atomic there. Undo restores its removed item alongside newer data, and conflicting shortcut edits keep the draft open for review.
+Collection changes re-read and merge the storage visible to each tab. Web Locks coordinate cooperating tabs where available, but cross-tab preservation remains best effort even with locks. Undo restores its removed item alongside newer data, and conflicting shortcut edits keep the draft open for review.
 
 ## Checks
 
