@@ -468,6 +468,7 @@ function setFeedFilter(value, updateLocation = true) {
 $('#all-filter').addEventListener('click', () => setFeedFilter(false));
 $('#saved-filter').addEventListener('click', () => setFeedFilter(true));
 [$('#discover-nav'), $('#saved-nav')].forEach((link) => link.addEventListener('click', (event) => {
+  if (event.defaultPrevented || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
   event.preventDefault();
   setFeedFilter(link.id === 'saved-nav');
   $('#discover').scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
