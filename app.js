@@ -11,7 +11,7 @@ const providerMenu = $('#provider-menu');
 const providerOptions = [...document.querySelectorAll('.provider-option')];
 const cards = $('#daily-cards');
 const dialog = $('#shortcut-dialog');
-const storageKeys = { provider: 'turbobrowser-provider', shortcuts: 'turbobrowser-shortcuts', saved: 'turbobrowser-saved' };
+const storageKeys = { provider: 'turbobrowser-provider', category: 'turbobrowser-category', shortcuts: 'turbobrowser-shortcuts', saved: 'turbobrowser-saved' };
 let toastTimer;
 
 function notify(message, undo, focusTarget) {
@@ -53,7 +53,8 @@ function normalizedSaved(value) {
 
 const rememberedProvider = readRaw(storageKeys.provider);
 let activeProvider = Object.hasOwn(providers, rememberedProvider) ? rememberedProvider : 'duckduckgo';
-let activeCategory = 'web';
+const rememberedCategory = readRaw(storageKeys.category);
+let activeCategory = categoryNames.includes(rememberedCategory) ? rememberedCategory : 'web';
 let shortcuts = normalizeShortcuts(readJson(storageKeys.shortcuts));
 let saved = normalizedSaved(readJson(storageKeys.saved));
 let editingShortcuts = false;
@@ -91,6 +92,17 @@ function setProvider(key, remember = true) {
   });
   updateSearchForm();
 }
+function setCategory(category, remember = true) {
+  if (!categoryNames.includes(category)) return;
+  activeCategory = category;
+  categoryButtons.forEach((button) => {
+    const selected = button.dataset.category === category;
+    button.classList.toggle('active', selected);
+    button.setAttribute('aria-pressed', String(selected));
+  });
+  updateSearchForm();
+  if (remember) persist(storageKeys.category, category);
+}
 function closeProviderMenu(restoreFocus = false) {
   providerMenu.hidden = true;
   providerToggle.setAttribute('aria-expanded', 'false');
@@ -127,13 +139,7 @@ form.addEventListener('submit', (event) => {
 input.addEventListener('input', () => { clearButton.hidden = !input.value; });
 clearButton.addEventListener('click', () => { input.value = ''; clearButton.hidden = true; input.focus(); });
 categoryButtons.forEach((button) => button.addEventListener('click', () => {
-  if (!categoryNames.includes(button.dataset.category)) return;
-  activeCategory = button.dataset.category;
-  categoryButtons.forEach((item) => {
-    item.classList.toggle('active', item === button);
-    item.setAttribute('aria-pressed', String(item === button));
-  });
-  updateSearchForm();
+  setCategory(button.dataset.category);
   input.focus();
 }));
 $('#lucky-button').addEventListener('click', () => {
@@ -441,18 +447,35 @@ function renderPicks() {
   else renderState('A small pause in discovery.', 'Fresh picks couldn’t load. Try again, visit Wikipedia, or open your saved reads. Search still works.', 'error');
   cards.setAttribute('aria-busy', String(!showSaved && feedState === 'loading'));
 }
-function setFeedFilter(value) {
+function setFeedFilter(value, updateLocation = true) {
   showSaved = value;
   [$('#all-filter'), $('#saved-filter')].forEach((button, index) => {
     const active = index === Number(value);
     button.classList.toggle('active', active);
     button.setAttribute('aria-pressed', String(active));
   });
+  $('#saved-nav').setAttribute('aria-current', value ? 'location' : 'false');
+  $('#discover-nav').setAttribute('aria-current', value ? 'false' : 'location');
   renderPicks();
+  const destination = value ? '#reading-list' : '#discover';
+  if (updateLocation && window.location.hash !== destination) {
+    const url = new URL(window.location.href);
+    url.hash = destination;
+    try { window.history.pushState(window.history.state, '', url); }
+    catch { /* Reading controls still work if this browser restricts history. */ }
+  }
 }
 $('#all-filter').addEventListener('click', () => setFeedFilter(false));
 $('#saved-filter').addEventListener('click', () => setFeedFilter(true));
-$('#saved-nav').addEventListener('click', () => setFeedFilter(true));
+[$('#discover-nav'), $('#saved-nav')].forEach((link) => link.addEventListener('click', (event) => {
+  event.preventDefault();
+  setFeedFilter(link.id === 'saved-nav');
+  $('#discover').scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+  $('#daily-title').focus({ preventScroll: true });
+}));
+window.addEventListener('hashchange', () => {
+  setFeedFilter(window.location.hash === '#reading-list', false);
+});
 $('#saved-search').addEventListener('input', renderPicks);
 $('#refresh-feed').addEventListener('click', loadDailyPicks);
 
@@ -503,10 +526,16 @@ window.addEventListener('storage', (event) => {
     const key = readRaw(storageKeys.provider);
     setProvider(Object.hasOwn(providers, key) ? key : 'duckduckgo', false);
   }
+  if (event.key === storageKeys.category || event.key === null) {
+    const category = readRaw(storageKeys.category);
+    setCategory(categoryNames.includes(category) ? category : 'web', false);
+  }
   if (event.key === storageKeys.saved || event.key === null) { saved = normalizedSaved(readJson(storageKeys.saved)); updateSavedCounts(); renderPicks(); }
   if (event.key === storageKeys.shortcuts || event.key === null) { shortcuts = normalizeShortcuts(readJson(storageKeys.shortcuts)); renderShortcuts(); }
 });
 setProvider(activeProvider, false);
+setCategory(activeCategory, false);
 renderShortcuts();
 updateSavedCounts();
+setFeedFilter(window.location.hash === '#reading-list', false);
 loadDailyPicks();

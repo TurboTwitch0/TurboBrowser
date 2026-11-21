@@ -24,7 +24,7 @@
     <header class="topbar page-width">
       <a class="brand" href="./" aria-label="TurboBrowser home"><img class="brand-mark" src="favicon.svg" width="38" height="38" alt="" /><span>Turbo<span class="brand-light">Browser</span></span></a>
       <span class="header-note"><span aria-hidden="true">✳</span> A little more web. A little less noise.</span>
-      <nav class="header-nav" aria-label="Main navigation"><a href="#discover">Discover</a><a href="#discover" id="saved-nav">Reading list <span id="saved-count">0</span></a></nav>
+      <nav class="header-nav" aria-label="Main navigation"><a href="#discover" id="discover-nav">Discover</a><a href="#reading-list" id="saved-nav">Reading list <span id="saved-count">0</span></a></nav>
     </header>
     <main class="page-width">
       <section class="hero" aria-labelledby="page-title">
@@ -79,6 +79,7 @@
         <a href="#discover" class="product-note"><span class="note-number" aria-hidden="true">03</span><div><h2>Good reads. Kept close.</h2><p>Discover Wikipedia picks. Bookmark what catches you.</p></div><span class="note-link-arrow" aria-hidden="true"><svg class="external-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></a>
       </section>
       <section class="daily-section" id="discover" aria-labelledby="daily-title">
+        <span id="reading-list" class="reading-list-anchor" aria-hidden="true"></span>
         <div class="daily-heading"><div><p class="eyebrow" id="daily-eyebrow">A FRESH PERSPECTIVE</p><h2 id="daily-title" tabindex="-1">A little discovery. Every day.</h2><p class="daily-description" id="daily-description">Featured and popular articles from Wikipedia.</p></div><div class="discovery-controls"><div class="feed-update"><span class="daily-date" id="daily-date"></span><button id="refresh-feed" class="refresh-feed" type="button" aria-label="Reload the latest published Wikipedia picks"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8 8 0 1 0-2 6M20 4v7h-7" /></svg><span id="refresh-label">Refresh</span></button></div><div class="feed-filters" role="group" aria-label="Show articles"><button class="feed-filter active" id="all-filter" type="button" aria-pressed="true">Fresh picks</button><button class="feed-filter" id="saved-filter" type="button" aria-pressed="false">Saved <span id="filter-count">0</span></button></div></div></div>
         <p id="feed-notice" class="feed-notice" role="status" hidden></p>
         <div id="reading-tools" class="reading-tools" hidden>

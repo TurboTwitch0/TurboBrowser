@@ -2,7 +2,7 @@
 
 A responsive search homepage with a choice of DuckDuckGo, Google, Yahoo and Bing; Web, Images, Videos and News search; editable shortcuts; and a daily Wikipedia discovery feed with a saved reading list.
 
-Searches open the selected provider directly in a new tab. TurboBrowser does not proxy or store search queries. Shortcuts, provider preference and saved articles stay in browser-local storage; there is no account, backend, paid API or cross-device sync. If storage is unavailable, search and discovery still work and changes last for the current visit.
+Searches open the selected provider directly in a new tab. TurboBrowser does not proxy or store search queries. Shortcuts, search preferences and saved articles stay in browser-local storage; there is no account, backend, paid API or cross-device sync. If storage is unavailable, search and discovery still work and changes last for the current visit.
 
 ## Run locally
 
@@ -16,9 +16,9 @@ Then open `http://localhost:8000`. There is no build step or package dependency.
 
 ## Use
 
-- Choose a search category and provider, type a query, then press Enter. Press `/` outside a text field or `Ctrl+K` / `Cmd+K` to focus search.
+- Choose a search category and provider, type a query, then press Enter. Press `/` outside a text field or `Ctrl+K` / `Cmd+K` to focus search. Your provider and category are remembered; your query is not saved.
 - Add up to eight shortcuts. Use **Edit** to change a shortcut's name or address in place, or remove it. Removal offers **Undo**, preserving newer shortcuts received from another tab.
-- Bookmark an article, then open **Reading list** or **Saved** to return to it. Search saved titles, topics, descriptions and article types; removal offers **Undo**. Up to 100 articles are stored in the current browser.
+- Bookmark an article, then open **Reading list** or **Saved** to return to it. The `#reading-list` link opens that view directly, and Back/Forward restores the selected reading view. Search saved titles, topics, descriptions and article types; removal offers **Undo**. Up to 100 articles are stored in the current browser.
 - Use **Refresh** to reload the latest published Wikipedia picks. A failed refresh keeps loaded articles available, and older snapshots display a delayed-update notice.
 - **Surprise me** searches the entered query or a suggested topic with the selected provider and category.
 - **In focus** lets you browse real daily reading picks with Previous/Next buttons or Left/Right/Home/End when the stage or its navigation buttons are focused. Open the selected article or save it to the same reading list. Nothing advances automatically. Other daily picks stay in the grid below.
