@@ -2,7 +2,7 @@
 
 A responsive search homepage with a choice of DuckDuckGo, Google, Yahoo and Bing; Web, Images, Videos and News search; editable shortcuts; and a daily Wikipedia discovery feed with a saved reading list.
 
-Searches open the selected provider directly in a new tab. TurboBrowser does not proxy or store search queries. Shortcuts, search preferences and saved articles stay in browser-local storage; there is no account, backend, paid API or cross-device sync. If storage is unavailable, search and discovery still work and changes last for the current visit.
+Searches open the selected provider directly in a new tab. TurboBrowser does not proxy or store search queries. Shortcuts, search preferences and saved articles stay in browser-local storage; there is no account, backend, paid API or cross-device sync. If a collection cannot read or write browser storage, search and discovery still work and that collection stays in memory for the rest of the visit. Reload after storage is available to read the latest permanent list; temporary changes are not written over changes made in another tab.
 
 ## Run locally
 
@@ -23,6 +23,8 @@ Then open `http://localhost:8000`. There is no build step or package dependency.
 - **Surprise me** searches the entered query or a suggested topic with the selected provider and category.
 - **In focus** lets you browse real daily reading picks with Previous/Next buttons or Left/Right/Home/End when the stage or its navigation buttons are focused. Open the selected article or save it to the same reading list. Nothing advances automatically. Other daily picks stay in the grid below.
 
+Collection changes use fresh stored data and an ordered queue. Browsers supporting Web Locks also serialize these changes across tabs. Other browsers use fresh reads with a per-page queue; simultaneous cross-tab writes cannot be guaranteed atomic there. Undo restores its removed item alongside newer data, and conflicting shortcut edits keep the draft open for review.
+
 ## Checks
 
 Node.js 22 or later runs the dependency-free tests:
@@ -32,7 +34,7 @@ node --test tests/*.test.mjs
 node --check app.js
 ```
 
-The tests cover all 16 provider/category search routes, query encoding, safe URL handling, stored data validation, Wikipedia feed normalization, partial-feed recovery and request retries. Browser checks should include provider keyboard controls, shortcut add/remove/persistence, reading list persistence, feed failure/retry, storage restrictions and mobile layout.
+The tests cover all 16 provider/category search routes, query encoding, safe URL handling, stored data validation, Wikipedia feed normalization, partial-feed recovery, request retries and serialized collection updates with storage failure/recovery. Browser checks should include delayed cross-tab events, queued writes, shortcut edit conflicts and dialog reopening, as well as provider keyboard controls, shortcut add/remove/persistence, reading list persistence, feed failure/retry, storage restrictions and mobile layout.
 
 ## Daily content refresh
 

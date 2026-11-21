@@ -159,6 +159,7 @@ dialog input[aria-invalid=true] { border-color: #b74728; background: #fff0e8; }
 .text-button, .shortcut-tools button, .remove-shortcut, .save-article, .icon-button,
 .toast-dismiss { min-width: 44px; }
 .remove-shortcut, .save-article, .icon-button, .toast-dismiss { min-height: 44px; }
+.save-article:disabled, #showcase-save:disabled, .shortcut-tools button:disabled { opacity: .55; cursor: progress; }
 @media (max-width: 380px) {
   .daily-cards { grid-template-columns: minmax(0, 1fr); }
   .daily-card-title { font-size: 21px; }

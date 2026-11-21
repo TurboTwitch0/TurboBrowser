@@ -1,5 +1,6 @@
 import { providers, categoryNames, buildSearchUrl, normalizeUrl, normalizeArticle, normalizeShortcuts } from './browser-core.mjs';
 import { createShowcase } from './showcase.mjs';
+import { createCollectionStore } from './collection-store.mjs';
 
 const $ = (selector) => document.querySelector(selector);
 const form = $('#search-form');
@@ -12,6 +13,7 @@ const providerOptions = [...document.querySelectorAll('.provider-option')];
 const cards = $('#daily-cards');
 const dialog = $('#shortcut-dialog');
 const storageKeys = { provider: 'turbobrowser-provider', category: 'turbobrowser-category', shortcuts: 'turbobrowser-shortcuts', saved: 'turbobrowser-saved' };
+const visitOnlyMessage = 'Browser storage is unavailable. Changes last for this visit.';
 let toastTimer;
 
 function notify(message, undo, focusTarget) {
@@ -40,12 +42,9 @@ function notify(message, undo, focusTarget) {
 function readRaw(key) {
   try { return localStorage.getItem(key); } catch { return null; }
 }
-function readJson(key) {
-  try { return JSON.parse(readRaw(key)); } catch { return null; }
-}
 function persist(key, value) {
   try { localStorage.setItem(key, value); return true; }
-  catch { notify('Browser storage is unavailable. Changes last for this visit.'); return false; }
+  catch { notify(visitOnlyMessage); return false; }
 }
 function normalizedSaved(value) {
   return Array.isArray(value) ? [...new Map(value.map(normalizeArticle).filter(Boolean).map((item) => [item.url, item])).values()].slice(0, 100) : [];
@@ -55,10 +54,14 @@ const rememberedProvider = readRaw(storageKeys.provider);
 let activeProvider = Object.hasOwn(providers, rememberedProvider) ? rememberedProvider : 'duckduckgo';
 const rememberedCategory = readRaw(storageKeys.category);
 let activeCategory = categoryNames.includes(rememberedCategory) ? rememberedCategory : 'web';
-let shortcuts = normalizeShortcuts(readJson(storageKeys.shortcuts));
-let saved = normalizedSaved(readJson(storageKeys.saved));
+const shortcutsStore = createCollectionStore({ key: storageKeys.shortcuts, normalize: normalizeShortcuts });
+const savedStore = createCollectionStore({ key: storageKeys.saved, normalize: normalizedSaved });
+let shortcuts = shortcutsStore.read();
+let saved = savedStore.read();
 let editingShortcuts = false;
-let editingShortcutUrl = null;
+let editingShortcut = null;
+let shortcutDialogSession = 0;
+let shortcutSubmitting = false;
 let dailyItems = [];
 let feedState = 'loading';
 let showSaved = false;
@@ -181,7 +184,7 @@ function makeArrow() {
 }
 
 function renderShortcuts() {
-  $('#shortcuts').replaceChildren(...shortcuts.map((item, index) => {
+  $('#shortcuts').replaceChildren(...shortcuts.map((item) => {
     const wrap = document.createElement('div');
     wrap.className = 'shortcut-wrap';
     const link = makeLink(item.url, 'shortcut');
@@ -208,17 +211,29 @@ function renderShortcuts() {
       remove.className = 'remove-shortcut';
       remove.setAttribute('aria-label', `Remove ${item.name} shortcut`);
       remove.textContent = '×';
-      remove.addEventListener('click', () => {
-        shortcuts.splice(index, 1);
-        const stored = persist(storageKeys.shortcuts, JSON.stringify(shortcuts));
+      remove.addEventListener('click', async () => {
+        remove.disabled = true;
+        const result = await shortcutsStore.update((latest) => {
+          const position = latest.findIndex((shortcut) => shortcut.url === item.url);
+          if (position === -1) return { items: latest, removed: null };
+          return { items: latest.filter((shortcut) => shortcut.url !== item.url), removed: latest[position], position };
+        });
+        shortcuts = shortcutsStore.read();
         renderShortcuts();
         $('#edit-shortcuts').focus();
-        if (stored) notify(`${item.name} removed.`, () => {
-          if (shortcuts.some((shortcut) => shortcut.url === item.url)) return;
-          if (shortcuts.length >= 8) { notify('All eight shortcut spaces are in use. Remove one before restoring this shortcut.'); return; }
-          shortcuts.splice(Math.min(index, shortcuts.length), 0, item);
-          persist(storageKeys.shortcuts, JSON.stringify(shortcuts));
+        if (!result.removed) { notify('This shortcut changed in another tab. Your current shortcuts are still here.'); return; }
+        notify(`${result.removed.name} removed.${result.stored ? '' : ` ${visitOnlyMessage}`}`, async () => {
+          const restored = await shortcutsStore.update((latest) => {
+            if (latest.some((shortcut) => shortcut.url === result.removed.url)) return { items: latest };
+            if (latest.length >= 8) return { items: latest, error: 'All eight shortcut spaces are in use. Remove one before restoring this shortcut.' };
+            const next = [...latest];
+            next.splice(Math.min(result.position, next.length), 0, result.removed);
+            return { items: next };
+          });
+          shortcuts = shortcutsStore.read();
           renderShortcuts();
+          if (restored.error) notify(restored.error);
+          else if (!restored.stored) notify(visitOnlyMessage);
         }, '#edit-shortcuts');
       });
       tools.append(edit, remove);
@@ -242,7 +257,10 @@ function renderShortcuts() {
 }
 $('#edit-shortcuts').addEventListener('click', () => { editingShortcuts = !editingShortcuts; renderShortcuts(); });
 function openShortcutDialog(item = null) {
-  editingShortcutUrl = item?.url || null;
+  shortcutDialogSession++;
+  shortcutSubmitting = false;
+  $('#shortcut-form button[type="submit"]').disabled = false;
+  editingShortcut = item ? { ...item } : null;
   $('#shortcut-form').reset();
   $('#shortcut-dialog-title').textContent = item ? 'Make it yours.' : 'One less click.';
   $('#shortcut-dialog-description').textContent = item ? 'Update this shortcut without moving it from your launchpad.' : 'Add a favorite place to your everyday launchpad.';
@@ -256,31 +274,53 @@ function openShortcutDialog(item = null) {
 }
 $('#add-shortcut').addEventListener('click', () => openShortcutDialog());
 dialog.addEventListener('close', () => {
-  const target = editingShortcutUrl || $('#add-shortcut').hidden ? '#edit-shortcuts' : '#add-shortcut';
+  if (dialog.open) return;
+  shortcutDialogSession++;
+  const target = editingShortcut || $('#add-shortcut').hidden ? '#edit-shortcuts' : '#add-shortcut';
   $(target).focus();
 });
 $('#close-dialog').addEventListener('click', () => dialog.close());
 $('#cancel-shortcut').addEventListener('click', () => dialog.close());
-$('#shortcut-form').addEventListener('submit', (event) => {
+$('#shortcut-form').addEventListener('submit', async (event) => {
   event.preventDefault();
+  if (shortcutSubmitting) return;
   const name = $('#shortcut-name').value.trim();
   const url = normalizeUrl($('#shortcut-url').value, true);
-  const editingIndex = editingShortcutUrl ? shortcuts.findIndex((item) => item.url === editingShortcutUrl) : -1;
-  let error = '';
-  if (!name) error = 'Give your shortcut a name.';
-  else if (!url) error = 'Enter a valid website address, such as https://example.com.';
-  else if (editingShortcutUrl && editingIndex === -1) error = 'This shortcut changed in another tab. Close this dialog and try again.';
-  else if (shortcuts.some((item, index) => item.url === url && index !== editingIndex)) error = 'That website is already in your shortcuts.';
-  else if (!editingShortcutUrl && shortcuts.length >= 8) error = 'You can keep up to eight shortcuts. Remove one to make room.';
-  if (error) { $('#shortcut-error').textContent = error; $('#shortcut-url').setAttribute('aria-invalid', String(!url)); (!name ? $('#shortcut-name') : $('#shortcut-url')).focus(); return; }
-  const updated = { name: name.slice(0, 32), url };
-  if (editingIndex !== -1) shortcuts[editingIndex] = updated;
-  else shortcuts.push(updated);
-  const stored = persist(storageKeys.shortcuts, JSON.stringify(shortcuts));
+  if (!name || !url) {
+    $('#shortcut-error').textContent = !name ? 'Give your shortcut a name.' : 'Enter a valid website address, such as https://example.com.';
+    $('#shortcut-url').setAttribute('aria-invalid', String(!url));
+    (!name ? $('#shortcut-name') : $('#shortcut-url')).focus();
+    return;
+  }
+  const session = shortcutDialogSession;
+  const original = editingShortcut;
+  shortcutSubmitting = true;
+  $('#shortcut-form button[type="submit"]').disabled = true;
+  const result = await shortcutsStore.update((latest) => {
+    if (!dialog.open || session !== shortcutDialogSession) return { items: latest, cancelled: true };
+    if ($('#shortcut-name').value.trim() !== name || normalizeUrl($('#shortcut-url').value, true) !== url) {
+      return { items: latest, error: 'Your draft changed while waiting. Review it and save again.' };
+    }
+    const editingIndex = original ? latest.findIndex((item) => item.url === original.url) : -1;
+    if (original && (editingIndex === -1 || latest[editingIndex].name !== original.name)) {
+      return { items: latest, error: 'This shortcut changed in another tab. Your draft is still here. Close and reopen the shortcut to review the latest version.' };
+    }
+    if (latest.some((item, index) => item.url === url && index !== editingIndex)) return { items: latest, error: 'That website is already in your shortcuts.' };
+    if (!original && latest.length >= 8) return { items: latest, error: 'You can keep up to eight shortcuts. Remove one to make room.' };
+    const updated = { name: name.slice(0, 32), url };
+    return { items: original ? latest.map((item, index) => index === editingIndex ? updated : item) : [...latest, updated] };
+  });
+  shortcuts = shortcutsStore.read();
   renderShortcuts();
+  if (!dialog.open || session !== shortcutDialogSession) return;
+  shortcutSubmitting = false;
+  $('#shortcut-form button[type="submit"]').disabled = false;
+  if (result.cancelled) return;
+  if (result.error) { $('#shortcut-error').textContent = result.error; $('#shortcut-url').focus(); return; }
   dialog.close();
   if ($('#add-shortcut').hidden) $('#edit-shortcuts').focus();
-  if (stored) notify(editingIndex !== -1 ? `${name} shortcut updated.` : `${name} added to your shortcuts.`);
+  const message = original ? `${name} shortcut updated.` : `${name} added to your shortcuts.`;
+  notify(result.stored ? message : visitOnlyMessage);
 });
 
 function updateSavedCounts() {
@@ -293,11 +333,19 @@ function updateSaveButton(button, item) {
   button.setAttribute('aria-label', `${isSaved(item) ? 'Remove from' : 'Save to'} reading list: ${item.title}`);
   button.title = isSaved(item) ? 'Remove from reading list' : 'Save for later';
 }
-function toggleSaved(item, button) {
-  const wasSaved = isSaved(item);
-  if (!wasSaved && saved.length >= 100) { notify('Your reading list has 100 articles. Remove one to save another.'); return; }
-  saved = wasSaved ? saved.filter((article) => article.url !== item.url) : [item, ...saved];
-  const stored = persist(storageKeys.saved, JSON.stringify(saved));
+async function toggleSaved(item, button) {
+  const shouldSave = button.getAttribute('aria-pressed') !== 'true';
+  button.disabled = true;
+  const result = await savedStore.update((latest) => {
+    const existing = latest.find((article) => article.url === item.url);
+    if (shouldSave) {
+      if (existing) return { items: latest, action: 'saved' };
+      if (latest.length >= 100) return { items: latest, error: 'Your reading list has 100 articles. Remove one to save another.' };
+      return { items: [item, ...latest], action: 'saved' };
+    }
+    return { items: latest.filter((article) => article.url !== item.url), action: 'removed', removed: existing };
+  });
+  saved = savedStore.read();
   updateSavedCounts();
   if (showSaved) { renderPicks(); $('#saved-filter').focus(); }
   else {
@@ -307,13 +355,20 @@ function toggleSaved(item, button) {
     });
   }
   showcase.syncSaved();
-  if (stored) notify(wasSaved ? 'Removed from your reading list.' : 'Saved to your reading list in this browser.', wasSaved ? () => {
-    if (isSaved(item)) return;
-    if (saved.length >= 100) { notify('Your reading list is full. Remove one article before restoring this one.'); return; }
-    saved = [item, ...saved];
-    persist(storageKeys.saved, JSON.stringify(saved));
+  button.disabled = false;
+  if (result.error) { notify(result.error); return; }
+  const message = result.action === 'removed' ? 'Removed from your reading list.' : 'Saved to your reading list in this browser.';
+  notify(`${message}${result.stored ? '' : ` ${visitOnlyMessage}`}`, result.removed ? async () => {
+    const restored = await savedStore.update((latest) => {
+      if (latest.some((article) => article.url === result.removed.url)) return { items: latest };
+      if (latest.length >= 100) return { items: latest, error: 'Your reading list is full. Remove one article before restoring this one.' };
+      return { items: [result.removed, ...latest] };
+    });
+    saved = savedStore.read();
     updateSavedCounts();
     renderPicks();
+    if (restored.error) notify(restored.error);
+    else if (!restored.stored) notify(visitOnlyMessage);
   } : undefined, '#saved-filter');
 }
 function makeArticle(item, index) {
@@ -531,8 +586,8 @@ window.addEventListener('storage', (event) => {
     const category = readRaw(storageKeys.category);
     setCategory(categoryNames.includes(category) ? category : 'web', false);
   }
-  if (event.key === storageKeys.saved || event.key === null) { saved = normalizedSaved(readJson(storageKeys.saved)); updateSavedCounts(); renderPicks(); }
-  if (event.key === storageKeys.shortcuts || event.key === null) { shortcuts = normalizeShortcuts(readJson(storageKeys.shortcuts)); renderShortcuts(); }
+  if (event.key === storageKeys.saved || event.key === null) { saved = savedStore.read(); updateSavedCounts(); renderPicks(); }
+  if (event.key === storageKeys.shortcuts || event.key === null) { shortcuts = shortcutsStore.read(); renderShortcuts(); }
 });
 setProvider(activeProvider, false);
 setCategory(activeCategory, false);
