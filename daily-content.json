@@ -1,13 +1,14 @@
 {
   "source": "Wikipedia",
   "description": "Featured articles, most-read pages, current events and moments from history, refreshed daily from Wikipedia.",
-  "updatedAt": "2026-11-21T19:22:22.924Z",
+  "updatedAt": "2026-11-22T19:46:09.659Z",
   "items": [
     {
       "kind": "Featured article",
-      "title": "Talking to Yourself",
-      "url": "https://en.wikipedia.org/wiki/Talking_to_Yourself",
-      "description": "\"Talking to Yourself\" is a song by Carly Rae Jepsen from her sixth studio album, The Loneliest Time (2022). Jepsen wrote it with songwriter Simon Wilcox and its producers, Benjamin Berger and Ryan Rabin from the production team Captain Cuts. School Boy and Interscope Records released it as the album's third single on September 16, 2022. \"Talking to Yourself\""
+      "title": "Mairzy Doates",
+      "url": "https://en.wikipedia.org/wiki/Mairzy_Doates",
+      "description": "Mairzy Doates was an American Thoroughbred racehorse and multiple graded stakes winner, most remembered for her victory at the inaugural Japan Cup in 1981. Owned by New York City art dealer Arno D. Schefler and trained primarily by future U.S. Racing Hall of Fame inductee Horatio Luro, she competed successfully across the United States from 1978 to 1981, inc",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8d/Mairzy_Doates_at_the_1981_Japan_Cup.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "kind": "Most read",
@@ -18,17 +19,17 @@
     },
     {
       "kind": "Most read",
+      "title": "Riemann hypothesis",
+      "url": "https://en.wikipedia.org/wiki/Riemann_hypothesis",
+      "description": "In mathematics, the Riemann hypothesis asserts that the Riemann zeta function has its zeros only at the negative even integers and at complex numbers with real part. First posed in 1859 by Bernhard Riemann, it is considered by pure mathematicians to be one of the most important problems in the field. The result has importance in number theory because it impl",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Riemann_zeta_function_absolute_value.png/330px-Riemann_zeta_function_absolute_value.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "Most read",
       "title": "Ramayana: Part 1",
       "url": "https://en.wikipedia.org/wiki/Ramayana%3A_Part_1",
       "description": "Ramayana: Part 1 is a 2026 Indian Hindi-language epic mythological film directed by Nitesh Tiwari, who co-wrote the screenplay with Shridhar Raghavan. Produced by Namit Malhotra and Yash, the film is based on the Hindu epic Ramayana by Valmiki. It is the first instalment of a two-part film series, with Part 1 being based on the first three kāṇḍa (chapters) o",
       "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/48/Ramayana_Part_1_%28poster%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-    },
-    {
-      "kind": "Most read",
-      "title": "Riemann hypothesis",
-      "url": "https://en.wikipedia.org/wiki/Riemann_hypothesis",
-      "description": "In mathematics, the Riemann hypothesis is the statement that the Riemann zeta function has its zeros only at the negative even integers and at complex numbers with real part. Historically, it has had the status of being one of the most important unsolved problems in pure mathematics. It is of great interest in number theory because it implies results about t",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Riemann_zeta_function_absolute_value.png/330px-Riemann_zeta_function_absolute_value.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
@@ -39,16 +40,16 @@
     },
     {
       "kind": "Most read",
-      "title": "Ken McElroy",
-      "url": "https://en.wikipedia.org/wiki/Ken_McElroy",
-      "description": "Kenneth Rex McElroy was an American criminal, convicted attempted murderer, child rapist, arsonist, and animal abuser who resided in Skidmore, Missouri. He was known as \"the town bully\", and his unsolved killing became the focus of international attention. Over the course of his life, McElroy was accused of dozens of felonies, including assault, child molest",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Kenneth_McElroy_%28cropped%29.jpg/330px-Kenneth_McElroy_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "kind": "Most read",
       "title": "Deaths in 2026",
       "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
       "description": "The following notable deaths occurred in 2026. Names are reported under the date of death, in alphabetical order. A typical entry reports information in the following sequence:Name, age, country of citizenship at birth, subsequent nationality, what subject was noted for, cause of death, and a reference."
+    },
+    {
+      "kind": "Most read",
+      "title": "O.M: Operation Mole",
+      "url": "https://en.wikipedia.org/wiki/O.M%3A_Operation_Mole",
+      "description": "O.M: Operation Mole is a 2026 Indian Tamil-language spy action thriller film written and directed by Rajkumar Periasamy. Produced by Wunderbar Films and RTake Studios, the film features an ensemble cast of Dhanush, Mammootty, Sai Pallavi, Sreeleela, Naseeruddin Shah and Indrans. It follows the efforts of a Special Task Force agent (Pallavi) and her undercove",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3a/O.M_Operation_Mole.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     }
   ]
 }
