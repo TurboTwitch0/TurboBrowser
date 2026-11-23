@@ -1,28 +1,14 @@
 {
   "source": "Wikipedia",
   "description": "Featured articles, most-read pages, current events and moments from history, refreshed daily from Wikipedia.",
-  "updatedAt": "2026-11-22T19:46:09.659Z",
+  "updatedAt": "2026-11-23T23:58:03.649Z",
   "items": [
     {
       "kind": "Featured article",
-      "title": "Mairzy Doates",
-      "url": "https://en.wikipedia.org/wiki/Mairzy_Doates",
-      "description": "Mairzy Doates was an American Thoroughbred racehorse and multiple graded stakes winner, most remembered for her victory at the inaugural Japan Cup in 1981. Owned by New York City art dealer Arno D. Schefler and trained primarily by future U.S. Racing Hall of Fame inductee Horatio Luro, she competed successfully across the United States from 1978 to 1981, inc",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8d/Mairzy_Doates_at_the_1981_Japan_Cup.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-    },
-    {
-      "kind": "Most read",
-      "title": "Grand Theft Auto VI",
-      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
-      "description": "Grand Theft Auto VI is a 2026 action-adventure game developed and published by Rockstar Games. It is the eighth main entry in the Grand Theft Auto series, following 2013's Grand Theft Auto V, and the sixteenth entry overall. Set in the fictional US state of Leonida, based on Florida, the story follows the criminal duo of Jason Duval and Lucia Caminos as they",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/46/Grand_Theft_Auto_VI.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-    },
-    {
-      "kind": "Most read",
-      "title": "Riemann hypothesis",
-      "url": "https://en.wikipedia.org/wiki/Riemann_hypothesis",
-      "description": "In mathematics, the Riemann hypothesis asserts that the Riemann zeta function has its zeros only at the negative even integers and at complex numbers with real part. First posed in 1859 by Bernhard Riemann, it is considered by pure mathematicians to be one of the most important problems in the field. The result has importance in number theory because it impl",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Riemann_zeta_function_absolute_value.png/330px-Riemann_zeta_function_absolute_value.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Ice Warrior",
+      "url": "https://en.wikipedia.org/wiki/Ice_Warrior",
+      "description": "The Ice Warriors are a fictional extraterrestrial race of reptilian humanoids in the British science fiction television series Doctor Who. Natives of Mars, the Ice Warriors wear bio-mechanical armour to protect themselves from attack and temperature fluctuations. In their debut, the 1967 serial The Ice Warriors, they fought the Second Doctor. Two years later",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5d/Ice_Warriors.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "kind": "Most read",
@@ -33,6 +19,20 @@
     },
     {
       "kind": "Most read",
+      "title": "Grand Theft Auto VI",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+      "description": "Grand Theft Auto VI is a 2026 action-adventure game developed and published by Rockstar Games. It is the eighth main entry in the Grand Theft Auto series, following 2013's Grand Theft Auto V, and the sixteenth entry overall. Set in the fictional US state of Leonida, based on Florida, the story follows the criminal duo of Jason Duval and Lucia Caminos as they",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/46/Grand_Theft_Auto_VI.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "kind": "Most read",
+      "title": "Tom Jackson (American football, born 1951)",
+      "url": "https://en.wikipedia.org/wiki/Tom_Jackson_(American_football%2C_born_1951)",
+      "description": "Thomas Louie Jackson, also referred to as \"TJ\" or \"Tommy\", was an American football player and sports broadcaster and analyst. He played his entire National Football League (NFL) career as a linebacker for the Denver Broncos from 1973 to 1986. He then worked as an NFL analyst for ESPN from 1987 until his retirement in 2016.",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Tom_Jackson_2010.jpg/330px-Tom_Jackson_2010.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "Most read",
       "title": "The Hunger Games: Sunrise on the Reaping",
       "url": "https://en.wikipedia.org/wiki/The_Hunger_Games%3A_Sunrise_on_the_Reaping",
       "description": "The Hunger Games: Sunrise on the Reaping is a 2026 American dystopian film produced and directed by Francis Lawrence from a screenplay by Billy Ray and Michael Lesslie. Based on the 2025 novel Sunrise on the Reaping by Suzanne Collins, it is the sixth installment in The Hunger Games film series, serving as the second prequel to The Hunger Games (2012) after ",
@@ -40,16 +40,17 @@
     },
     {
       "kind": "Most read",
-      "title": "Deaths in 2026",
-      "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
-      "description": "The following notable deaths occurred in 2026. Names are reported under the date of death, in alphabetical order. A typical entry reports information in the following sequence:Name, age, country of citizenship at birth, subsequent nationality, what subject was noted for, cause of death, and a reference."
+      "title": "Riemann hypothesis",
+      "url": "https://en.wikipedia.org/wiki/Riemann_hypothesis",
+      "description": "In mathematics, the Riemann hypothesis asserts that the Riemann zeta function has its zeros only at the negative even integers and at complex numbers with real part. First posed in 1859 by Bernhard Riemann, it is considered by pure mathematicians to be one of the most important problems in the field. The result has importance in number theory because it impl",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Riemann_zeta_function_absolute_value.png/330px-Riemann_zeta_function_absolute_value.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
-      "title": "O.M: Operation Mole",
-      "url": "https://en.wikipedia.org/wiki/O.M%3A_Operation_Mole",
-      "description": "O.M: Operation Mole is a 2026 Indian Tamil-language spy action thriller film written and directed by Rajkumar Periasamy. Produced by Wunderbar Films and RTake Studios, the film features an ensemble cast of Dhanush, Mammootty, Sai Pallavi, Sreeleela, Naseeruddin Shah and Indrans. It follows the efforts of a Special Task Force agent (Pallavi) and her undercove",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3a/O.M_Operation_Mole.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      "title": "Miley Cyrus",
+      "url": "https://en.wikipedia.org/wiki/Miley_Cyrus",
+      "description": "Miley Ray Cyrus is an American singer, songwriter, and actress. An influential figure in popular music, Cyrus is known for her evolving artistry and image reinventions. She was an established child actress before developing a successful entertainment career as an adult. Cyrus emerged as a teen idol with her portrayal of Miley Stewart in the Disney Channel te",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Miley_Cyrus_Grammy_Awards_2024_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     }
   ]
 }
