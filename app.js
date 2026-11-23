@@ -36,6 +36,7 @@ function notify(message, undo, focusTarget) {
     status.append(dismiss);
   }
   status.hidden = false;
+  revealReadingFocus();
   if (!undo) toastTimer = setTimeout(() => { status.hidden = true; }, 6000);
 }
 
@@ -334,6 +335,7 @@ function updateSaveButton(button, item) {
   button.title = isSaved(item) ? 'Remove from reading list' : 'Save for later';
 }
 async function toggleSaved(item, button) {
+  const returnFocus = readingFocus();
   const shouldSave = button.getAttribute('aria-pressed') !== 'true';
   button.disabled = true;
   const result = await savedStore.update((latest) => {
@@ -347,7 +349,10 @@ async function toggleSaved(item, button) {
   });
   saved = savedStore.read();
   updateSavedCounts();
-  if (showSaved) { renderPicks(); $('#saved-filter').focus(); }
+  if (showSaved) {
+    const focus = document.activeElement === document.body || document.activeElement === button ? returnFocus : readingFocus();
+    renderPicks({ focus });
+  }
   else {
     updateSaveButton(button, item);
     cards.querySelectorAll('.save-article').forEach((otherButton) => {
@@ -475,7 +480,29 @@ function renderLoading() {
   }
   cards.replaceChildren(message, grid);
 }
-function renderPicks() {
+function revealReadingFocus(target = document.activeElement) {
+  if (!target || !cards.contains(target)) return;
+  target.scrollIntoView({ block: 'nearest', behavior: 'instant' });
+  const message = $('#status-message');
+  if (message.hidden) return;
+  const read = target.getBoundingClientRect();
+  const notice = message.getBoundingClientRect();
+  if (read.top < notice.bottom && read.bottom > notice.top && read.left < notice.right && read.right > notice.left) {
+    target.scrollIntoView({ block: 'center', behavior: 'instant' });
+  }
+}
+function readingFocus() {
+  const active = document.activeElement;
+  if (active === $('#saved-search')) return { search: true };
+  const card = active?.closest('.daily-card');
+  if (!card || !cards.contains(card)) return null;
+  return {
+    url: card.querySelector('.article-link').href,
+    index: [...cards.children].indexOf(card),
+    control: active.classList.contains('save-article') ? '.save-article' : '.article-link',
+  };
+}
+function renderPicks({ focus = readingFocus() } = {}) {
   $('#daily-eyebrow').textContent = showSaved ? 'YOUR PERSONAL SHELF' : 'A FRESH PERSPECTIVE';
   $('#daily-title').textContent = showSaved ? 'Good reads. Kept close.' : 'A little discovery. Every day.';
   $('#daily-description').textContent = showSaved ? 'A reading list for your curious side. Saved in this browser, ready when you are.' : dailyDescription;
@@ -501,6 +528,13 @@ function renderPicks() {
   else if (feedState === 'loading') renderLoading();
   else renderState('A small pause in discovery.', 'Fresh picks couldn’t load. Try again, visit Wikipedia, or open your saved reads. Search still works.', 'error');
   cards.setAttribute('aria-busy', String(!showSaved && feedState === 'loading'));
+  if (focus) {
+    const rendered = [...cards.querySelectorAll('.daily-card')];
+    const next = rendered.find((card) => card.querySelector('.article-link').href === focus.url) || rendered[Math.min(focus.index, rendered.length - 1)];
+    const target = (focus.search && !$('#reading-tools').hidden ? $('#saved-search') : next?.querySelector(focus.control)) || cards.querySelector('.state-actions button') || $('#saved-filter');
+    target.focus({ preventScroll: true });
+    revealReadingFocus(target);
+  }
 }
 function setFeedFilter(value, updateLocation = true) {
   showSaved = value;

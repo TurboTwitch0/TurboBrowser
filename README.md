@@ -18,7 +18,7 @@ Then open `http://localhost:8000`. There is no build step or package dependency.
 
 - Choose a search category and provider, type a query, then press Enter. Press `/` outside a text field or `Ctrl+K` / `Cmd+K` to focus search. Your provider and category are remembered; your query is not saved.
 - Add up to eight shortcuts. Use **Edit** to change a shortcut's name or address in place, or remove it. Removal offers **Undo**, preserving newer shortcuts received from another tab.
-- Bookmark an article, then open **Reading list** or **Saved** to return to it. The `#reading-list` link opens that view directly, and Back/Forward restores the selected reading view. Search saved titles, topics, descriptions and article types; removal offers **Undo**. Up to 100 articles are stored in the current browser.
+- Bookmark an article, then open **Reading list** or **Saved** to return to it. Keyboard removal keeps the next saved read focused; changes from another tab retain the current read or its nearest neighbor. The `#reading-list` link opens that view directly, and Back/Forward restores the selected reading view. Search saved titles, topics, descriptions and article types; removal offers **Undo**. Up to 100 articles are stored in the current browser.
 - Use **Refresh** to reload the latest published Wikipedia picks. A failed refresh keeps loaded articles available, and older snapshots display a delayed-update notice.
 - **Surprise me** searches the entered query or a suggested topic with the selected provider and category.
 - **In focus** lets you browse real daily reading picks with Previous/Next buttons or Left/Right/Home/End when the stage or its navigation buttons are focused. Open the selected article or save it to the same reading list. Nothing advances automatically. Other daily picks stay in the grid below.
@@ -35,6 +35,14 @@ node --check app.js
 ```
 
 The tests cover all 16 provider/category search routes, query encoding, safe URL handling, stored data validation, Wikipedia feed normalization, partial-feed recovery, request retries and serialized collection updates with storage failure/recovery. Browser checks should include delayed cross-tab events, queued writes, shortcut edit conflicts and dialog reopening, as well as provider keyboard controls, shortcut add/remove/persistence, reading list persistence, feed failure/retry, storage restrictions and mobile layout.
+
+Optional real-browser regressions use Playwright with a locally served site:
+
+```sh
+TURBO_TEST_URL=http://127.0.0.1:8000/ node scripts/reading-navigation-check.cjs
+```
+
+This requires Playwright and Chromium in the check environment, not in the published app. `CHROMIUM_PATH` can select the local browser. The checks cover keyboard removal, filtered and empty reading lists, peer-tab focus changes, waiting writes, and 390px/320px layouts.
 
 ## Daily content refresh
 
