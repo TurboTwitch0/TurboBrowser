@@ -1,14 +1,14 @@
 {
   "source": "Wikipedia",
   "description": "Featured articles, most-read pages, current events and moments from history, refreshed daily from Wikipedia.",
-  "updatedAt": "2026-11-23T23:58:03.649Z",
+  "updatedAt": "2026-11-24T22:31:19.152Z",
   "items": [
     {
       "kind": "Featured article",
-      "title": "Ice Warrior",
-      "url": "https://en.wikipedia.org/wiki/Ice_Warrior",
-      "description": "The Ice Warriors are a fictional extraterrestrial race of reptilian humanoids in the British science fiction television series Doctor Who. Natives of Mars, the Ice Warriors wear bio-mechanical armour to protect themselves from attack and temperature fluctuations. In their debut, the 1967 serial The Ice Warriors, they fought the Second Doctor. Two years later",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5d/Ice_Warriors.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      "title": "Great white shark",
+      "url": "https://en.wikipedia.org/wiki/Great_white_shark",
+      "description": "The great white shark, also known as the white shark, white pointer or great white, is a large shark. It is closely related to the mako sharks, the porbeagle and the salmon shark. It is a robustly built species with a grayish upperside and a white underside. The white shark is one of the largest living shark and fish species, though it is still smaller than ",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/White_shark.jpg/960px-White_shark.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
@@ -26,10 +26,17 @@
     },
     {
       "kind": "Most read",
-      "title": "Tom Jackson (American football, born 1951)",
-      "url": "https://en.wikipedia.org/wiki/Tom_Jackson_(American_football%2C_born_1951)",
-      "description": "Thomas Louie Jackson, also referred to as \"TJ\" or \"Tommy\", was an American football player and sports broadcaster and analyst. He played his entire National Football League (NFL) career as a linebacker for the Denver Broncos from 1973 to 1986. He then worked as an NFL analyst for ESPN from 1987 until his retirement in 2016.",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Tom_Jackson_2010.jpg/330px-Tom_Jackson_2010.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Jensen Huang",
+      "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
+      "description": "Jen-Hsun \"Jensen\" Huang is a Taiwanese and American electrical engineer and business executive who is the co-founder, president, and chief executive officer (CEO) of Nvidia, one of the world's most valuable companies. As of November 2026, Forbes estimates his net worth at US$143.4 billion, making him the 13th-wealthiest person in the world.",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg/330px-Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "Most read",
+      "title": "Moon",
+      "url": "https://en.wikipedia.org/wiki/Moon",
+      "description": "The Moon is the only natural satellite of Earth. It orbits Earth in an elliptical path, at a distance that varies over the year, averaging around 378,000 kilometers (235,000 mi). It completes an orbit in relation to Earth and the Sun (synodically) every 29.5 days. The Moon and Earth are bound by gravitational attraction, which is stronger on the sides facing",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/330px-FullMoon2010.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
@@ -40,17 +47,10 @@
     },
     {
       "kind": "Most read",
-      "title": "Riemann hypothesis",
-      "url": "https://en.wikipedia.org/wiki/Riemann_hypothesis",
-      "description": "In mathematics, the Riemann hypothesis asserts that the Riemann zeta function has its zeros only at the negative even integers and at complex numbers with real part. First posed in 1859 by Bernhard Riemann, it is considered by pure mathematicians to be one of the most important problems in the field. The result has importance in number theory because it impl",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Riemann_zeta_function_absolute_value.png/330px-Riemann_zeta_function_absolute_value.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "kind": "Most read",
-      "title": "Miley Cyrus",
-      "url": "https://en.wikipedia.org/wiki/Miley_Cyrus",
-      "description": "Miley Ray Cyrus is an American singer, songwriter, and actress. An influential figure in popular music, Cyrus is known for her evolving artistry and image reinventions. She was an established child actress before developing a successful entertainment career as an adult. Cyrus emerged as a teen idol with her portrayal of Miley Stewart in the Disney Channel te",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Miley_Cyrus_Grammy_Awards_2024_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      "title": "Linux",
+      "url": "https://en.wikipedia.org/wiki/Linux",
+      "description": "Linux is a family of free and open-source software Unix-like operating systems based on the Linux kernel, which was first released on 17 September 1991 by Linus Torvalds. Some members of the family are typically packaged as a distribution, which includes the kernel alongside supporting system software and libraries developed by third parties—such as GNU, Red",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/330px-Tux.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     }
   ]
 }
