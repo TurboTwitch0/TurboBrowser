@@ -37,7 +37,7 @@ function notify(message, undo, focusTarget) {
     status.append(dismiss);
   }
   status.hidden = false;
-  revealReadingFocus();
+  revealCollectionFocus();
   if (!undo) toastTimer = setTimeout(() => { status.hidden = true; }, 6000);
 }
 
@@ -500,8 +500,8 @@ function renderLoading() {
   }
   cards.replaceChildren(message, grid);
 }
-function revealReadingFocus(target = document.activeElement) {
-  if (!target || !cards.contains(target)) return;
+function revealCollectionFocus(target = document.activeElement) {
+  if (!target || (!cards.contains(target) && !target.closest('.launchpad'))) return;
   target.scrollIntoView({ block: 'nearest', behavior: 'instant' });
   const message = $('#status-message');
   if (message.hidden) return;
@@ -553,7 +553,7 @@ function renderPicks({ focus = readingFocus() } = {}) {
     const next = rendered.find((card) => card.querySelector('.article-link').href === focus.url) || rendered[Math.min(focus.index, rendered.length - 1)];
     const target = (focus.search && !$('#reading-tools').hidden ? $('#saved-search') : next?.querySelector(focus.control)) || cards.querySelector('.state-actions button') || $('#saved-filter');
     target.focus({ preventScroll: true });
-    revealReadingFocus(target);
+    revealCollectionFocus(target);
   }
 }
 function setFeedFilter(value, updateLocation = true) {

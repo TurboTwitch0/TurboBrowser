@@ -69,7 +69,28 @@ const shortcuts = (...names) => names.map(name => ({ name, url: `https://example
     await update([]);
     await link('Renamed Alpha').waitFor({ state: 'detached' });
     assert.equal(await focused(page.locator('#add-shortcut')), true, 'An emptied launchpad focuses Add a shortcut');
+    for (const width of [320, 390]) {
+      const narrow = await browser.newContext({ viewport: { width, height: 568 }, reducedMotion: 'reduce' });
+      await narrow.route('**/*', route => new URL(route.request().url()).origin === new URL(site).origin ? route.continue() : route.abort());
+      const shortPage = await narrow.newPage();
+      shortPage.on('pageerror', error => errors.push(error.message));
+      await shortPage.goto(site);
+      await shortPage.evaluate(({ key, values }) => localStorage.setItem(key, JSON.stringify(values)), { key, values: shortcuts('Alpha', 'Beta', 'Gamma') });
+      await shortPage.reload();
+      await shortPage.locator('#edit-shortcuts').click();
+      const beta = shortPage.getByRole('button', { name: 'Remove Beta shortcut', exact: true });
+      await beta.focus(); await shortPage.keyboard.press('Enter');
+      await beta.waitFor({ state: 'detached' });
+      const gamma = shortPage.getByRole('button', { name: 'Remove Gamma shortcut', exact: true });
+      const visibility = await gamma.evaluate(element => {
+        const box = element.getBoundingClientRect();
+        const hit = document.elementFromPoint(box.x + box.width / 2, box.y + box.height / 2);
+        return { focused: document.activeElement === element, unobstructed: element === hit || element.contains(hit) };
+      });
+      assert.deepEqual(visibility, { focused: true, unobstructed: true }, `${width}×568px shortcut focus stays above the Undo notice`);
+      await narrow.close();
+    }
     assert.deepEqual(errors, []);
-    console.log('Shortcut focus passed: keyboard removal, peer changes, delayed focus, Undo, stale removal and empty recovery.');
+    console.log('Shortcut focus passed: keyboard removal, peer changes, delayed focus, Undo, stale removal, empty recovery and unobscured short-phone focus.');
   } finally { await browser.close(); }
 })().catch(error => { console.error(error); process.exitCode = 1; });
