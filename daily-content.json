@@ -1,14 +1,14 @@
 {
   "source": "Wikipedia",
   "description": "Featured articles, most-read pages, current events and moments from history, refreshed daily from Wikipedia.",
-  "updatedAt": "2026-11-24T22:31:19.152Z",
+  "updatedAt": "2026-11-25T21:45:44.733Z",
   "items": [
     {
       "kind": "Featured article",
-      "title": "Great white shark",
-      "url": "https://en.wikipedia.org/wiki/Great_white_shark",
-      "description": "The great white shark, also known as the white shark, white pointer or great white, is a large shark. It is closely related to the mako sharks, the porbeagle and the salmon shark. It is a robustly built species with a grayish upperside and a white underside. The white shark is one of the largest living shark and fish species, though it is still smaller than ",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/White_shark.jpg/960px-White_shark.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Infancy Gospel of Thomas",
+      "url": "https://en.wikipedia.org/wiki/Infancy_Gospel_of_Thomas",
+      "description": "The Infancy Gospel of Thomas is an apocryphal gospel about the childhood of Jesus. Together with the Gospel of James, it is one of the earliest and most influential sources detailing the activities and life of the young Jesus, although neither text is included in the New Testament canon. Its creation is generally dated to the second century. The oldest extan",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Sbs-0008_028r_Jesus_macht_die_Tonv%C3%B6gelchen_lebendig.TIF/lossy-page1-500px-Sbs-0008_028r_Jesus_macht_die_Tonv%C3%B6gelchen_lebendig.TIF.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
@@ -19,13 +19,6 @@
     },
     {
       "kind": "Most read",
-      "title": "Grand Theft Auto VI",
-      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
-      "description": "Grand Theft Auto VI is a 2026 action-adventure game developed and published by Rockstar Games. It is the eighth main entry in the Grand Theft Auto series, following 2013's Grand Theft Auto V, and the sixteenth entry overall. Set in the fictional US state of Leonida, based on Florida, the story follows the criminal duo of Jason Duval and Lucia Caminos as they",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/46/Grand_Theft_Auto_VI.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-    },
-    {
-      "kind": "Most read",
       "title": "Jensen Huang",
       "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
       "description": "Jen-Hsun \"Jensen\" Huang is a Taiwanese and American electrical engineer and business executive who is the co-founder, president, and chief executive officer (CEO) of Nvidia, one of the world's most valuable companies. As of November 2026, Forbes estimates his net worth at US$143.4 billion, making him the 13th-wealthiest person in the world.",
@@ -33,10 +26,10 @@
     },
     {
       "kind": "Most read",
-      "title": "Moon",
-      "url": "https://en.wikipedia.org/wiki/Moon",
-      "description": "The Moon is the only natural satellite of Earth. It orbits Earth in an elliptical path, at a distance that varies over the year, averaging around 378,000 kilometers (235,000 mi). It completes an orbit in relation to Earth and the Sun (synodically) every 29.5 days. The Moon and Earth are bound by gravitational attraction, which is stronger on the sides facing",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/330px-FullMoon2010.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Grand Theft Auto VI",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+      "description": "Grand Theft Auto VI is a 2026 action-adventure game developed and published by Rockstar Games. It is the eighth main entry in the Grand Theft Auto series, following Grand Theft Auto V (2013), and the sixteenth entry overall. Set in the fictional U.S. state of Leonida, based on Florida, the story follows the criminal duo of Jason Duval and Lucia Caminos as th",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/46/Grand_Theft_Auto_VI.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "kind": "Most read",
@@ -47,10 +40,15 @@
     },
     {
       "kind": "Most read",
-      "title": "Linux",
-      "url": "https://en.wikipedia.org/wiki/Linux",
-      "description": "Linux is a family of free and open-source software Unix-like operating systems based on the Linux kernel, which was first released on 17 September 1991 by Linus Torvalds. Some members of the family are typically packaged as a distribution, which includes the kernel alongside supporting system software and libraries developed by third parties—such as GNU, Red",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/330px-Tux.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Deaths in 2026",
+      "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
+      "description": "The following notable deaths occurred in 2026. Names are reported under the date of death, in alphabetical order. A typical entry reports information in the following sequence:Name, age, country of citizenship at birth, subsequent nationality, what subject was noted for, cause of death, and a reference."
+    },
+    {
+      "kind": "Most read",
+      "title": "List of highest-grossing Indian films",
+      "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_Indian_films",
+      "description": "This ranking lists the highest-grossing Indian films produced by Indian cinema, based on conservative global box office estimates as reported by organisations classified as green by Wikipedia. The figures are not adjusted for inflation. However, there is no official tracking of figures and sources publishing data are frequently pressured to increase their es"
     }
   ]
 }
