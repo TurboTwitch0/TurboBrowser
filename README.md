@@ -40,9 +40,10 @@ Optional real-browser regressions use Playwright with a locally served site:
 
 ```sh
 TURBO_TEST_URL=http://127.0.0.1:8000/ node scripts/reading-navigation-check.cjs
+TURBO_TEST_URL=http://127.0.0.1:8000/ node scripts/shortcut-focus-check.cjs
 ```
 
-This requires Playwright and Chromium in the check environment, not in the published app. `CHROMIUM_PATH` can select the local browser. The checks cover keyboard removal, filtered and empty reading lists, peer-tab focus changes, waiting writes, and 390px/320px layouts.
+The checks use Playwright and Chromium. `CHROMIUM_PATH` can select the local browser. They cover keyboard removal, filtered and empty reading lists, peer-tab focus changes, waiting writes, 390px/320px layouts, and launchpad focus and conflict recovery.
 
 ## Daily content refresh
 

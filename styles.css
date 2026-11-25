@@ -148,6 +148,7 @@ kbd { padding: 0 4px; border: 1px solid #d3d9e4; border-radius: 3px; background:
 .shortcut-tools .remove-shortcut { font-size: 20px; }
 .shortcut-wrap.is-editing .shortcut { min-height: 160px; padding-bottom: 55px; }
 .shortcut-tools button:hover { background: #fff; border-color: var(--blue); }
+.shortcut-tools button[aria-disabled="true"] { opacity: .65; cursor: wait; }
 .feed-update { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
 .refresh-feed { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 36px; padding: 5px 9px; border: 1px solid var(--line); border-radius: 8px; color: var(--muted); background: transparent; font-size: 11px; }
 .refresh-feed svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }

@@ -11,6 +11,7 @@ const providerToggle = $('#provider-toggle');
 const providerMenu = $('#provider-menu');
 const providerOptions = [...document.querySelectorAll('.provider-option')];
 const cards = $('#daily-cards');
+const shortcutList = $('#shortcuts');
 const dialog = $('#shortcut-dialog');
 const storageKeys = { provider: 'turbobrowser-provider', category: 'turbobrowser-category', shortcuts: 'turbobrowser-shortcuts', saved: 'turbobrowser-saved' };
 const visitOnlyMessage = 'Browser storage is unavailable. Changes last for this visit.';
@@ -60,6 +61,7 @@ const savedStore = createCollectionStore({ key: storageKeys.saved, normalize: no
 let shortcuts = shortcutsStore.read();
 let saved = savedStore.read();
 let editingShortcuts = false;
+const pendingShortcutRemovals = new Set();
 let editingShortcut = null;
 let shortcutDialogSession = 0;
 let shortcutSubmitting = false;
@@ -185,7 +187,12 @@ function makeArrow() {
 }
 
 function renderShortcuts() {
-  $('#shortcuts').replaceChildren(...shortcuts.map((item) => {
+  const active = document.activeElement;
+  const focusedShortcut = active?.closest('.shortcut-wrap');
+  const focusedIndex = focusedShortcut ? [...shortcutList.children].indexOf(focusedShortcut) : -1;
+  const focusedAddress = focusedShortcut?.querySelector('.shortcut').href;
+  const focusedControl = active?.matches('.remove-shortcut') ? '.remove-shortcut' : active?.matches('.edit-shortcut') ? '.edit-shortcut' : '.shortcut';
+  shortcutList.replaceChildren(...shortcuts.map((item) => {
     const wrap = document.createElement('div');
     wrap.className = 'shortcut-wrap';
     const link = makeLink(item.url, 'shortcut');
@@ -212,16 +219,20 @@ function renderShortcuts() {
       remove.className = 'remove-shortcut';
       remove.setAttribute('aria-label', `Remove ${item.name} shortcut`);
       remove.textContent = '×';
+      if (pendingShortcutRemovals.has(item.url)) remove.setAttribute('aria-disabled', 'true');
       remove.addEventListener('click', async () => {
-        remove.disabled = true;
+        if (pendingShortcutRemovals.has(item.url)) return;
+        pendingShortcutRemovals.add(item.url);
+        remove.setAttribute('aria-disabled', 'true');
         const result = await shortcutsStore.update((latest) => {
           const position = latest.findIndex((shortcut) => shortcut.url === item.url);
-          if (position === -1) return { items: latest, removed: null };
+          if (position === -1 || latest[position].name !== item.name) return { items: latest, removed: null };
           return { items: latest.filter((shortcut) => shortcut.url !== item.url), removed: latest[position], position };
-        });
+        }).catch(() => null);
+        pendingShortcutRemovals.delete(item.url);
         shortcuts = shortcutsStore.read();
         renderShortcuts();
-        $('#edit-shortcuts').focus();
+        if (!result) { notify('Couldn’t remove this shortcut. Try again.'); return; }
         if (!result.removed) { notify('This shortcut changed in another tab. Your current shortcuts are still here.'); return; }
         notify(`${result.removed.name} removed.${result.stored ? '' : ` ${visitOnlyMessage}`}`, async () => {
           const restored = await shortcutsStore.update((latest) => {
@@ -249,12 +260,21 @@ function renderShortcuts() {
     symbol.append(makeArrow());
     symbol.setAttribute('aria-hidden', 'true');
     empty.append(symbol, 'A little space for your favorite places. Add your first shortcut below.');
-    $('#shortcuts').append(empty);
+    shortcutList.append(empty);
   }
   $('#edit-shortcuts').textContent = editingShortcuts ? 'Done' : 'Edit';
   $('#edit-shortcuts').setAttribute('aria-pressed', String(editingShortcuts));
   $('#edit-shortcuts').hidden = false;
-  $('#add-shortcut').hidden = shortcuts.length >= 8;
+  const add = $('#add-shortcut');
+  add.hidden = shortcuts.length >= 8;
+  if (focusedIndex >= 0) {
+    const entries = [...shortcutList.querySelectorAll('.shortcut-wrap')];
+    const next = entries.find(entry => entry.querySelector('.shortcut').href === focusedAddress)
+      || entries[Math.min(focusedIndex, entries.length - 1)];
+    (next?.querySelector(focusedControl) || next?.querySelector('.shortcut') || add).focus();
+  } else if (active === add && add.hidden) {
+    $('#edit-shortcuts').focus();
+  }
 }
 $('#edit-shortcuts').addEventListener('click', () => { editingShortcuts = !editingShortcuts; renderShortcuts(); });
 function openShortcutDialog(item = null) {
