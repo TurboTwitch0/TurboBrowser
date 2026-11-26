@@ -1,14 +1,21 @@
 {
   "source": "Wikipedia",
   "description": "Featured articles, most-read pages, current events and moments from history, refreshed daily from Wikipedia.",
-  "updatedAt": "2026-11-25T21:45:44.733Z",
+  "updatedAt": "2026-11-26T21:38:53.272Z",
   "items": [
     {
       "kind": "Featured article",
-      "title": "Infancy Gospel of Thomas",
-      "url": "https://en.wikipedia.org/wiki/Infancy_Gospel_of_Thomas",
-      "description": "The Infancy Gospel of Thomas is an apocryphal gospel about the childhood of Jesus. Together with the Gospel of James, it is one of the earliest and most influential sources detailing the activities and life of the young Jesus, although neither text is included in the New Testament canon. Its creation is generally dated to the second century. The oldest extan",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Sbs-0008_028r_Jesus_macht_die_Tonv%C3%B6gelchen_lebendig.TIF/lossy-page1-500px-Sbs-0008_028r_Jesus_macht_die_Tonv%C3%B6gelchen_lebendig.TIF.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Tabancale language",
+      "url": "https://en.wikipedia.org/wiki/Tabancale_language",
+      "description": "Tabancale is an extinct language formerly spoken in the village of Aconipa, located along the Chinchipe River in the Department of Cajamarca, Peru, as well as in neighboring Ecuador, by the Tabancale people. Only five words were collected in the 16th century and they are not demonstrably related to those in other languages. As a result, it has been categoriz",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Tabancale_language_map.png/960px-Tabancale_language_map.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "kind": "Most read",
+      "title": "Miss Universe 2026",
+      "url": "https://en.wikipedia.org/wiki/Miss_Universe_2026",
+      "description": "Miss Universe 2026 was the 75th Miss Universe pageant, held at the José Miguel Agrelot Coliseum in San Juan, Puerto Rico, on 24 November 2026. The event was done by R'Bonney Gabriel, Mario Lopez, Zuri Hall, and Dayanara Torres.",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Jennifer_Barreto_%E2%80%93_Miss_Universe_2026_%28cropped%29.jpg/330px-Jennifer_Barreto_%E2%80%93_Miss_Universe_2026_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "kind": "Most read",
@@ -19,36 +26,31 @@
     },
     {
       "kind": "Most read",
-      "title": "Jensen Huang",
-      "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
-      "description": "Jen-Hsun \"Jensen\" Huang is a Taiwanese and American electrical engineer and business executive who is the co-founder, president, and chief executive officer (CEO) of Nvidia, one of the world's most valuable companies. As of November 2026, Forbes estimates his net worth at US$143.4 billion, making him the 13th-wealthiest person in the world.",
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg/330px-Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "title": "Ezra Frech",
+      "url": "https://en.wikipedia.org/wiki/Ezra_Frech",
+      "description": "Ezra Frech is an American track and field athlete who competes in high jump, long jump and sprinting events. He is a two-time Paralympian, having competed at the 2020 Summer Paralympics and won two gold medals at the 2024 Summer Paralympics. He also won two silver medals at the 2019 Parapan American Games. Frech is a motivational speaker and disability right",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/5/51/Ezra_Frech_Milan_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "kind": "Most read",
+      "title": "Dancing with the Stars (American TV series) season 35",
+      "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35",
+      "description": "Season thirty-five of Dancing with the Stars premiered on ABC and Disney+ on September 15, 2026, and is scheduled to conclude on December 1, 2026. This season was the fourth to air live on both networks simultaneously. Season nineteen champion Alfonso Ribeiro returned to host the installment, while former professional dancer and judge Julianne Hough returned",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/ae/DWTS_US_Season_35_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "kind": "Most read",
       "title": "Grand Theft Auto VI",
       "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
-      "description": "Grand Theft Auto VI is a 2026 action-adventure game developed and published by Rockstar Games. It is the eighth main entry in the Grand Theft Auto series, following Grand Theft Auto V (2013), and the sixteenth entry overall. Set in the fictional U.S. state of Leonida, based on Florida, the story follows the criminal duo of Jason Duval and Lucia Caminos as th",
+      "description": "Grand Theft Auto VI is a 2026 action-adventure game developed and published by Rockstar Games. It is the eighth main entry in the Grand Theft Auto series, following Grand Theft Auto V (2013), and the sixteenth entry overall. Set in the fictional US state of Leonida, based on Florida, the story follows the criminal duo of Jason Duval and Lucia Caminos as they",
       "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/46/Grand_Theft_Auto_VI.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "kind": "Most read",
-      "title": "The Hunger Games: Sunrise on the Reaping",
-      "url": "https://en.wikipedia.org/wiki/The_Hunger_Games%3A_Sunrise_on_the_Reaping",
-      "description": "The Hunger Games: Sunrise on the Reaping is a 2026 American dystopian film produced and directed by Francis Lawrence from a screenplay by Billy Ray and Michael Lesslie. Based on the 2025 novel Sunrise on the Reaping by Suzanne Collins, it is the sixth installment in The Hunger Games film series, serving as the second prequel to The Hunger Games (2012) after ",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/da/The_Hunger_Games_-_Sunrise_on_the_Reaping_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-    },
-    {
-      "kind": "Most read",
-      "title": "Deaths in 2026",
-      "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
-      "description": "The following notable deaths occurred in 2026. Names are reported under the date of death, in alphabetical order. A typical entry reports information in the following sequence:Name, age, country of citizenship at birth, subsequent nationality, what subject was noted for, cause of death, and a reference."
-    },
-    {
-      "kind": "Most read",
-      "title": "List of highest-grossing Indian films",
-      "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_Indian_films",
-      "description": "This ranking lists the highest-grossing Indian films produced by Indian cinema, based on conservative global box office estimates as reported by organisations classified as green by Wikipedia. The figures are not adjusted for inflation. However, there is no official tracking of figures and sources publishing data are frequently pressured to increase their es"
+      "title": "Jennifer Barreto",
+      "url": "https://en.wikipedia.org/wiki/Jennifer_Barreto",
+      "description": "Jennifer Barreto is a Puerto Rican model and beauty pageant titleholder who won Miss Universe 2026, becoming the first married woman and mother to win Miss Universe. She is also the second titleholder to win in her own country or territory, after fellow compatriot Miss Universe 2001 Denise Quiñones. She had previously won Miss Universe Puerto Rico 2026.",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Miss_Universe_Puerto_Rico_2026_Jennifer_Barreto_%28July_2026%29_%28cropped%29.jpg/330px-Miss_Universe_Puerto_Rico_2026_Jennifer_Barreto_%28July_2026%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     }
   ]
 }
